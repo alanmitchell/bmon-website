@@ -1,0 +1,26 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "User Guide"
+    url: /guide/intro.html
+  - title: "Documentation"
+    url: https://bmon-documentation.readthedocs.io/en/latest/
+  - title: "Blog"
+    url: /archive/
+  - title: "About"
+    url: /about/
+
+guide:
+  - title: "Introduction"
+    children:
+      - title: "What is BMON and Building Monitoring?"
+        url: /guide/intro.html
+  - title: "Setting up BMON"
+    children:
+      - title: "System Administration Interface"
+        url: /guide/sysadmin.html
+  - title: "Using the BMON Sensor Data"
+    children:
+      - title: "Using the Data"
+        url: /guide/using-data.html
+  
