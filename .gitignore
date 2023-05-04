@@ -3,4 +3,4 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-.upload_site.sh
+_upload_site.sh
