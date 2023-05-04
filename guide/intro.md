@@ -12,7 +12,7 @@ the Advanced Building Construction with Energy Efficient Technologies &
 Practices (ABC) award, award number DE-EE0009088.
 
 <details markdown="1">
-<summary>Expand to see Contract Information</summary>
+<summary>Click to see Contract Information</summary>
 
 This manual was created under a contract with Analysis North over the
 Alaska state fiscal years 2021 and 2022. Many thanks to Ben Loeffler
@@ -21,14 +21,11 @@ Alaska state fiscal years 2021 and 2022. Many thanks to Ben Loeffler
 This is the text used to create this section:
 
     <details markdown="1">
-    <summary>Contract Information</summary>
-
+    <summary>Click to see Contract Information</summary>
     This manual was created under a contract with Analysis North
     over the Alaska state fiscal years 2021 and 2022. Many thanks
     to Ben Loeffler (Loeffler Engineering) for editing this manual.
     </details>
-
-The blank line after the `<summary>` line is needed.
 
 </details>
 
