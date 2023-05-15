@@ -5,6 +5,10 @@ header:
   overlay_image: /assets/images/hero-header.jpg
 ---
 
+# -- This Website is Under Construction !!
+
+*The current content of this site is for testing purposes only.*
+
 BMON is a web-based software application that stores and analyzes sensor data coming from buildings or other facilities. 
 The application was developed by the Alaska Housing Finance Corporation (AHFC) 
 to find ways to reduce the energy use and improve the maintenance of some of 
