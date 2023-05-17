@@ -21,24 +21,39 @@ This manual was created under a contract with Analysis North over the
 Alaska state fiscal years 2021 and 2022. Many thanks to Ben Loeffler
 (Loeffler Engineering) for editing this manual.
 
-This is the text used to create this section:
-
-    <details markdown="1">
-    <summary>Click to see Contract Information</summary>
-    This manual was created under a contract with Analysis North
-    over the Alaska state fiscal years 2021 and 2022. Many thanks
-    to Ben Loeffler (Loeffler Engineering) for editing this manual.
-    </details>
+### Heading in Top Collapsed Section
 
 Below is a test of nesting another collapsing section under this one.
 
 <details markdown="1">
 <summary>A Nested Collapsing Section</summary>
-
 This section is nested beneath the first collapsing section.
+
+#### Heading in the Nested Collapsed Section
+
 </details>
 
 </details>
+
+This was the text used to create the collapsing sections above:
+
+    <details markdown="1">
+    <summary>Click to see Contract Information</summary>
+
+    This manual was created under a contract with Analysis North over the
+    Alaska state fiscal years 2021 and 2022. Many thanks to Ben Loeffler
+    (Loeffler Engineering) for editing this manual.
+
+    Below is a test of nesting another collapsing section under this one.
+
+    <details markdown="1">
+    <summary>A Nested Collapsing Section</summary>
+
+    This section is nested beneath the first collapsing section.
+    </details>
+
+    </details>
+
 
 ## Introduction
 
