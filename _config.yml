@@ -28,15 +28,21 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alanmitchell
 
+exclude:
+  - README.md
+  - LICENSE
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
-  - jekyll-paginate
-  - jekyll-archives
-
-plugins:
   - jekyll-paginate
   - jekyll-archives
 
@@ -67,7 +73,7 @@ defaults:
       layout: single
       author_profile: false
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: false
   - scope:
