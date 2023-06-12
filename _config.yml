@@ -38,27 +38,34 @@ kramdown:
   input: GFM
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
+  - jekyll-remote-theme
 
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    - years
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#    - years
+#  layout: archive
+#  permalinks:
+#    year: '/:year/'
+#    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
 
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Controls posts shown on Home page
 paginate: 5 # amount of posts to show
