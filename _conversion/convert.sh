@@ -4,7 +4,8 @@ pandoc --extract-media=./converted/ \
   --lua-filter=remove-blockquotes.lua \
   -s source-docs/section-2.docx -t gfm | \
   sed -e 's/\\</</g' -e 's/\\>/>/g' | \
-  sed 's|./converted//||g' \
+  sed 's|./converted//||g' | \
+  python convert.py \
   > converted/section-2.md 
 
 

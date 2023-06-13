@@ -1,8 +1,11 @@
 # Section 2: *How to Choose/Set Up Sensors*
+{: #section-2-how}
 
 # Selection and Set-up of Sensors
+{: #selection-set-up}
 
 ## Introduction
+{: #introduction}
 
 This section identifies a number of important energy-related data
 collection activities within a building. After explaining the general
@@ -22,6 +25,7 @@ transmit temperature, light, or some other measured parameter; and 2) a
 forwards the data to a server on the Internet.
 
 ### Sensor Platforms
+{: #sensor-platforms}
 
 BMON currently supports two different wireless sensor platforms: LoRaWAN
 and Monnit.
@@ -44,6 +48,7 @@ for a new project.
 \[Basic Architecture of the BMON System\]
 
 ![](media/image1.png)
+<br>{: #image1}*Caption*
 
 </details>
 
@@ -59,6 +64,7 @@ platform offers dozens of different sensor types, and these have been
 used in many different facilities connected to BMON.
 
 ![](media/image1.png)
+<br>{: #image1}*Caption*
 
 *\[*[*Basic architecture of the
 BMON*](https://docs.google.com/document/d/1fwnPoB7YwxwVNMFqyS7TBZ5SwejImogETXJxpg7i7Ng/edit#figur_diagram)
@@ -83,15 +89,18 @@ these two brands is below.
 \[LoRaWAN Sensor Comparison\]
 
 ![](media/image2.png)
+<br>{: #image2}*Caption*
 
 ### Sensor Types
+{: #sensor-types}
 
 These two sensor platforms are able to read numerous types of sensors
 and post their data to BMON. In general, sensors have four types of
 electrical outputs, detailed below.
 
 \[Types of Electrical Outputs Found in
-Sensors\]![](media/image3.png)*  
+Sensors\]![](media/image3.png)*
+<br>{: #image3}*Caption*
 \*Additional information on this special configuration is*
 *[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms).*
 
@@ -112,6 +121,7 @@ Temperature**</summary>
 
 **\[**Potential Energy Savings of Measuring Building
 Temperature\]![](media/image4.png)A building’s energy
+<br>{: #image4}*Caption*
 consumption is almost always affected by the outdoor temperature.
 Heating and cooling energy use relate to heat loss or gain through the
 building shell, which is proportional to the temperature difference
@@ -122,6 +132,7 @@ outside temperature data to make valid comparisons.
 </details>
 
 ### Indoor Temperature Collection Methods
+{: #indoor-temperature-collection}
 
 Wireless temperature sensors are an excellent and common method to
 collect indoor temperatures. Depending on your system you may
@@ -136,6 +147,7 @@ control system or from Ecobee thermostats.
 System\]
 
 ![](media/image5.png)
+<br>{: #image5}*Caption*
 
 To determine whether this is a viable technique for temperature
 collection within your building, contact [Tyler
@@ -144,6 +156,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 </details>
 
 ![](media/image6.png)<details markdown=”1”>
+<br>{: #image6}*Caption*
 
 <summary>**Retrieval from Ecobee Thermostats**</summary>
 
@@ -198,6 +211,7 @@ water vapor into the shell of the building.
 </details>
 
 ### Outdoor Temperature Collection Methods
+{: #outdoor-temperature-collection}
 
 There are a number of good methods for collecting outdoor temperature
 data for a building. The National Weather Service has numerous weather
@@ -272,6 +286,7 @@ readings.
 </details>
 
 ### Installing Temperature Sensors
+{: #installing-temperature-sensors}
 
 If you are installing your own temperature sensor, as opposed to
 gathering data from the building control system sensors or from Ecobee
@@ -281,8 +296,10 @@ thermostat:
 **\[**Installation Guidelines for Temperature Sensors\]
 
 ![](media/image11.png)
+<br>{: #image11}*Caption*
 
 ## Light Levels
+{: #light-levels}
 
 Measuring light levels in a building is primarily important for
 determining when lights are on and when they are off. Despite
@@ -297,10 +314,12 @@ Levels**</summary>
 \[Potential Energy Savings of Measuring Light Levels\]
 
 ![](media/image12.png)
+<br>{: #image12}*Caption*
 
 </details>
 
 ### Light Level Sensors
+{: #light-level-sensors}
 
 Wireless battery-powered light level sensors are the best method for
 measuring light in various building spaces. The two types of wireless
@@ -350,6 +369,7 @@ Here are some recommended wireless light level sensors:
 </table>
 
 ### Installing Light Level Sensors
+{: #installing-light-level}
 
 Guidelines for installing light sensors depend on the purpose for which
 you are monitoring light levels. To determine whether lights are being
@@ -372,6 +392,7 @@ determine when artificial lights are on, but it still will be possible.
 </details>
 
 ## Indoor Carbon Dioxide (CO<sub>2</sub>) Levels
+{: #indoor-carbon-dioxide}
 
 CO2 indicates whether the ventilation system for a building or space is
 supplying adequate outside air for the health and wellbeing of the
@@ -389,14 +410,18 @@ CO<sub>2</sub> Levels**</summary>
 
 **\[**Potential Energy Savings of Measuring Indoor Carbon Dioxide
 Levels\]![](media/image15.png)
+<br>{: #image15}*Caption*
 
 </details>
 
-### 
+###
+{: #}
 
-### 
+###
+{: #}
 
 ### Methods of Collecting CO<sub>2</sub> data
+{: #methods-collecting-co}
 
 CO<sub>2</sub> can be measured either from a building automation system
 or with wireless sensors. Use of wireless sensors is described in detail
@@ -448,9 +473,10 @@ drift that others can experience.
 
 [Elsys ERS CO2 LoRaWAN Sensor](https://www.elsys.se/en/ers/)
 
-\[Elsys ERS CO2 LoRaWAN Sensor\]  
-  
+\[Elsys ERS CO2 LoRaWAN Sensor\]
+
 ![](media/image13.png)
+<br>{: #image13}*Caption*
 
 The ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
@@ -458,6 +484,7 @@ CO<sub>2</sub> sensor.
 </details>
 
 ### Installing CO<sub>2</sub> Sensors
+{: #installing-co-sub}
 
 CO<sub>2</sub> levels will vary dramatically based on how a space is
 used and how much ventilation air is supplied to that space. Sensor
@@ -470,8 +497,10 @@ the ppm of CO<sub>2</sub> recorded.
 \[What to Consider When Installing CO<sub>2</sub> Sensors\]
 
 ![](media/image16.png)
+<br>{: #image16}*Caption*
 
 ## Boiler and Domestic Hot Water Temperature
+{: #boiler-domestic-hot}
 
 Collecting the temperature of boiler supply and domestic hot water (DHW)
 supply is relatively easy to do and provides useful information to save
@@ -491,10 +520,12 @@ Temperature**</summary>
 Temperatures\]
 
 ![](media/image17.png)
+<br>{: #image17}*Caption*
 
 </details>
 
 ### Methods for Collecting Boiler and DHW Temperatures
+{: #methods-collecting-boiler}
 
 Wireless temperature sensors are an effective and always-available
 method of measuring boiler and domestic hot water temperatures. Click
@@ -542,6 +573,7 @@ temperature probe. Here are three possibilities:
 </table>
 
 ### Installing Boiler and Domestic Hot Water Sensors
+{: #installing-boiler-domestic}
 
 When installing a temperature probe on a pipe, it is important to make
 good thermal contact for higher accuracy (within 5 degrees Fahrenheit).
@@ -553,6 +585,7 @@ temperature probe on a pipe:
 \[A Temperature Probe Correctly Installed on a Pipe\]
 
 ![](media/image19.png)
+<br>{: #image19}*Caption*
 
 *A temperature probe installed on a pipe with heat sink compound to
 promote good thermal contact and accurate temperature readings.*
@@ -563,6 +596,7 @@ pulling or snagging when a technician services the boiler or hot water
 system.
 
 ## Building Electric Power
+{: #building-electric-power}
 
 Electricity is always a substantial source of energy usage for a
 building and should be monitored if at all possible. Electricity usage
@@ -577,10 +611,12 @@ Electricity Use**</summary>
 **\[**Potential Energy Savings of Measuring Electricity\]
 
 ![](media/image20.png)
+<br>{: #image20}*Caption*
 
 </details>
 
 ### Methods for Collecting Building Electric Data
+{: #methods-collecting-building}
 
 The easiest way to collect 15-minute electricity use data is to acquire
 it directly from the electric utility, if that is possible. Many
@@ -649,6 +685,7 @@ shown.
 </details>
 
 ### Installing Electrical Sensors
+{: #installing-electrical-sensors}
 
 If you are not able to collect electrical data from your utility and
 must use sensors, you will be using pulse output data.
@@ -681,6 +718,7 @@ online](https://bmon-documentation.readthedocs.io/en/latest/transform-expression
 </details>
 
 ## Building Fuel Use Data
+{: #building-fuel-use}
 
 Heating fuel is a major source of energy use in most every Alaska
 building. Therefore, closely monitoring fuel use is very important for
@@ -697,10 +735,12 @@ Use**</summary>
 **\[**Potential Energy Savings in Measuring Fuel Use\]
 
 ![](media/image21.png)
+<br>{: #image21}*Caption*
 
 </details>
 
 ### Methods for Collecting Building Fuel Use Data
+{: #methods-collecting-building}
 
 The method for measuring fuel use will depend on the fuel type. Here we
 focus on natural gas and fuel oil and also offer a data collection
@@ -744,6 +784,7 @@ counts to BMON.
 \[Natural Gas Meter With a Monnit Wireless Pulse Counter\]
 
 ![](media/image22.png)
+<br>{: #image22}*Caption*
 
 *A natural gas meter with a pulse output attachment. Also shown is a
 flexible conduit leading to a wireless pulse counter that records and
@@ -754,8 +795,9 @@ LoRaWAN pulse counter, with a weatherproof enclosure, that can also
 perform this task:
 
 \[Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
-Sensor](https://www.elsys.se/en/lora-elt-lite/)\]  
+Sensor](https://www.elsys.se/en/lora-elt-lite/)\]
 ![](media/image9.png)
+<br>{: #image9}*Caption*
 
 This weatherproof unit can be configured as a Pulse Counter to read
 pulses from any meter (electric, fuel, water, BTU) or device equipped
@@ -789,6 +831,7 @@ Dragino LTH65.
 \[An Elster 4p Fuel Flow Meter Installation\]
 
 ![](media/image23.png)
+<br>{: #image23}*Caption*
 
 *The flow meter is the translucent enclosure in the upper right corner
 of the picture.*
@@ -854,6 +897,7 @@ Contact) sensor is shown wired to the relay contacts.
 Sensor\]
 
 ![](media/image24.png)
+<br>{: #image24}*Caption*
 
 **Motor Sensor**
 
@@ -868,6 +912,7 @@ circulating pump:
 \[A Motor Sensor Used to Sense Whether a Motor is On or Off\]
 
 ![](media/image25.png)
+<br>{: #image25}*Caption*
 
 <details markdown=”1”>
 
@@ -908,6 +953,7 @@ RS485 sensors can be used to report this heat load to BMON.
 </details>
 
 ## Typical Sensor Wiring Examples
+{: #typical-sensor-wiring}
 
 This section will show some typical wiring configurations for the
 sensors discussed above. There is a more [detailed table of wiring and
@@ -935,6 +981,7 @@ negative to ⏚ ground.
 ELT-Lite Sensor\]
 
 ![](media/image26.png)
+<br>{: #image26}*Caption*
 
 </details>
 
@@ -972,6 +1019,7 @@ since the “val” variable holds the voltage read by the sensor.
 Resistor\]
 
 ![](media/image27.png)
+<br>{: #image27}*Caption*
 
 </details>
 
@@ -993,6 +1041,7 @@ power from the ELT-Lite.
 
 \[Correct Wiring of an External Sensor Powered From the ELT Sensor
 Battery\]![](media/image28.png)
+<br>{: #image28}*Caption*
 
 For external sensors that need to receive power from the ELT-Lite,
 configuration of the ELT-Lite is important. In the “Sample Times”
@@ -1030,10 +1079,12 @@ should be facing up as shown in the photo below.
 Enclosure\]
 
 ![](media/image29.png)
+<br>{: #image29}*Caption*
 
 </details>
 
 ## Gateways for Wireless Sensors
+{: #gateways-wireless-sensors}
 
 **All wireless sensors need a gateway that serves as a central receiving
 device to route sensor readings to the internet.** One advantage to
@@ -1046,24 +1097,25 @@ they are within range of the sensors.**
 \[Gateways for Wireless Sensors\]
 
 ![](media/image30.png)
+<br>{: #image30}*Caption*
 
 *Important considerations for LoRaWAN gateways are:*
 
   - *Gateways usually require 120V wall power rather than a battery.*
 
   - *Means of Connecting to the Internet: Ethernet, WiFi, Cellular.*
-    
+
       - *An Ethernet connection tends to be the most reliable but limits
         where you can place the gateway.*
-    
+
       - *A gateway can connect to the internet via an existing Wi-Fi
         network (if available).*
-    
+
       - *A direct cellular connection can be built into a gateway, or
         can be accomplished through a separate Cellular Router that
         provides an Ethernet or Wi-Fi connection to the wireless sensor
         gateway.*
-    
+
       - *A cellular connection will require a cellular data plan with a
         suitable amount of data (a minimum of 100 MB / month).*
 
@@ -1085,6 +1137,7 @@ Here are some good choices for LoRaWAN gateways:
 \[Pros and Cons of Select LoRaWAN Gateways\]
 
 ![](media/image31.png) *\*[Setup
+<br>{: #image31}*Caption*
 Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/)
 for Things Indoor Gateway*
 
@@ -1105,6 +1158,7 @@ settings.
 </details>
 
 ### More Notes on LoRaWAN Signal Coverage and Antennas
+{: #more-notes-lorawan}
 
 Gateways and Sensors communicate via radio signals, and both gateways
 and sensors use antennas to radiate and receive signals. If a sensor is
@@ -1115,6 +1169,7 @@ improve the location or antenna of the gateway (or both).
 \[Solutions for Potential Sensor Connection Issues\]
 
 ![](media/image32.png)
+<br>{: #image32}*Caption*
 
 This image shows a simple external antenna that can be used with a
 sensor or gateway to improve signal strength between buildings.
@@ -1122,6 +1177,7 @@ sensor or gateway to improve signal strength between buildings.
 \[Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia\]
 
 ![](media/image33.png)
+<br>{: #image33}*Caption*
 
 This photo shows a more capable antenna installation with the antenna
 mounted above the roof of the building. This antenna is being used with
@@ -1132,6 +1188,7 @@ building) and the placement of the antenna above the peak of the roof.**
 \[A Properly Installed Exterior Antenna for a LoRaWAN Gateway\]
 
 # ![](media/image34.jpeg)
+{: #media-image34-jpeg}
 
 <details markdown=”1”>
 
@@ -1140,9 +1197,9 @@ building) and the placement of the antenna above the peak of the roof.**
   - Antennas for LoRaWAN in the US must be tuned for the 900 - 930 MHz
     frequency band. They are generally marked “915 MHz” or “900 MHz”.
 
-  - The antennas shown so far are:  
+  - The antennas shown so far are:
     Taoglas WM.95.A.305111, available
-    [Here](https://www.digikey.com/en/products/detail/taoglas-limited/WM-95-A-305111/11196960).  
+    [Here](https://www.digikey.com/en/products/detail/taoglas-limited/WM-95-A-305111/11196960).
     Dragino Outdoor 915 MHz Antenna, available
     [Here](https://www.robotshop.com/en/dragino-lora-lorawan-glass-fiber-outdoor-antenna-915-mhz.html).
     Similar models available on Amazon, such as [this
