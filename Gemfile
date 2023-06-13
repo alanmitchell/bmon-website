@@ -7,12 +7,12 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.3.2"
+#gem "jekyll", "~> 4.3.2"
 #gem "github-pages", group: :jekyll_plugins
 #gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme"
 gem "jekyll-include-cache"
-gem "jekyll-paginate"
+#gem "jekyll-paginate"
 # gem "jekyll-archives"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
