@@ -36,8 +36,8 @@ for line in sys.stdin:
         print(line)
         match = re.search(r"vimeo\.com/(\d+)", line)
         if match:
+            print('*Caption*')
             print('{% include video id="' + match.group(1) + '" provider="vimeo" %}')
-            print('<br>*Caption*')
 
     else:
         # Line not needing action

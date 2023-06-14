@@ -137,12 +137,11 @@ data analysis:
   - **General Graphs and Reports:** Choose from among several graph and
     report options for displaying sensor data by sensor type, time
     period, and other options and configurations. See [Graphs and
-    Reports](#graphs-and-reports) to learn how to create the most
+    Reports](#graphs-reports) to learn how to create the most
     commonly used graphs and reports.
 
   - **Custom Reports:** This feature allows you to store frequently used
-    graph configurations. See Custom Reports \[Link to Video: Custom
-    Reports in Section 4 How to Use BMON Sensor Data, Analyzing Data\],
+    graph configurations. See [Custom Reports](#custom-reports)
     to learn how to create your own custom reports.
 
   - **Energy Reports:** BMON generates daily energy reports that can
@@ -161,16 +160,15 @@ menu provided.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image2.png)
 {: #image2}
-![]({{ site.baseurl }}/assets/guide/use-data/image3.png)
+<img src="{{ site.baseurl }}/assets/guide/use-data/image3.png" style="display: block; margin-left: auto; margin-right: 0; padding-right: 130px;">
 <br>{: #image3}*Drop Down Menu in the Graph/Report Tab That Allows Selection of
 Available Data Visualization Tools*
 
 #### Common Graphs and Reports
 {: #common-graphs-reports}
 
-**\[**Commonly Used BMON Graphs and
-Reports\]![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
-<br>{: #image4}*Caption*
+![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
+<br>{: #image4}
 
 **Current Sensor Values**
 
@@ -182,65 +180,52 @@ reported value will be from a day, week, or even month ago. The Current
 Sensor Values report will also show sensor values highlighted red if
 they are triggering an Alert.
 
-\[Top Portion of a Current Sensor Values Report\]
 ![]({{ site.baseurl }}/assets/guide/use-data/image5.png)
-<br>{: #image5}*Caption*
-
-*The top part of a Current Sensor Values report showing the sensor name,
+<br>{: #image5}*The top part of a Current Sensor Values report showing the sensor name,
 most recent reported value and units, the time of the last reported
-value, and the sensor* *ID.*
+value, and the sensor ID.*
 
 **Plot Sensor Values over Time**
 
-\[Example of a Plot Sensor Values over Time Graph Used to Measure
-Temperature of Selected Building Areas Over a Period of Months\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image6.png)
-<br>{: #image6}*Caption*
+<br>{: #image6}*Example of a Plot Sensor Values over Time Graph Used to Measure
+Temperature of Selected Building Areas Over a Period of Months*
 
 The “Plot Sensor Values over Time" graph is used to plot the values from
 one or more sensors over time. There are a number of special features of
 this graph, such as zooming and averaging, which are explained in the
 following video.
 
-[**Video: Plot Sensor Values over Time
-Graph**](https://vimeo.com/486647397)
-{% include video id="486647397" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Plot Sensor Values over Time
+Graph*{% include video id="486647397" provider="vimeo" %}
 
 **Sensor X vs Y Scatter Plot**
 
-\[Example of an X vs Y Scatter Plot Used to Measure the Correlation
-Between Fuel Use and Outdoor
-Temperature\]![]({{ site.baseurl }}/assets/guide/use-data/image7.png)***Disclaimer:
-<br>{: #image7}*Caption*
-correlation is not causation.***
+![]({{ site.baseurl }}/assets/guide/use-data/image7.png)
+<br>{: #image7}*Example of an X vs Y Scatter Plot Used to Measure the Correlation
+Between Fuel Use and Outdoor Temperature*
 
 The X vs Y Scatter Plot allows you to see how two different sensor
 values relate to one another. For example, plotting boiler gas use vs
 outdoor temperature can reveal days with excessive fuel use. This video
 shows how to use X vs Y Scatter Plots:
 
-[**Video: Sensor X vs Y Scatter Plot**](https://vimeo.com/489279518)
+***Video:*** *Sensor X vs Y Scatter Plot*
 {% include video id="489279518" provider="vimeo" %}
-<br>*Caption*
 
 **Hourly Profile Plots**
 
-\[Example of an Hourly Profile Plot Used to Measure Differences in a
-Building’s Electric Use on Occupied and Unoccupied Days\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image8.png)
-<br>{: #image8}*Caption*
+<br>{: #image8}*Example of an Hourly Profile Plot Used to Measure Differences in a
+Building’s Electric Use on Occupied and Unoccupied Days*
 
 Another useful plot called the “Hourly Profile of a Sensor" helps show
 how a sensor reading varies depending on the hour of the day and the day
 of the week. Here is a video explaining this plot, and also briefly
 showing the related “Heat Map Hourly Profile" chart.
 
-[**Video: Hourly Profile Plots**](https://vimeo.com/489536323)
+***Video:*** *Hourly Profile Plots*
 {% include video id="489536323" provider="vimeo" %}
-<br>*Caption*
 
 #### Additional Graphs and Reports
 {: #additional-graphs-reports}
@@ -254,11 +239,10 @@ this video:
 
   - Download to Excel (downloads data as a .csv file)
 
-[**Video: Overview of Other Available
-Reports/Graphs**](https://vimeo.com/489587845)
+***Video:*** *Overview of Other Available Reports/Graphs*
 {% include video id="489587845" provider="vimeo" %}
-<br>*Caption*
 
+{: #custom-reports}
 <details markdown="1">
 
 <summary>Custom Reports</summary>
@@ -268,20 +252,19 @@ report and be able to easily rerun the set of graphs, *Custom Reports*
 are the solution. This video shows how to set up and run a Custom
 Report.
 
-[**Video: Custom Reports**](https://vimeo.com/489689157)
+***Video:*** *Custom Reports*
 {% include video id="489689157" provider="vimeo" %}
-<br>*Caption*
 
 </details>
 
-##### Energy Reports
+### Energy Reports
 {: #energy-reports}
 
 The rest of this section walks through each important sensor and shows
 how to analyze the data provided by that sensor, with the goal of
 finding energy saving opportunities.
 
-###### Indoor Temperature Sensor Data Analysis
+#### Indoor Temperature Sensor Data Analysis
 {: #indoor-temperature-sensor}
 
 The “Indoor Temp" Energy Report provides the information you need to
@@ -306,10 +289,8 @@ can zoom in by clicking and dragging a rectangle on the graph. The graph
 below shows an example where only one sensor has been highlighted. The
 gray areas on the graph are the unoccupied periods for the building.
 
-\[Indoor Temperature Report in the Energy Reports Section of BMON\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image9.png)
-<br>{: #image9}*Caption*
+<br>{: #image9}*Indoor Temperature Report in the Energy Reports Section of BMON*
 
 <details markdown="1">
 
@@ -322,12 +303,10 @@ Zooming in on December 2 of the graph below, it looks like the morning
 warm-up period was set to begin earlier than needed and the evening set
 back began later than needed. The space is up to occupied temperature at
 5 am and then is not set back again until 9 pm. There may be good
-reasons for this extended schedule, but it is worth investigating.
-
-\[A Closer View of the Indoor Temperature Report\]
+reasons for this extended schedule, but it is worth in
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image10.png)
-<br>{: #image10}*Caption*
+<br>{: #image10}*A Closer View of the Indoor Temperature Report*
 
 Temperatures during the gray, unoccupied periods are often *higher* than
 they are during occupied periods. There appears to be a controls or
@@ -335,11 +314,9 @@ heating system problem in this building, and investigation is warranted.
 The figure below is an indoor temperature graph from the Energy Report
 of a space in a different building:
 
-\[Indoor Temperature Report Displaying a Potential Problem in a
-Building’s Heating Pattern\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image11.png)
-<br>{: #image11}*Caption*
+<br>{: #image11}*Indoor Temperature Report Displaying a Potential Problem in a
+Building’s Heating Pattern*
 
 </details>
 
@@ -348,11 +325,9 @@ temperatures are excessive during the heating season. The graph below
 shows a sample graph utilizing this highlighting feature for
 temperatures outside of the generally accepted normal range.
 
-\[Temperature Energy Report Feature That Alerts Users of Indoor
-Temperatures Outside the Normal Range\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image12.png)
-<br>{: #image12}*Caption*
+<br>{: #image12}*Temperature Energy Report Feature That Alerts Users of Indoor
+Temperatures Outside the Normal Range*
 
 The red horizontal bar marks a heating temperature range that is
 generally beyond that needed for comfort. Although it is a bit hard to
@@ -362,14 +337,12 @@ energy savings.
 
 As mentioned before, drops in indoor temperature can indicate a heating
 system failure and possible freeze-up. The best way to “analyze" the
-sensor data to address these problems is to set up Alerts, as described
-in [NOTE: link will need to be updated with final section in online
-manual (Setting Up Your BMON System)Setting Up Your BMON
-System](https://docs.google.com/document/d/1nrUgCqQxBiAhx5_4Gt4D7KoNxHRiORMZON_rd539IkE/edit#heading=h.yo2o7ihjibic).
+sensor data to address these problems is to set up Alerts, as described on the 
+[Setting Up Your BMON System](setup-bmon#using-creating-alerts) page.
 
 </details>
 
-###### Light Level Data Analysis
+#### Light Level Data Analysis
 {: #light-level-data}
 
 The primary purpose of the light sensors is to see whether the operation
@@ -386,33 +359,29 @@ the gray shaded areas are the unoccupied periods of the building. If
 lighting is On during a substantial part of these periods, it is worth
 investigating whether the control schedule can be tightened up.
 
-\[Lighting Energy Report Showing Several Light Sensor Patterns Through a
-Week\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image13.png)
-<br>{: #image13}*Caption*
+<br>{: #image13}*Lighting Energy Report Showing Several Light Sensor Patterns Through a
+Week*
 
 By double-clicking on a sensor in the graph legend, you can isolate and
 show just one of the sensors. Double clicking on the chart area once a
 single sensor is displayed *(Light Sensor 29897*), as seen in the graph
 below, brings all the sensors in the report back.
 
-\[Lighting Energy Report Showing a Single Light Sensor\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image14.png)
-<br>{: #image14}*Caption*
+<br>{: #image14}*Lighting Energy Report Showing a Single Light Sensor*
 
-*The pattern of this single light sensor may indicate lights being used
+The pattern of this single light sensor may indicate lights being used
 on weekends or may indicate daylight to a work space. Daylight studies
 can help inform proper lighting and/or light dimming during daylight
-hours to achieve effective illumination without wasting* *energy.*
+hours to achieve effective illumination without wasting energy.
 
 <details markdown="1">
 
 <summary>Using the Heat Map Hourly Profile to Analyze Lighting
 Data</summary>
 
-In the [Common Graphs and Reports](#common-graphs-and-reports), one of
+In the [Common Graphs and Reports](#common-graphs-reports), one of
 the available plots is the “Heat Map Hourly Profile." This chart type is
 particularly useful for analyzing lighting data. This graph shows a
 sample of the chart for one light sensor. The color intensity indicates
@@ -420,9 +389,8 @@ the lighting level of a particular hour during the week. Notice that the
 horizontal axis shows hours of the day and the vertical axis shows days
 of the week.
 
-\[Heat Map Hourly Profile for One Light Sensor at AHFC Headquarters\]
 ![]({{ site.baseurl }}/assets/guide/use-data/image15.png)
-<br>{: #image15}*Caption*
+<br>{: #image15}*Heat Map Hourly Profile for One Light Sensor at AHFC Headquarters*
 
 On Monday through Thursday, this space is lit until 9 pm at night. While
 there may be a legitimate explanation for lights staying on this late,
@@ -440,7 +408,7 @@ controls on the lights would be a cost-effective project.
 
 </details>
 
-###### Electric and Fuel Use Data Analysis
+#### Electric and Fuel Use Data Analysis
 {: #electric-fuel-use}
 
 Energy saving efforts help reduce a building’s electricity and fuel use.
@@ -448,12 +416,11 @@ Measuring electricity and fuel use provides important data on where
 energy can be saved and helps verify and track savings from energy
 efficiency improvements.
 
-**\[**Examples of Energy Reports That Focus on Displaying and Analyzing
-Electric and Fuel Data\]
+![]({{ site.baseurl }}/assets/guide/use-data/image16.png)
+<br>{: #image16}*Examples of Energy Reports That Focus on Displaying and Analyzing
+Electric and Fuel Data*
 
-![]({{ site.baseurl }}/assets/guide/use-data/image16.png)Instead of walking through
-<br>{: #image16}*Caption*
-these reports in detail, we will try to explain the general analysis
+Instead of walking through these reports in detail, we will try to explain the general analysis
 approaches used by these reports. Click on the topics below to learn
 more about electricity and fuel use analysis.
 
@@ -471,10 +438,11 @@ outside temperature when you do the comparison, because fuel is
 generally used to heat the building, and heating needs will vary with
 outdoor temperature.
 
-\[Ways to Compare Fuel Use and Account for Outdoor
-Temperature\]![]({{ site.baseurl }}/assets/guide/use-data/image17.png)These
-<br>{: #image17}*Caption*
-electrical and fuel use comparisons can identify that an energy use
+![]({{ site.baseurl }}/assets/guide/use-data/image17.png)
+<br>{: #image17}*Ways to Compare Fuel Use and Account for Outdoor
+Temperature*
+
+These electrical and fuel use comparisons can identify that an energy use
 problem is occurring, but they do not give much help in determining what
 the problem is. One thing you can do with this type of analysis is to
 determine what date the problem started occurring; this may help narrow
@@ -494,23 +462,21 @@ purposes. The “Electric Use" and “Fuel Use" Energy Reports have a couple
 different graphs that allow you to identify excessive energy use during
 unoccupied periods.
 
-**\[**What to Look for When Diagnosing High Energy Use in an Unoccupied
-Building\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image18.png)
-<br>{: #image18}*Caption*
+<br>{: #image18}*What to Look for When Diagnosing High Energy Use in an Unoccupied
+Building*
 
 <details markdown="1">
 
 <summary>Advanced Considerations</summary>
 
-*Hire an electrician to identify electrical circuits at the breaker box
+Hire an electrician to identify electrical circuits at the breaker box
 that show high usage during unoccupied hours. Then, track down the
 equipment on those circuits that is causing the high usage. For heating,
 make sure that the outside air ventilation is stopped during unoccupied
-periods. **Disclaimer:** stopping outside air needs to be done carefully
+periods. ***Disclaimer:*** stopping outside air needs to be done carefully
 in conjunction with trained professionals, not just based on sensor
-data.*
+data.
 
 </details>
 
@@ -543,7 +509,7 @@ can be chosen to compare across buildings in all organizations.
 
 </details>
 
-###### Boiler and Domestic Hot Water (DHW) Temperature Data Analysis
+#### Boiler and Domestic Hot Water (DHW) Temperature Data Analysis
 {: #boiler-domestic-hot}
 
 Two useful temperatures to measure in a building are the boiler supply
@@ -573,11 +539,9 @@ versa. The difference between the supply and return temperatures (known
 as delta-T) is related to how much heat is delivered to the space as the
 hydronic fluid circulates.
 
-\[‘Sensors Over Time’ Plot with Supply, Return, and Outdoor Temperature
-Can Show if an Outdoor Reset is Working\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
-<br>{: #image19}*Caption*
+<br>{: #image19}*`Sensors Over Time` Plot with Supply, Return, and Outdoor Temperature
+Can Show if an Outdoor Reset is Working*
 
 </details>
 
@@ -592,11 +556,9 @@ Temperature, and on the vertical Y Axis, plot boiler supply temperature.
 Use one day averaging to smooth out the data. The graph below shows an
 example of a building that has an outdoor temperature reset:
 
-\[X vs Y Scatter Plot Showing a Boiler with an Outdoor Reset Curve
-Applied to the Supply Temperature Controls\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image20.png)
-<br>{: #image20}*Caption*
+<br>{: #image20}*X vs Y Scatter Plot Showing a Boiler with an Outdoor Reset Curve
+Applied to the Supply Temperature Controls*
 
 Clearly the boiler supply temperature rises with colder outdoor
 temperatures. The shape of this relationship can be changed through the
@@ -616,27 +578,25 @@ The graph below shows a building where outdoor temperature reset is
 clearly not being used. There is no relationship between the outdoor
 temperature and the boiler supply temperature:
 
-\[X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
-Curve\] ![]({{ site.baseurl }}/assets/guide/use-data/image21.png)
-<br>{: #image21}*Caption*
+![]({{ site.baseurl }}/assets/guide/use-data/image21.png)
+<br>{: #image21}*X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
+Curve*
 
-*The X Y scatter plot for this heating system does not have an outdoor
+The X Y scatter plot for this heating system does not have an outdoor
 reset curve because the supply temperature remains essentially constant
-at the range of outdoor* *temperatures.*
+at the range of outdoor temperatures.
 
 Measuring boiler supply temperature can also be used to alert you when
 there is a boiler failure. The supply temperature will drop below
 reasonable levels, and a BMON Alert can be set up to notify you when
 this occurs.
 
-**\[**Why Measuring Domestic Hot Water Supply Temperature is Useful\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image22.png)
-<br>{: #image22}*Caption*
+<br>{: #image22}*Why Measuring Domestic Hot Water Supply Temperature is Useful*
 
 </details>
 
-###### CO<sub>2</sub> Sensor Data Analysis
+#### CO<sub>2</sub> Sensor Data Analysis
 {: #co-sub-2}
 
 Carbon dioxide (CO<sub>2</sub>) sensors are useful for determining the
@@ -686,10 +646,8 @@ good idea to have a control strategy in place that relies on occupancy
 sensors or CO<sub>2</sub> measurements to increase/reduce ventilation
 when occupancy drops.
 
-\[Example of an IAQ Energy Report\]
-
 ![]({{ site.baseurl }}/assets/guide/use-data/image23.png)
-<br>{: #image23}*Caption*
+<br>{: #image23}*Example of an IAQ Energy Report*
 
 <details markdown="1">
 
