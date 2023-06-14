@@ -4,7 +4,7 @@ title: How to Set Up Your BMON System
 toc: true
 ---
 
-![]({{ site.baseurl }}/assets/guide/sensors/image1.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
 <br>{: #image1}*What you Need to Set Up a Basic BMON System*
 
 <details markdown="1">
@@ -25,7 +25,7 @@ servers capable of running BMON can be rented starting at $6 per month
 
 \[Ways to Interact with the BMON Software\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
 <br>{: #image2}*Caption*
 
 In this section, we will be using the System Administrator interface to
@@ -58,12 +58,12 @@ is received by your BMON server.
 
 \[A View of the BMON System Administrator Interface\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
 <br>{: #image3}*Caption*
 
 \[How to Access the Administrator Interface\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
 <br>{: #image4}*Caption*
 
 This video shows how to access the System Administrator interface and
@@ -84,7 +84,7 @@ careful to only edit your data.
 In BMON, sensors are associated with buildings.
 
 **\[**Essential Information Needed to Add a Building in
-BMON\]![]({{ site.baseurl }}/assets/guide/sensors/image5.png)
+BMON\]![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
 <br>{: #image5}*Caption*
 
 See how to add a new building into the BMON system in the video below.
@@ -106,7 +106,7 @@ Interface more useful, but that is optional.
 
 **\[**Examples of Building Details That Can Be Entered in BMON\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
 <br>{: #image6}*Caption*
 
 View the video below to see how to set up some of these optional
@@ -136,7 +136,7 @@ individual sensors that report sensor readings.
 
 **\[**Information Needed to Add a Sensor to the BMON Software\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image7.png)It is also important to
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)It is also important to
 <br>{: #image7}*Caption*
 understand that one physical sensor device, like an Elsys ERS-CO2
 sensor, will report multiple different sensor values, such as
@@ -280,7 +280,7 @@ set up in different ways to serve different goals.
 \[The Dashboard for the AHFC Headquarters Building Illustrates Some
 Options of What Can Be Displayed. \]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image8.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
 <br>{: #image8}*Caption*
 
 </details>
@@ -291,7 +291,7 @@ Options of What Can Be Displayed. \]
 
 \[Guidelines for a Useful Dashboard\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image9.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>{: #image9}*Caption*
 
 [**Video: Choosing Sensors to Display on the Building
@@ -311,14 +311,14 @@ Dashboard**](https://vimeo.com/518713395)
 
 \[Examples of What to Use Alerts for in BMON\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image10.png)
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
 <br>{: #image10}*Caption*
 
 An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
-\[How to Create an Alert\]![]({{ site.baseurl }}/assets/guide/sensors/image11.png)
+\[How to Create an Alert\]![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
 <br>{: #image11}*Caption*
 
 [**Video: Creating Alerts and assigning

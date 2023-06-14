@@ -68,7 +68,7 @@ Alaska Native Tribal Health Consortium:
 
 \[Basic Architecture of the BMON System\]
 
-![]({{ site.baseurl }}/assets/guide/sensors/image1.png)
+![]({{ site.baseurl }}/assets/guide/intro/image1.png)
 <br>{: #image1}*Caption*
 
 [**Video: Intro to BMON**](https://vimeo.com/672543509)

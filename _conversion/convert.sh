@@ -8,7 +8,7 @@ pandoc --extract-media=./converted/$2/ \
   -s source-docs/$1.docx -t gfm | \
   sed 's/”/"/g' | \
   sed -e 's/\\</</g' -e 's/\\>/>/g' | \
-  sed "s|./converted/$2//media|{{ site.baseurl }}/assets/guide/sensors|g" | \
+  sed "s|./converted/$2//media|{{ site.baseurl }}/assets/guide/$2|g" | \
   sed -e 's|<summary>\*\*|<summary>|g' -e 's|\*\*</summary>|</summary>|g' | \
   python convert.py \
   >> converted/$2.md 
