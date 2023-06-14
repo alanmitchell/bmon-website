@@ -4,7 +4,7 @@ title: Introduction to BMON
 toc: true
 ---
 
-# Acknowledgements
+## Acknowledgements
 {: #acknowledgements}
 
 This material is based upon work supported by the U.S. Department of
@@ -16,7 +16,7 @@ This manual was created under a contract with Analysis North over the
 Alaska state fiscal years 2021 and 2022. Many thanks to Information
 Insishts and Loeffler Engineering for editing this manual.
 
-# Introduction
+## Introduction
 {: #introduction}
 
 The Building Monitoring (BMON) System, often referred to as simply BMON,
@@ -75,7 +75,7 @@ Alaska Native Tribal Health Consortium:
 {% include video id="672543509" provider="vimeo" %}
 <br>*Caption*
 
-## Purpose of this Manual
+### Purpose of this Manual
 {: #purpose-this-manual}
 
 This manual is a guide to setting up and using the [Building
@@ -104,7 +104,7 @@ documentation](https://bmon-documentation.readthedocs.io/en/latest/user-introduc
     installing the sensors and internet-connected hardware, setting up
     alerts, and using the data for simple but powerful analysis.**
 
-## Value of BMON
+### Value of BMON
 {: #value-bmon}
 
 BMON was originally created to help building owners and managers save

@@ -1185,8 +1185,8 @@ building) and the placement of the antenna above the peak of the roof.**
 
 \[A Properly Installed Exterior Antenna for a LoRaWAN Gateway\]
 
-# ![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
-{: #site-baseurl-assets}
+![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
+<br>{: #image34}*Caption*
 
 <details markdown="1">
 

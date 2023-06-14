@@ -4,7 +4,7 @@ title: How to Use BMON Sensor Data
 toc: true
 ---
 
-# Creating a Monitoring Plan
+## Creating a Monitoring Plan
 {: #creating-monitoring-plan}
 
 This section of the manual lays out the general considerations and steps
@@ -17,7 +17,7 @@ the plan may help to inform the process. Others have found it helpful to
 set up sensors first to begin gathering data prior to setting goals and
 team building. Either method will depend on your circumstance and needs.
 
-## Define goals
+### Define goals
 {: #define-goals}
 
 The first step to any successful project is to clearly define short and
@@ -51,7 +51,7 @@ Even though these steps seem obvious, writing down goals, steps to
 follow, and metrics to assess progress will help focus the project and
 lead to more successful monitoring projects.
 
-## Establish a baseline
+### Establish a baseline
 {: #establish-baseline}
 
 It is important to establish a baseline for the operations of a building
@@ -71,7 +71,7 @@ understanding of who will be responsible for checking the system and who
 will be notified of the status. In the next step, some considerations
 for establishing a strategy are discussed.
 
-## Identify a monitoring strategy
+### Identify a monitoring strategy
 {: #identify-monitoring-strategy}
 
 In order to achieve the goals of monitoring, a strategy must be laid out
@@ -89,7 +89,7 @@ Each component should be agreed upon by the team and written down. The
 monitoring strategy should be available to each member of the monitoring
 team.
 
-## **Implement improvement actions**
+### **Implement improvement actions**
 {: #implement-improvement-actions}
 
 Areas for improvement will vary for each installation and should be
@@ -103,7 +103,7 @@ variable before making larger changes. Also make sure that any changes
 haven’t caused other unintended consequences, and that they are logged
 before continuing.
 
-## **Verify results and adjust strategy**
+### **Verify results and adjust strategy**
 {: #verify-results-adjust}
 
 Once the operational schedule and/or setpoints have been modified it is
@@ -123,14 +123,14 @@ happening.
 If changes result in conditions that are unacceptable, first modify the
 changes before going back to the original operational protocols.
 
-# **Analyzing Data**
+## **Analyzing Data**
 {: #analyzing-data}
 
 Collecting and analyzing data can reveal ways to save energy, improve
 maintenance, and avoid equipment failures. This section describes
 different analysis tools available in BMON.
 
-## **Overview of BMON Tools for Data Analysis**
+### **Overview of BMON Tools for Data Analysis**
 {: #overview-bmon-tools}
 
 **There are essentially three types of tools in BMON that assist with
@@ -153,7 +153,7 @@ data analysis:**
     and further discussed for each Important Sensor in Analysis of
     Energy Data by Sensor.
 
-## **Graphs and Reports**
+### **Graphs and Reports**
 {: #graphs-reports}
 
 This section focuses on the most commonly used Graphs/Reports to view in
@@ -169,7 +169,7 @@ Available Data Visualization Tools\]
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Caption*
 
-### Common Graphs and Reports
+#### Common Graphs and Reports
 {: #common-graphs-reports}
 
 **\[**Commonly Used BMON Graphs and
@@ -246,7 +246,7 @@ showing the related “Heat Map Hourly Profile" chart.
 {% include video id="489536323" provider="vimeo" %}
 <br>*Caption*
 
-### Additional Graphs and Reports
+#### Additional Graphs and Reports
 {: #additional-graphs-reports}
 
 A brief overview of all the other available Graphs/Reports is given in
@@ -278,14 +278,14 @@ Report.
 
 </details>
 
-#### Energy Reports
+##### Energy Reports
 {: #energy-reports}
 
 The rest of this section walks through each important sensor and shows
 how to analyze the data provided by that sensor, with the goal of
 finding energy saving opportunities.
 
-##### Indoor Temperature Sensor Data Analysis
+###### Indoor Temperature Sensor Data Analysis
 {: #indoor-temperature-sensor}
 
 The “Indoor Temp" Energy Report provides the information you need to
@@ -373,7 +373,7 @@ System](https://docs.google.com/document/d/1nrUgCqQxBiAhx5_4Gt4D7KoNxHRiORMZON_r
 
 </details>
 
-##### Light Level Data Analysis
+###### Light Level Data Analysis
 {: #light-level-data}
 
 The primary purpose of the light sensors is to see whether the operation
@@ -444,7 +444,7 @@ controls on the lights would be a cost-effective project.
 
 </details>
 
-##### Electric and Fuel Use Data Analysis
+###### Electric and Fuel Use Data Analysis
 {: #electric-fuel-use}
 
 Energy saving efforts help reduce a building’s electricity and fuel use.
@@ -547,7 +547,7 @@ can be chosen to compare across buildings in all organizations.
 
 </details>
 
-##### Boiler and Domestic Hot Water (DHW) Temperature Data Analysis
+###### Boiler and Domestic Hot Water (DHW) Temperature Data Analysis
 {: #boiler-domestic-hot}
 
 Two useful temperatures to measure in a building are the boiler supply
@@ -640,7 +640,7 @@ this occurs.
 
 </details>
 
-##### CO<sub>2</sub> Sensor Data Analysis
+###### CO<sub>2</sub> Sensor Data Analysis
 {: #co-sub-2}
 
 Carbon dioxide (CO<sub>2</sub>) sensors are useful for determining the
