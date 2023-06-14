@@ -11,16 +11,21 @@ main:
     url: /about/
 
 guide:
-  - title: "Introduction"
+  - title: "User Guide"
     children:
-      - title: "What is BMON and Building Monitoring?"
+      - title: "Intro to BMON"
         url: /guide/intro.html
-  - title: "Setting up BMON"
+      - title: "How to Choose/Set Up Sensors"
+        url: /guide/sensors.html
+      - title: "How to Set Up Your BMON System"
+        url: /guide/setup-bmon.html
+      - title: "How to Use BMON Sensor Data"
+        url: /guide/use-data.html
+      - title: "Resources"
+        url: /guide/resources.html
+  - title: "Appendices"
     children:
-      - title: "System Administration Interface"
-        url: /guide/sysadmin.html
-  - title: "Using the BMON Sensor Data"
-    children:
-      - title: "Using the Data"
-        url: /guide/using-data.html
-  
+      - title: "Appendix A - Configuring LoRaWAN Sensors"
+        url: /guide/appendix-config-sensors.html
+      - title: "Appendix B - Configuring Dragino LoRaWAN Gateways"
+        url: /guide/appendix-config-gateways.html

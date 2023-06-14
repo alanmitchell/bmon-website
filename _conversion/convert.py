@@ -3,6 +3,7 @@
 """
 
 import sys
+import re
 from slugify import slugify
 
 stop_words = ["a", "an", "the", "and", "but", "or", "on", 
@@ -30,6 +31,13 @@ for line in sys.stdin:
         img_file = line.split('/')[-1]
         img_base = img_file.split('.')[0]
         print('<br>{: #' + img_base +  '}*Caption*')
+
+    elif "https://vimeo.com/" in line:
+        print(line)
+        match = re.search(r"vimeo\.com/(\d+)", line)
+        if match:
+            print('{% include video id="' + match.group(1) + '" provider="vimeo" %}')
+            print('<br>*Caption*')
 
     else:
         # Line not needing action

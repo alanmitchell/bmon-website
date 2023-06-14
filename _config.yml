@@ -21,16 +21,12 @@
 title: BMON Building Monitoring
 email: r2d2@ahfc.us
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the main web site for the BMON Building Monitoring software.
+  It inludes a User Guide, a link to more detailed documentation, and
+  a Blog for news related to BMON.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bmon.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alanmitchell
-
-exclude:
-  - README.md
-  - LICENSE
 
 # Markdown processor
 markdown: kramdown
@@ -39,11 +35,10 @@ kramdown:
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-include-cache
   - jekyll-feed
-#  - jekyll-paginate
   - jekyll-remote-theme
 
 #jekyll-archives:
@@ -88,22 +83,7 @@ defaults:
       sidebar:
         nav: "guide"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - README.md
+  - LICENSE
+
