@@ -4,6 +4,16 @@ title: How to Use BMON Sensor Data
 toc: true
 ---
 
+**Link Examples**
+
+[Link within the same page](#identify-monitoring-strategy)
+
+[Link to the Top of a Different Page in the User Guide](intro)
+
+[Link to Section or Image on a Different Page](sensors#methods-collecting-co)
+
+[Link to a Page not on this Web Site](https://iialaska.com)
+
 ## Creating a Monitoring Plan
 {: #creating-monitoring-plan}
 
