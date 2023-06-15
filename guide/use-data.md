@@ -196,8 +196,8 @@ one or more sensors over time. There are a number of special features of
 this graph, such as zooming and averaging, which are explained in the
 following video.
 
-***Video:*** *Plot Sensor Values over Time
-Graph*{% include video id="486647397" provider="vimeo" %}
+***Video:*** *Plot Sensor Values over Time Graph*
+{% include video id="486647397" provider="vimeo" %}
 
 **Sensor X vs Y Scatter Plot**
 

@@ -4,8 +4,72 @@ title: BMON Resources
 toc: true
 ---
 
-# Manual Contents:
+## User Guide Contents:
 {: #manual-contents}
+
+### Introduction to BMON
+ - [Acknowledgements](intro#creating-monitoring-plan)
+ - [Introduction](intro#creating-monitoring-plan)
+     - [Purpose of this Manual](intro#creating-monitoring-plan)
+     - [Value of BMON](intro#creating-monitoring-plan)
+
+### How to Choose/Set Up Sensors
+ - [Introduction](sensors#creating-monitoring-plan)
+     - [Sensor Platforms](sensors#creating-monitoring-plan)
+     - [Sensor Types](sensors#creating-monitoring-plan)
+     - [Indoor Temperature Collection Methods](sensors#creating-monitoring-plan)
+     - [Outdoor Temperature Collection Methods](sensors#creating-monitoring-plan)
+     - [Installing Temperature Sensors](sensors#creating-monitoring-plan)
+ - [Light Levels](sensors#creating-monitoring-plan)
+     - [Light Level Sensors](sensors#creating-monitoring-plan)
+     - [Installing Light Level Sensors](sensors#creating-monitoring-plan)
+ - [Indoor Carbon Dioxide (CO<sub>2</sub>) Levels](sensors#creating-monitoring-plan)
+     - [Methods of Collecting CO<sub>2</sub> data](sensors#creating-monitoring-plan)
+     - [Installing CO<sub>2</sub> Sensors](sensors#creating-monitoring-plan)
+ - [Boiler and Domestic Hot Water Temperature](sensors#creating-monitoring-plan)
+     - [Methods for Collecting Boiler and DHW Temperatures](sensors#creating-monitoring-plan)
+     - [Installing Boiler and Domestic Hot Water Sensors](sensors#creating-monitoring-plan)
+ - [Building Electric Power](sensors#creating-monitoring-plan)
+     - [Methods for Collecting Building Electric Data](sensors#creating-monitoring-plan)
+     - [Installing Electrical Sensors](sensors#creating-monitoring-plan)
+ - [Building Fuel Use Data](sensors#creating-monitoring-plan)
+     - [Methods for Collecting Building Fuel Use Data](sensors#creating-monitoring-plan)
+ - [Typical Sensor Wiring Examples](sensors#creating-monitoring-plan)
+ - [Gateways for Wireless Sensors](sensors#creating-monitoring-plan)
+     - [More Notes on LoRaWAN Signal Coverage and Antennas](sensors#creating-monitoring-plan)
+
+### How to Set Up Your BMON System
+ - [The BMON User Interface vs the System Administrator Interface](setup-bmon#creating-monitoring-plan)
+ - [LoRaWAN Wireless Sensor Configuration](setup-bmon#creating-monitoring-plan)
+ - [Overview of the System Administrator Interface](setup-bmon#creating-monitoring-plan)
+ - [Adding a Building](setup-bmon#creating-monitoring-plan)
+ - [Adding a Sensor and Assigning it to a Building](setup-bmon#creating-monitoring-plan)
+ - [Editing Information for an Existing Sensor](setup-bmon#creating-monitoring-plan)
+ - [Adding Weather Data from the Internet](setup-bmon#creating-monitoring-plan)
+ - [Assigning Sensors used by Energy Reports](setup-bmon#creating-monitoring-plan)
+ - [Creating a Dashboard](setup-bmon#creating-monitoring-plan)
+ - [Using and Creating Alerts](setup-bmon#creating-monitoring-plan)
+ - [Editing and Cleaning Sensor Data](setup-bmon#creating-monitoring-plan)
+
+### How to Use BMON Sensor Data
+ - [Creating a Monitoring Plan](use-data#creating-monitoring-plan)
+     - [Define goals](use-data#creating-monitoring-plan)
+     - [Establish a baseline](use-data#creating-monitoring-plan)
+     - [Identify a monitoring strategy](use-data#creating-monitoring-plan)
+     - [Implement improvement actions](use-data#creating-monitoring-plan)
+     - [Verify results and adjust strategy](use-data#creating-monitoring-plan)
+ - [Analyzing Data](use-data#creating-monitoring-plan)
+     - [Overview of BMON Tools for Data Analysis](use-data#creating-monitoring-plan)
+     - [Graphs and Reports](use-data#creating-monitoring-plan)
+         - [Common Graphs and Reports](use-data#creating-monitoring-plan)
+         - [Additional Graphs and Reports](use-data#creating-monitoring-plan)
+     - [Energy Reports](use-data#creating-monitoring-plan)
+         - [Indoor Temperature Sensor Data Analysis](use-data#creating-monitoring-plan)
+         - [Light Level Data Analysis](use-data#creating-monitoring-plan)
+         - [Electric and Fuel Use Data Analysis](use-data#creating-monitoring-plan)
+         - [Boiler and Domestic Hot Water (DHW) Temperature Data Analysis](use-data#creating-monitoring-plan)
+         - [CO<sub>2</sub> Sensor Data Analysis](use-data#creating-monitoring-plan)
+
 
 ## Intro to BMON
 {: #intro-bmon}
