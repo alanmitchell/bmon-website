@@ -90,11 +90,10 @@ These two sensor platforms are able to read numerous types of sensors
 and post their data to BMON. In general, sensors have four types of
 electrical outputs, detailed below.
 
-![]({{ site.baseurl }}/assets/guide/sensors/image3.png)*
+![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
-Sensors*
-\*Additional information on this special configuration is*
-*[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms).*
+Sensors (Additional information on this special configuration is
+[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
 
 Temperature
 
@@ -111,10 +110,10 @@ staff of heating failures before damage occurs.
 <summary>Potential BMON-Guided Energy Savings of Measuring
 Temperature</summary>
 
-![]({{ site.baseurl }}/assets/guide/sensors/image4.png)A building’s
-<br>{: #image4}*Potential Energy Savings of Measuring Building
-Temperature*
-energy consumption is almost always affected by the outdoor temperature.
+![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
+<br>{: #image4}*Potential Energy Savings of Measuring Building Temperature*
+
+A building’s energy consumption is almost always affected by the outdoor temperature.
 Heating and cooling energy use relate to heat loss or gain through the
 building shell, which is proportional to the temperature difference
 between the inside and outside of the building. When analyzing the
@@ -137,7 +136,7 @@ control system or from Ecobee thermostats.
 
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image5.png)
-<br>{: #image5}*Collect Indoor Temperature Data Using an Existing Building Control
+<br>{: #image5}*Collecting Indoor Temperature Data Using an Existing Building Control
 System*
 
 To determine whether this is a viable technique for temperature
@@ -146,8 +145,10 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 </details>
 
-![]({{ site.baseurl }}/assets/guide/sensors/image6.png)<details markdown="1">
+![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
 <br>{: #image6}*Ecobee Thermostat*
+
+<details markdown="1">
 
 <summary>Retrieval from Ecobee Thermostats</summary>
 
@@ -179,7 +180,7 @@ last more than four years).
 
 <summary>Wireless Sensors Tested to Work with BMON</summary>
 
-\Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors\
+*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*
 
 <table>
 <tbody>
@@ -251,7 +252,7 @@ temperature sensor placed outdoors is a reasonable method for collecting
 outdoor temperature data. Here are some choices for wireless temperature
 sensors:
 
-\Wireless Outdoor Temperature Sensor Options\
+*Wireless Outdoor Temperature Sensor Options*
 
 <table>
 <tbody>
@@ -323,7 +324,7 @@ click below.
 
 <summary>Analog Light Level Sensors</summary>
 
-“Analog" sensors measure the amount of light, or light levels, usually
+“Analog” sensors measure the amount of light, or light levels, usually
 in units of lux. Typical office lighting levels are [500
 lux](https://www.waveformlighting.com/home-residential/what-is-the-difference-between-lux-and-lumens)
 or more. This is the preferred type of sensor.
@@ -334,20 +335,20 @@ or more. This is the preferred type of sensor.
 
 <summary>Digital Light Level Sensors</summary>
 
-Some manufacturers sell a “digital" light sensor that only reports
+Some manufacturers sell a “digital” light sensor that only reports
 whether lights are on or off. While determining the on/off status of a
 light is the primary purpose of reading light levels, this type of
 sensor is difficult to calibrate correctly so that it accurately knows
 when lights are on. Daylight can trigger the sensor to report that
 lights are on even though they are not. This sensor does not provide
 information on how much daylight a space is getting. For these reasons,
-“digital" sensors are not recommended.
+“digital” sensors are not recommended.
 
 </details>
 
 Here are some recommended wireless light level sensors:
 
-\Recommended Wireless Light Level Sensors\
+*Recommended Wireless Light Level Sensors*
 
 <table>
 <tbody>
@@ -369,10 +370,11 @@ left on at times when they shouldn’t be, install the sensor so that it
 is nearby and has a good view of a light fixture. Preferably, install it
 so that daylight from nearby windows does not affect the sensor much.
 High up on a wall is often a good location. For details on installation
-of daylight controls, click below. <details markdown="1">
+of daylight controls, click below.
 
-<summary>How Do I Know if I Should Use Daylight
-Controls?</summary>
+<details markdown="1">
+
+<summary>How Do I Know if I Should Use Daylight Controls?</summary>
 
 To determine whether daylight controls could be useful, install the
 sensor in a location representative of a work surface in the space, such
@@ -463,7 +465,7 @@ drift that others can experience.
 ![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
 <br>{: #image13}*Elsys ERS CO2 LoRaWAN Sensor*
 
-The ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
+Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
 
 </details>
@@ -532,7 +534,7 @@ can be programmed to retrieve the readings and report them to BMON.
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
 
-\[Wireless Temperature Sensor Options With External Temperature Probes\]
+*Wireless Temperature Sensor Options With External Temperature Probes*
 
 <table>
 <thead>
@@ -1111,14 +1113,15 @@ they are within range of the sensors.**
 Here are some good choices for LoRaWAN gateways:
 
 
-![]({{ site.baseurl }}/assets/guide/sensors/image31.png) *\*[Setup
+![]({{ site.baseurl }}/assets/guide/sensors/image31.png)
 <br>{: #image31}*Pros and Cons of Select LoRaWAN Gateways*
-Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/)
-for Things Indoor Gateway*
+
+[Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/)
+for Things Indoor Gateway
 
 <details markdown="1">
 
-<summary>Dragino Gateway Setup** </summary>
+<summary>Dragino Gateway Setup</summary>
 
 Setup instructions for the Dragino gateways are found in their User
 Manuals; some helpful hints are also provided in Section 5 of this
