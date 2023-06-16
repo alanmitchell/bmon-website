@@ -27,6 +27,7 @@ base_dir = Path(f'{script_dir}/../guide')
 for f, max_depth in md_files:
 
     print(f)
+    leader_space = ''
     fin = open(base_dir / f'{f}.md')
     while True:
 
@@ -44,13 +45,13 @@ for f, max_depth in md_files:
         if match:
             depth = len(match.group(1))
             if depth <= max_depth:
-                leader_space = ' ' * (depth - 2) * 4
+                leader_space = ' ' * (depth - 2) * 2
                 title = match.group(2).strip().replace('*', '')
                 # read the next line to get the link target
                 lin_target = fin.readline()
                 search = re.search(r'{: #(.+)}', lin_target)
                 target = search.group(1) if search else ''
-                print(f'{leader_space} - [{title}]({f}#{target})', file=fout)
+                print(f'{leader_space}- [{title}]({f}#{target})', file=fout)
 
         if '***Video:' in lin:
             caption_search = re.search(':\*{3}(.+)', lin)
@@ -59,7 +60,7 @@ for f, max_depth in md_files:
             lin_target = fin.readline()
             search = re.search(r'{: #(.+)}', lin_target)
             target = search.group(1) if search else ''
-            print(f'{leader_space}    - **Video:** [{caption}]({f}#{target})', file=fout)
+            print(f'{leader_space}  - **Video:** [{caption}]({f}#{target})', file=fout)
 
         if '<br>{: #image' in lin:
             if '*' in lin:
@@ -71,7 +72,7 @@ for f, max_depth in md_files:
                     caption = caption_search.group(1).strip()         
                     search = re.search(r'{: #(.+)}', lin)
                     target = search.group(1) if search else ''
-                    print(f'{leader_space}    - **Figure:** [{caption}]({f}#{target})', file=fout)
+                    print(f'{leader_space}  - **Figure:** [{caption}]({f}#{target})', file=fout)
                 else:
                     print(lin.strip())
 
