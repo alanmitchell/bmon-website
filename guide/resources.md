@@ -7,6 +7,7 @@ toc: true
 ## User Guide Contents:
 {: #manual-contents}
 
+
 ### Introduction to BMON
 - [Acknowledgements](intro#acknowledgements)
 - [Introduction](intro#introduction)
@@ -17,6 +18,7 @@ toc: true
   - **Figure:** [Basic Architecture of the BMON System](sensors#image1)
   - **Figure:** [LoRaWAN Sensor Comparison](sensors#image2)
   - **Figure:** [Types of Electrical Outputs Found in Sensors (Additional information on this special configuration is [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))](sensors#image3)
+- [Temperature](sensors#)
   - **Figure:** [Potential Energy Savings of Measuring Building Temperature](sensors#image4)
   - **Figure:** [Collecting Indoor Temperature Data Using an Existing Building Control System](sensors#image5)
   - **Figure:** [Ecobee Thermostat](sensors#image6)
@@ -52,7 +54,7 @@ toc: true
   - **Figure:** [A Properly Installed Exterior Antenna for a LoRaWAN Gateway](sensors#image34)
 
 ### How to Set Up Your BMON System
-- **Figure:** [What you Need to Set Up a Basic BMON System](setup-bmon#image1)
+  - **Figure:** [What you Need to Set Up a Basic BMON System](setup-bmon#image1)
 - [The BMON User Interface vs the System Administrator Interface](setup-bmon#bmon-user-interface)
   - **Figure:** [Caption](setup-bmon#image2)
 - [LoRaWAN Wireless Sensor Configuration](setup-bmon#lorawan-wireless-sensor)
