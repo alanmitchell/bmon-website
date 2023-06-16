@@ -295,7 +295,7 @@ below shows an example where only one sensor has been highlighted. The
 gray areas on the graph are the unoccupied periods for the building.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image9.png)
-<br>{: #image9}*Indoor Temperature Report in the Energy Reports Section of BMON*
+<br>{: #image9}*Indoor Temp Report in the Energy Reports Section of BMON*
 
 <details markdown="1">
 
@@ -311,7 +311,7 @@ back began later than needed. The space is up to occupied temperature at
 reasons for this extended schedule, but it is worth in
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image10.png)
-<br>{: #image10}*A Closer View of the Indoor Temperature Report*
+<br>{: #image10}*A Closer View of the Indoor Temp Report*
 
 Temperatures during the gray, unoccupied periods are often *higher* than
 they are during occupied periods. There appears to be a controls or
@@ -395,7 +395,7 @@ horizontal axis shows hours of the day and the vertical axis shows days
 of the week.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image15.png)
-<br>{: #image15}*Heat Map Hourly Profile for One Light Sensor at AHFC Headquarters*
+<br>{: #image15}*"Heat Map Hourly Profile" for One Light Sensor at AHFC Headquarters*
 
 On Monday through Thursday, this space is lit until 9 pm at night. While
 there may be a legitimate explanation for lights staying on this late,
@@ -545,7 +545,7 @@ as delta-T) is related to how much heat is delivered to the space as the
 hydronic fluid circulates.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
-<br>{: #image19}*"Sensors Over Time" Plot with Supply, Return, and Outdoor Temperature
+<br>{: #image19}*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
 Can Show if an Outdoor Reset is Working*
 
 </details>
