@@ -179,7 +179,11 @@ last more than four years).
 <details markdown="1">
 
 <summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
-
+<style>
+td {
+  vertical-align: top;
+}
+</style>
 <table border="1">
 <tbody>
 <tr style="vertical-align:top">
