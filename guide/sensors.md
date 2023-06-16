@@ -92,7 +92,7 @@ electrical outputs, detailed below.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
-Sensors (additional information on this special configuration is
+Sensors (additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
 
 ## Temperature
@@ -180,8 +180,6 @@ last more than four years).
 
 <summary>Wireless Sensors Tested to Work with BMON</summary>
 
-*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*
-
 <table>
 <tbody>
 <tr class="odd">
@@ -193,6 +191,7 @@ All of the Elsys ERS sensors provide a temperature reading, ranging from the ful
 </tr>
 </tbody>
 </table>
+*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*
 
 The two LoRaWAN sensors listed above also measure humidity of the indoor
 space. Although humidity is less important than temperature, it does
@@ -252,8 +251,6 @@ temperature sensor placed outdoors is a reasonable method for collecting
 outdoor temperature data. Here are some choices for wireless temperature
 sensors:
 
-*Wireless Outdoor Temperature Sensor Options*
-
 <table>
 <tbody>
 <tr class="odd">
@@ -264,6 +261,7 @@ sensors:
 </tr>
 </tbody>
 </table>
+*Wireless Outdoor Temperature Sensor Options*
 
 When installing an outdoor temperature sensor, the most common mistake
 is to install it where sunshine can affect the reading. In Alaska, the
@@ -348,8 +346,6 @@ information on how much daylight a space is getting. For these reasons,
 
 Here are some recommended wireless light level sensors:
 
-*Recommended Wireless Light Level Sensors*
-
 <table>
 <tbody>
 <tr class="odd">
@@ -360,6 +356,7 @@ Here are some recommended wireless light level sensors:
 </tr>
 </tbody>
 </table>
+*Recommended Wireless Light Level Sensors*
 
 ### Installing Light Level Sensors
 {: #installing-light-level}
@@ -441,11 +438,8 @@ will be hard to determine.
 
 CO<sub>2</sub> sensors require calibration, following the appropriate
 set-up procedure is important. Refer to page 13, Section 7.4 of the
-[Elsys Operating
-Manual](https://elsys.se/public/manuals/Operating%20Manual%20ERS2%20series_v10.pdf).
-
+[Elsys Operating Manual](https://elsys.se/public/manuals/Operating%20Manual%20ERS2%20series_v10.pdf).
 </details>
-
 </details>
 
 Wireless sensors are currently limited to a few manufacturers, but the
@@ -459,11 +453,8 @@ The Elsys sensor, when set up properly, auto-calibrates every 8 days so
 the measurements should be accurate for years and not suffer from the
 drift that others can experience.
 
-[Elsys ERS CO2 LoRaWAN Sensor](https://www.elsys.se/en/ers/)
-
-
 ![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
-<br>{: #image13}*Elsys ERS CO2 LoRaWAN Sensor*
+<br>{: #image13}*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor](https://www.elsys.se/en/ers/)*
 
 Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
@@ -534,11 +525,8 @@ can be programmed to retrieve the readings and report them to BMON.
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
 
-*Wireless Temperature Sensor Options With External Temperature Probes*
-
-<table>
-<thead>
-<tr class="header">
+<tbody>
+<tr class="odd">
 <th><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
 <img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:3.10417in;height:2.34375in" /></p>
 <p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></th>
@@ -546,9 +534,9 @@ temperature probe. Here are three possibilities:
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:3.10417in;height:2.01389in" /></p>
 <p>The standard configuration of the LHT65 wireless sensor includes an external temperature probe, as shown in the picture above.</p></th>
 </tr>
-</thead>
+</tbody>
 <tbody>
-<tr class="odd">
+<tr class="even">
 <td><p><a href="https://www.tindie.com/products/edwin/lsn50v2-d23-lorawan-waterproof-outdoor-tempera/">Dragino LSN50v2-D23 Triple Temperature Sensor</a></p>
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:2.84514in;height:4.38542in" /></p>
 <p>This weatherproof unit includes three temperature probes, with about 3 feet of cable on each. Very economically priced (~$60).</p></td>
@@ -556,6 +544,7 @@ temperature probe. Here are three possibilities:
 </tr>
 </tbody>
 </table>
+*Wireless Temperature Sensor Options With External Temperature Probes*
 
 ### Installing Boiler and Domestic Hot Water Sensors
 {: #installing-boiler-domestic}
