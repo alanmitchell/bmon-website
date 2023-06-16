@@ -545,7 +545,7 @@ as delta-T) is related to how much heat is delivered to the space as the
 hydronic fluid circulates.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
-<br>{: #image19}*`Sensors Over Time` Plot with Supply, Return, and Outdoor Temperature
+<br>{: #image19}*"Sensors Over Time" Plot with Supply, Return, and Outdoor Temperature
 Can Show if an Outdoor Reset is Working*
 
 </details>
