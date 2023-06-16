@@ -99,8 +99,6 @@ Interface more useful, but that is optional.
 
 View the video below to see how to set up some of these optional
 features:
-***Video:*** *Basic Information for Adding a New Building into BMON*
-{% include video id="486208758" provider="vimeo" %}
 
 ***Video:*** *Advanced Building Information; Occupied Schedule & Additional Description*
 {% include video id="486498160" provider="vimeo" %}
