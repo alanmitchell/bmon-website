@@ -178,11 +178,11 @@ last more than four years).
 
 <details markdown="1">
 
-<summary>Wireless Sensors Tested to Work with BMON</summary>
+<summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
 
 <table>
 <tbody>
-<tr class="odd">
+<tr valign="top">
 <td><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: All of the Elsys ERS sensors provide a temperature reading, ranging from the full-featured ERS CO2 sensor down to the ERS Lite sensor<br />
 <img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:3.02083in;height:2.91667in" /></p></td>
 <td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
