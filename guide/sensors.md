@@ -92,7 +92,7 @@ electrical outputs, detailed below.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
-Sensors (Additional information on this special configuration is
+Sensors (additional information on this special configuration is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
 
 ## Temperature
@@ -680,9 +680,9 @@ Elsys ELT-Lite LoRaWAN sensor. While the video focuses on a pulse output
 sensor, its main focus is to give general hints on wiring external
 sensors to Elsys ELT sensors.
 
-**VIDEO:** [**Wiring External Sensor to Elsys ELT LoRaWAN
-Sensor**](https://vimeo.com/566390563)
-{% include video id="566390563" provider="vimeo" %}
+***VIDEO:*** *Wiring External Sensor to Elsys ELT LoRaWAN
+Sensor*{% include video id="566390563" provider="vimeo" %}
+
 <br>*Wiring a Sensor with a Pulse Output to an Elsys ELT_Lite LoRaWAN Sensor*
 
 A later section of the manual ([NOTE: link will need to be updated with
