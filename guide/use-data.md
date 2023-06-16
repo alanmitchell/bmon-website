@@ -134,21 +134,21 @@ different analysis tools available in BMON.
 There are essentially three types of tools in BMON that assist with
 data analysis:
 
-  - **General Graphs and Reports:** Choose from among several graph and
-    report options for displaying sensor data by sensor type, time
-    period, and other options and configurations. See [Graphs and
-    Reports](#graphs-reports) to learn how to create the most
-    commonly used graphs and reports.
+- **General Graphs and Reports:** Choose from among several graph and
+report options for displaying sensor data by sensor type, time
+period, and other options and configurations. See [Graphs and
+Reports](#graphs-reports) to learn how to create the most
+commonly used graphs and reports.
 
-  - **Custom Reports:** This feature allows you to store frequently used
-    graph configurations. See [Custom Reports](#custom-reports)
-    to learn how to create your own custom reports.
+- **Custom Reports:** This feature allows you to store frequently used
+graph configurations. See [Custom Reports](#custom-reports)
+to learn how to create your own custom reports.
 
-  - **Energy Reports:** BMON generates daily energy reports that can
-    help identify potential energy saving opportunities. [Energy
-    reports](#energy-reports) are accessible through the BMON interface
-    and further discussed for each Important Sensor in Analysis of
-    Energy Data by Sensor.
+- **Energy Reports:** BMON generates daily energy reports that can
+help identify potential energy saving opportunities. [Energy
+reports](#energy-reports) are accessible through the BMON interface
+and further discussed for each Important Sensor in Analysis of
+Energy Data by Sensor.
 
 ### **Graphs and Reports**
 {: #graphs-reports}
@@ -197,6 +197,7 @@ this graph, such as zooming and averaging, which are explained in the
 following video.
 
 ***Video:*** *Plot Sensor Values over Time Graph*
+{: #video-plot-sensor-values}
 {% include video id="486647397" provider="vimeo" %}
 
 **Sensor X vs Y Scatter Plot**
@@ -211,6 +212,7 @@ outdoor temperature can reveal days with excessive fuel use. This video
 shows how to use X vs Y Scatter Plots:
 
 ***Video:*** *Sensor X vs Y Scatter Plot*
+{: #video-sensor-x-vs}
 {% include video id="489279518" provider="vimeo" %}
 
 **Hourly Profile Plots**
@@ -225,6 +227,7 @@ of the week. Here is a video explaining this plot, and also briefly
 showing the related “Heat Map Hourly Profile" chart.
 
 ***Video:*** *Hourly Profile Plots*
+{: #video-hourly-profile-plots}
 {% include video id="489536323" provider="vimeo" %}
 
 #### Additional Graphs and Reports
@@ -233,13 +236,14 @@ showing the related “Heat Map Hourly Profile" chart.
 A brief overview of all the other available Graphs/Reports is given in
 this video:
 
-  - Histograms
+- Histograms
 
-  - Cycle Time
+- Cycle Time
 
-  - Download to Excel (downloads data as a .csv file)
+- Download to Excel (downloads data as a .csv file)
 
 ***Video:*** *Overview of Other Available Reports/Graphs*
+{: #video-overview-other-available}
 {% include video id="489587845" provider="vimeo" %}
 
 {: #custom-reports}
@@ -253,6 +257,7 @@ are the solution. This video shows how to set up and run a Custom
 Report.
 
 ***Video:*** *Custom Reports*
+{: #video-custom-reports}
 {% include video id="489689157" provider="vimeo" %}
 
 </details>
@@ -337,7 +342,7 @@ energy savings.
 
 As mentioned before, drops in indoor temperature can indicate a heating
 system failure and possible freeze-up. The best way to “analyze" the
-sensor data to address these problems is to set up Alerts, as described on the 
+sensor data to address these problems is to set up Alerts, as described on the
 [Setting Up Your BMON System](setup-bmon#using-creating-alerts) page.
 
 </details>
