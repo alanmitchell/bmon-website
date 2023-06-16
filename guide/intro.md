@@ -81,27 +81,27 @@ This manual is a guide to setting up and using the [Building
 Monitoring](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680)
 (BMON)
 [System](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680).
-**The manual is not a comprehensive guide to building monitoring and
+The manual is not a comprehensive guide to building monitoring and
 BMON; instead, it focuses on a basic but valuable monitoring system that
 allows the user to identify energy savings potential, better maintain
 and operate a facility, and avoid catastrophic failures, such as frozen
 pipes. The information in this manual is intended for those seeking to
 use BMON for energy management, indoor air-quality management, occupant
 comfort, and identification of equipment malfunction to prevent
-catastrophic failures.** This manual contains the information necessary
+catastrophic failures. This manual contains the information necessary
 to set up and use the BMON system, plus some tips based on past
 experience. More in-depth information can be found in the [BMON software
 documentation](https://bmon-documentation.readthedocs.io/en/latest/user-introduction.html).
 
-**This manual covers:**
+This manual covers:
 
-  - **The types of sensors used with BMON, what they measure, and how
+  - The types of sensors used with BMON, what they measure, and how
     those measurements can be useful to a facilities manager, energy
-    manager, or a building owner.**
+    manager, or a building owner.
 
-  - **The process of configuring a new building and dashboard in BMON,
+  - The process of configuring a new building and dashboard in BMON,
     installing the sensors and internet-connected hardware, setting up
-    alerts, and using the data for simple but powerful analysis.**
+    alerts, and using the data for simple but powerful analysis.
 
 ### Value of BMON
 {: #value-bmon}
