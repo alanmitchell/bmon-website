@@ -4,6 +4,8 @@ title: BMON Resources
 toc: true
 ---
 
+## User Guide Contents:
+{: #manual-contents}
 
 ### Introduction to BMON
 - [Acknowledgements](intro#acknowledgements)
