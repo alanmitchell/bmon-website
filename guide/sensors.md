@@ -680,10 +680,8 @@ Elsys ELT-Lite LoRaWAN sensor. While the video focuses on a pulse output
 sensor, its main focus is to give general hints on wiring external
 sensors to Elsys ELT sensors.
 
-***VIDEO:*** *Wiring External Sensor to Elsys ELT LoRaWAN
+***VIDEO:*** *Wiring an External Sensor to Elsys ELT LoRaWAN
 Sensor*{% include video id="566390563" provider="vimeo" %}
-
-<br>*Wiring a Sensor with a Pulse Output to an Elsys ELT_Lite LoRaWAN Sensor*
 
 A later section of the manual ([NOTE: link will need to be updated with
 final one onlineAdding a Sensor and Assigning it to a
