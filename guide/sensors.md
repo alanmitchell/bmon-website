@@ -558,10 +558,7 @@ temperature probe on a pipe:
 
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image19.png)
-<br>{: #image19}*A Temperature Probe Correctly Installed on a Pipe*
-
-*A temperature probe installed on a pipe with heat sink compound to
-promote good thermal contact and accurate temperature readings.*
+<br>{: #image19}*A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*
 
 After attaching the probe as shown above, make sure to reinstall the
 pipe insulation on top of the probe. Make sure to route wires to avoid
@@ -758,11 +755,7 @@ counts to BMON.
 
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image22.png)
-<br>{: #image22}*Natural Gas Meter With a Monnit Wireless Pulse Counter*
-
-*A natural gas meter with a pulse output attachment. Also shown is a
-flexible conduit leading to a wireless pulse counter that records and
-transmits the reading to* *BMON.*
+<br>{: #image22}*Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and trsnmits the reading to BMON)*
 
 A Monnit wireless pulse counter is shown above. Below is a typical
 LoRaWAN pulse counter, with a weatherproof enclosure, that can also
@@ -803,10 +796,7 @@ Dragino LTH65.
 
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image23.png)
-<br>{: #image23}*An Elster 4p Fuel Flow Meter Installation*
-
-*The flow meter is the translucent enclosure in the upper right corner
-of the* *picture.*
+<br>{: #image23}*An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*
 
 </details>
 
@@ -1064,27 +1054,27 @@ they are within range of the sensors.**
 ![]({{ site.baseurl }}/assets/guide/sensors/image30.png)
 <br>{: #image30}*Gateways for Wireless Sensors*
 
-*Important considerations for LoRaWAN gateways are:*
+Important considerations for LoRaWAN gateways are:
 
-  - *Gateways usually require 120V wall power rather than a battery.*
+  - Gateways usually require 120V wall power rather than a battery.
 
-  - *Means of Connecting to the Internet: Ethernet, WiFi, Cellular.*
+  - Means of Connecting to the Internet: Ethernet, WiFi, Cellular.
 
-      - *An Ethernet connection tends to be the most reliable but limits
-        where you can place the gateway.*
+      - An Ethernet connection tends to be the most reliable but limits
+        where you can place the gateway.
 
-      - *A gateway can connect to the internet via an existing Wi-Fi
-        network (if available).*
+      - A gateway can connect to the internet via an existing Wi-Fi
+        network (if available).
 
-      - *A direct cellular connection can be built into a gateway, or
+      - A direct cellular connection can be built into a gateway, or
         can be accomplished through a separate Cellular Router that
         provides an Ethernet or Wi-Fi connection to the wireless sensor
-        gateway.*
+        gateway.
 
-      - *A cellular connection will require a cellular data plan with a
-        suitable amount of data (a minimum of 100 MB / month).*
+      - A cellular connection will require a cellular data plan with a
+        suitable amount of data (a minimum of 100 MB / month).
 
-  - *Gateways can be mounted indoors or outdoors (not Monnit, LoRaWAN
+  - Gateways can be mounted indoors or outdoors (not Monnit, LoRaWAN
     only). An indoor gateway is protected from the weather and is less
     expensive than a gateway that can be mounted outdoors. However, an
     outdoor gateway has its antenna mounted outside as well, which
@@ -1095,7 +1085,7 @@ they are within range of the sensors.**
     antenna through use of a coax cable from the antenna jack on the
     gateway to the antenna outdoors (seen in the photo below). This
     solution also keeps the gateway electronics protected from the
-    elements.*
+    elements.
 
 Here are some good choices for LoRaWAN gateways:
 
