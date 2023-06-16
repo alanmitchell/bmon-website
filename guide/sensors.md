@@ -525,6 +525,7 @@ can be programmed to retrieve the readings and report them to BMON.
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
 
+<table>
 <tbody>
 <tr class="odd">
 <td><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
