@@ -95,7 +95,7 @@ electrical outputs, detailed below.
 Sensors (Additional information on this special configuration is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
 
-Temperature
+## Temperature
 
 The temperature at various locations in a building is a valuable
 quantity to measure. From this temperature data, you can learn whether
