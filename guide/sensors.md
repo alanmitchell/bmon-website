@@ -145,12 +145,12 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 </details>
 
-![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
-<br>{: #image6}*Ecobee Thermostat*
-
 <details markdown="1">
 
 <summary>Retrieval from Ecobee Thermostats</summary>
+
+![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
+<br>{: #image6}*Ecobee Thermostat*
 
 BMON knows how to retrieve data from the Ecobee line of smart,
 Internet-connected thermostats. If your building utilizes this brand of
@@ -170,7 +170,7 @@ Administration Interface in Section 3 How to Set Up Your BMON System,
 Overview of the System Administrator Interface\].
 
 </details>
-
+</details>
 
 Battery-powered wireless temperature sensors are easy to install, low
 cost, and have reasonable battery life (over two years, and generally
