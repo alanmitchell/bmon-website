@@ -447,7 +447,7 @@ Elsys ERS CO<sub>2</sub> sensor has been shown to work reliably.
 
 <details markdown="1">
 
-<summary>*Elsys Sensor Calibration*</summary>
+<summary>Elsys Sensor Calibration</summary>
 
 The Elsys sensor, when set up properly, auto-calibrates every 8 days so
 the measurements should be accurate for years and not suffer from the
@@ -527,12 +527,12 @@ temperature probe. Here are three possibilities:
 
 <tbody>
 <tr class="odd">
-<th><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
+<td><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
 <img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:3.10417in;height:2.34375in" /></p>
-<p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></th>
-<th><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
+<p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></td>
+<td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:3.10417in;height:2.01389in" /></p>
-<p>The standard configuration of the LHT65 wireless sensor includes an external temperature probe, as shown in the picture above.</p></th>
+<p>The standard configuration of the LHT65 wireless sensor includes an external temperature probe, as shown in the picture above.</p></td>
 </tr>
 </tbody>
 <tbody>
