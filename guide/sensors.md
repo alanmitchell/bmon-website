@@ -454,7 +454,7 @@ the measurements should be accurate for years and not suffer from the
 drift that others can experience.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
-<br>{: #image13}*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor](https://www.elsys.se/en/ers/)*
+<br>{: #image13}[*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/)
 
 Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
