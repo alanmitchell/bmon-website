@@ -23,10 +23,8 @@ servers capable of running BMON can be rented starting at $6 per month
 ## The BMON User Interface vs the System Administrator Interface
 {: #bmon-user-interface}
 
-\[Ways to Interact with the BMON Software\]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
-<br>{: #image2}*Caption*
+<br>{: #image2}*Ways to Interact with the BMON Software*
 
 In this section, we will be using the System Administrator interface to
 set up the building and sensors that are used in your BMON system.
@@ -56,23 +54,17 @@ is received by your BMON server.
 ## **Overview of the System Administrator Interface**
 {: #overview-system-administrator}
 
-\[A View of the BMON System Administrator Interface\]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
-<br>{: #image3}*Caption*
-
-\[How to Access the Administrator Interface\]
+<br>{: #image3}*A View of the BMON System Administrator Interface*
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
-<br>{: #image4}*Caption*
+<br>{: #image4}*How to Access the Administrator Interface*
 
 This video shows how to access the System Administrator interface and
 gives an overview of how the interface is used:
 
-[**Video: System Administration
-Interface**](https://vimeo.com/486081918)
+***Video:*** *System Administration Interface*
 {% include video id="486081918" provider="vimeo" %}
-<br>*Caption*
 
 Remember that if you are using the Shared AHFC BMON System, you have
 access to other organizations’ building and sensor configuration. So, be
@@ -83,19 +75,17 @@ careful to only edit your data.
 
 In BMON, sensors are associated with buildings.
 
-**\[**Essential Information Needed to Add a Building in
-BMON\]![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
-<br>{: #image5}*Caption*
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
+<br>{: #image5}*Essential Information Needed to Add a Building in
+BMON*
 
 See how to add a new building into the BMON system in the video below.
 If you are using the AHFC Shared BMON system, this video also shows how
 you can connect the building to your ‘Organization’ on the shared BMON
 server.
 
-[**Video: Add a New Building, Basic
-Information**](https://vimeo.com/486208758)
+***Video:*** *Basic Information for Adding a New Building into BMON*
 {% include video id="486208758" provider="vimeo" %}
-<br>*Caption*
 
 <details markdown="1">
 
@@ -104,19 +94,15 @@ Information**](https://vimeo.com/486208758)
 More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
-**\[**Examples of Building Details That Can Be Entered in BMON\]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
-<br>{: #image6}*Caption*
+<br>{: #image6}*Examples of Building Details That Can Be Entered in BMON*
 
 View the video below to see how to set up some of these optional
 features:
 
-[**Video:** **Advanced Building Information
-Occupied Schedule & Additional
-Description**](https://vimeo.com/486498160)
+***Video:*** *Advanced Building Information; Occupied Schedule & Additional Description*
 {% include video id="486498160" provider="vimeo" %}
-<br>*Caption*
+
 
 A later section \[Link to: Section 4 How to Use the BMON Sensor Data,
 Analyzing Data, Energy Reports\] will show how to fill out the building
@@ -134,11 +120,10 @@ Reports\], should be completed.
 Once you have your buildings added to BMON, you can then add the
 individual sensors that report sensor readings.
 
-**\[**Information Needed to Add a Sensor to the BMON Software\]
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
+<br>{: #image7}*Information Needed to Add a Sensor to the BMON Software*
 
-![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)It is also important to
-<br>{: #image7}*Caption*
-understand that one physical sensor device, like an Elsys ERS-CO2
+It is also important to understand that one physical sensor device, like an Elsys ERS-CO2
 sensor, will report multiple different sensor values, such as
 CO<sub>2</sub>, temperature, light, humidity, and motion. Although these
 different values are coming from one sensor in the field, they need to
@@ -161,20 +146,16 @@ video below shows you how to find the Sensor IDs for sensors that are
 reporting into the BMON system, but have not yet been set up in the
 system.
 
-[**Video: How to use Unassigned Sensors when Setting Up New
-Sensors**](https://vimeo.com/492722273)
-{% include video id="492722273" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *How to use Unassigned Sensors when Setting Up New
+Sensors*{% include video id="492722273" provider="vimeo" %}
 
 </details>
 
 This video walks through the process of setting up a Sensor in BMON and
 assigning it to a Building and to a Sensor Group within that Building.
 
-[**Video: Basic Steps for Adding a New
-Sensor**](https://vimeo.com/492728994)
-{% include video id="492728994" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Basic Steps for Adding a New
+Sensor*{% include video id="492728994" provider="vimeo" %}
 
 ## **Editing Information for an Existing Sensor**
 {: #editing-information-existing}
@@ -186,9 +167,8 @@ easily find a particular sensor. The video below shows you how to filter
 the list of sensors by building and shows you how to search for a
 particular sensor.
 
-[**Video:** **Editing Sensor Information**](https://vimeo.com/500314404)
+***Video:*** *Editing Sensor Information*
 {% include video id="500314404" provider="vimeo" %}
-<br>*Caption*
 
 ## **Adding Weather Data from the Internet**
 {: #adding-weather-data}
@@ -202,10 +182,8 @@ the weather station.
 This video demonstrates how to set up an Outdoor Temperature Sensor by
 accessing National Weather Service data, available without any fees.
 
-[**Video:** **Getting National Weather Service Temperature and Wind
-Data**](https://vimeo.com/501051753)
-{% include video id="501051753" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Getting National Weather Service Temperature and Wind
+Data*{% include video id="501051753" provider="vimeo" %}
 
 More extensive sets of weather data beyond what the NWS provides are
 available
@@ -251,10 +229,8 @@ measuring the indoor temperatures in the building, which sensor measures
 the outdoor temperature, which sensor is the building's electric power
 sensor, etc. The following video shows how to do that:
 
-[**Video: Identifying & Entering Key Sensors for Energy
-Reports**](https://vimeo.com/501893423)
-{% include video id="501893423" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Identifying & Entering Key Sensors for Energy
+Reports*{% include video id="501893423" provider="vimeo" %}
 
 </details>
 
@@ -277,11 +253,9 @@ healthy and comfortable conditions for occupants and reducing
 complaints, or it could be a combination of goals. The dashboard can be
 set up in different ways to serve different goals.
 
-\[The Dashboard for the AHFC Headquarters Building Illustrates Some
-Options of What Can Be Displayed. \]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
-<br>{: #image8}*Caption*
+<br>{: #image8}*The Dashboard for the AHFC Headquarters Building Illustrates Some
+Options of What Can Be Displayed*
 
 </details>
 
@@ -289,42 +263,34 @@ Options of What Can Be Displayed. \]
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
-\[Guidelines for a Useful Dashboard\]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
-<br>{: #image9}*Caption*
+<br>{: #image9}*Guidelines for a Useful Dashboard*
 
-[**Video: Choosing Sensors to Display on the Building
-Dashboard**](https://vimeo.com/518690694)
-{% include video id="518690694" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Choosing Sensors to Display on the Building
+Dashboard*{% include video id="518690694" provider="vimeo" %}
 
-[**Video: Adding Custom Reports and Links to the
-Dashboard**](https://vimeo.com/518713395)
-{% include video id="518713395" provider="vimeo" %}
-<br>*Caption*
+
+***Video:*** *Adding Custom Reports and Links to the
+Dashboard*{% include video id="518713395" provider="vimeo" %}
+
 
 </details>
 
 ## Using and Creating Alerts
 {: #using-creating-alerts}
 
-\[Examples of What to Use Alerts for in BMON\]
-
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
-<br>{: #image10}*Caption*
+<br>{: #image10}*Examples of What to Use Alerts for in BMON*
 
 An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
-\[How to Create an Alert\]![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
-<br>{: #image11}*Caption*
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
+<br>{: #image11}*How to Create an Alert*
 
-[**Video: Creating Alerts and assigning
-Recipients**](https://vimeo.com/485808171)
-{% include video id="485808171" provider="vimeo" %}
-<br>*Caption*
+***Video:*** *Creating Alerts and assigning
+Recipients*{% include video id="485808171" provider="vimeo" %}
 
 \[\*\* Video 3.8 needs to be updated to include new features\*\*\]
 
@@ -338,9 +304,8 @@ entirely remove a sensor and its readings from BMON. You can accomplish
 these tasks by using BMON’s Sensor Data Utilities, found under the “Sys
 Admin" menu in BMON. The video below explains how to use the utilities:
 
-[**Video: Sensor Data Utilities**](https://vimeo.com/654243337)
+***Video:*** *Sensor Data Utilities*
 {% include video id="654243337" provider="vimeo" %}
-<br>*Caption*
 
 If you need to delete a sensor that does appear in the main BMON
 interface, you can do this by use of the “Unassigned Sensors" page, also
