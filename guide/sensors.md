@@ -180,7 +180,7 @@ last more than four years).
 
 <summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
 
-<table>
+<table border="1">
 <tbody>
 <tr valign="top">
 <td><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: All of the Elsys ERS sensors provide a temperature reading, ranging from the full-featured ERS CO2 sensor down to the ERS Lite sensor<br />
