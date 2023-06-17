@@ -194,7 +194,7 @@ td {
 </tr>
 </tbody>
 </table>
-*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*
+*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*{: #table1}
 
 The two LoRaWAN sensors listed above also measure humidity of the indoor
 space. Although humidity is less important than temperature, it does
@@ -264,7 +264,7 @@ sensors:
 </tr>
 </tbody>
 </table>
-*Wireless Outdoor Temperature Sensor Options*
+*Wireless Outdoor Temperature Sensor Options*{: #table2}
 
 When installing an outdoor temperature sensor, the most common mistake
 is to install it where sunshine can affect the reading. In Alaska, the
@@ -359,7 +359,7 @@ Here are some recommended wireless light level sensors:
 </tr>
 </tbody>
 </table>
-*Recommended Wireless Light Level Sensors*
+*Recommended Wireless Light Level Sensors*{: #table3}
 
 ### Installing Light Level Sensors
 {: #installing-light-level}
@@ -548,7 +548,7 @@ temperature probe. Here are three possibilities:
 </tr>
 </tbody>
 </table>
-*Wireless Temperature Sensor Options With External Temperature Probes*
+*Wireless Temperature Sensor Options With External Temperature Probes*{: #table4}
 
 ### Installing Boiler and Domestic Hot Water Sensors
 {: #installing-boiler-domestic}
