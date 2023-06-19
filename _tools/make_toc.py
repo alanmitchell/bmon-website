@@ -53,7 +53,7 @@ for f, max_depth in md_files:
                 target = search.group(1) if search else ''
                 print(f'{leader_space}- [{title}]({f}#{target})', file=fout)
 
-        if '***Video:' in lin:
+        if '***video:' in lin.lower():
             caption_search = re.search(':\*{3}(.+)', lin)
             caption = caption_search.group(1).strip().replace('*', '')
             # read the next line to retrieve the target

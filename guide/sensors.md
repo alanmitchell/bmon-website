@@ -96,6 +96,7 @@ Sensors (additional information for configurations with pulse output transformat
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
 
 ## Temperature
+{: #temperature}
 
 The temperature at various locations in a building is a valuable
 quantity to measure. From this temperature data, you can learn whether
