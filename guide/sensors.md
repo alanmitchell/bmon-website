@@ -671,6 +671,7 @@ sensor, its main focus is to give general hints on wiring external
 sensors to Elsys ELT sensors.
 
 ***VIDEO:*** *Wiring an External Sensor to Elsys ELT LoRaWAN Sensor*
+{: #video-wiring-external-sensor}
 {% include video id="566390563" provider="vimeo" %}
 
 A later section of the manual ([NOTE: link will need to be updated with

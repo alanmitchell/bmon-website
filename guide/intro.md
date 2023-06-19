@@ -72,6 +72,7 @@ Alaska Native Tribal Health Consortium:
 <br>
 
 ***Video:*** *Introduction to BMON*
+{: #video-introduction-bmon}
 {% include video id="672543509" provider="vimeo" %}
 
 ### Purpose of this Manual

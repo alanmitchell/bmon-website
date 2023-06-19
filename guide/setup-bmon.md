@@ -64,6 +64,7 @@ This video shows how to access the System Administrator interface and
 gives an overview of how the interface is used:
 
 ***Video:*** *System Administration Interface*
+{: #video-system-administration-interface}
 {% include video id="486081918" provider="vimeo" %}
 
 Remember that if you are using the Shared AHFC BMON System, you have
@@ -85,6 +86,7 @@ you can connect the building to your ‘Organization’ on the shared BMON
 server.
 
 ***Video:*** *Basic Information for Adding a New Building into BMON*
+{: #video-basic-information-adding}
 {% include video id="486208758" provider="vimeo" %}
 
 <details markdown="1">
@@ -101,6 +103,7 @@ View the video below to see how to set up some of these optional
 features:
 
 ***Video:*** *Advanced Building Information; Occupied Schedule & Additional Description*
+{: #video-advanced-building-information}
 {% include video id="486498160" provider="vimeo" %}
 
 
@@ -147,6 +150,7 @@ reporting into the BMON system, but have not yet been set up in the
 system.
 
 ***Video:*** *How to use Unassigned Sensors when Setting Up New Sensors*
+{: #video-how-use-unassigned}
 {% include video id="492722273" provider="vimeo" %}
 
 </details>
@@ -155,6 +159,7 @@ This video walks through the process of setting up a Sensor in BMON and
 assigning it to a Building and to a Sensor Group within that Building.
 
 ***Video:*** *Basic Steps for Adding a New Sensor*
+{: #video-basic-steps-adding}
 {% include video id="492728994" provider="vimeo" %}
 
 ## **Editing Information for an Existing Sensor**
@@ -168,6 +173,7 @@ the list of sensors by building and shows you how to search for a
 particular sensor.
 
 ***Video:*** *Editing Sensor Information*
+{: #video-editing-sensor-information}
 {% include video id="500314404" provider="vimeo" %}
 
 ## **Adding Weather Data from the Internet**
@@ -183,6 +189,7 @@ This video demonstrates how to set up an Outdoor Temperature Sensor by
 accessing National Weather Service data, available without any fees.
 
 ***Video:*** *Getting National Weather Service Temperature and Wind Data*
+{: #video-getting-national-weather}
 {% include video id="501051753" provider="vimeo" %}
 
 More extensive sets of weather data beyond what the NWS provides are
@@ -230,6 +237,7 @@ the outdoor temperature, which sensor is the building's electric power
 sensor, etc. The following video shows how to do that:
 
 ***Video:*** *Identifying & Entering Key Sensors for Energy Reports*
+{: #video-identifying-entering-key}
 {% include video id="501893423" provider="vimeo" %}
 
 </details>
@@ -267,10 +275,12 @@ Options of What Can Be Displayed*
 <br>{: #image9}*Guidelines for a Useful Dashboard*
 
 ***Video:*** *Choosing Sensors to Display on the Building Dashboard*
+{: #video-choosing-sensors-display}
 {% include video id="518690694" provider="vimeo" %}
 
 
 ***Video:*** *Adding Custom Reports and Links to the Dashboard*
+{: #video-adding-custom-reports}
 {% include video id="518713395" provider="vimeo" %}
 
 
@@ -290,6 +300,7 @@ alert, follow these steps or view the video below:
 <br>{: #image11}*How to Create an Alert*
 
 ***Video:*** *Creating Alerts and assigning Recipients*
+{: #video-creating-alerts-assigning}
 {% include video id="485808171" provider="vimeo" %}
 
 \[\*\* Video 3.8 needs to be updated to include new features\*\*\]
@@ -305,6 +316,7 @@ these tasks by using BMON’s Sensor Data Utilities, found under the “Sys
 Admin" menu in BMON. The video below explains how to use the utilities:
 
 ***Video:*** *Sensor Data Utilities*
+{: #video-sensor-data-utilities}
 {% include video id="654243337" provider="vimeo" %}
 
 If you need to delete a sensor that does appear in the main BMON
