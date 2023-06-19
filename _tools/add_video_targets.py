@@ -10,22 +10,23 @@ stop_words = ["a", "an", "the", "and", "but", "or", "on",
               "in", "with", "to", "of", "for"]
 
 md_files = [
-    #'intro',
-    #'sensors',
-    #'setup-bmon',
-    'use-data',
+    'intro',
+    'sensors',
+    'setup-bmon',
+#    'use-data',
     ]
 
 base_dir = Path('../guide')
 
 for f in md_files:
+    print(f)
 
     fout = open(f'out/{f}.md', 'w')
 
     for lin in open(base_dir / f'{f}.md'):
-        lin = lin.strip()
+        lin = lin.rstrip()
         print(lin, file=fout)
-        if '***Video:' in lin:
+        if '***video:' in lin.lower():
             caption_search = re.search(':\*{3}(.+)', lin)
             caption = caption_search.group(1).strip().replace('*', '')
             slug = slugify(

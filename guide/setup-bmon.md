@@ -146,16 +146,16 @@ video below shows you how to find the Sensor IDs for sensors that are
 reporting into the BMON system, but have not yet been set up in the
 system.
 
-***Video:*** *How to use Unassigned Sensors when Setting Up New
-Sensors*{% include video id="492722273" provider="vimeo" %}
+***Video:*** *How to use Unassigned Sensors when Setting Up New Sensors*
+{% include video id="492722273" provider="vimeo" %}
 
 </details>
 
 This video walks through the process of setting up a Sensor in BMON and
 assigning it to a Building and to a Sensor Group within that Building.
 
-***Video:*** *Basic Steps for Adding a New
-Sensor*{% include video id="492728994" provider="vimeo" %}
+***Video:*** *Basic Steps for Adding a New Sensor*
+{% include video id="492728994" provider="vimeo" %}
 
 ## **Editing Information for an Existing Sensor**
 {: #editing-information-existing}
@@ -182,8 +182,8 @@ the weather station.
 This video demonstrates how to set up an Outdoor Temperature Sensor by
 accessing National Weather Service data, available without any fees.
 
-***Video:*** *Getting National Weather Service Temperature and Wind
-Data*{% include video id="501051753" provider="vimeo" %}
+***Video:*** *Getting National Weather Service Temperature and Wind Data*
+{% include video id="501051753" provider="vimeo" %}
 
 More extensive sets of weather data beyond what the NWS provides are
 available
@@ -229,8 +229,8 @@ measuring the indoor temperatures in the building, which sensor measures
 the outdoor temperature, which sensor is the building's electric power
 sensor, etc. The following video shows how to do that:
 
-***Video:*** *Identifying & Entering Key Sensors for Energy
-Reports*{% include video id="501893423" provider="vimeo" %}
+***Video:*** *Identifying & Entering Key Sensors for Energy Reports*
+{% include video id="501893423" provider="vimeo" %}
 
 </details>
 
@@ -266,12 +266,12 @@ Options of What Can Be Displayed*
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>{: #image9}*Guidelines for a Useful Dashboard*
 
-***Video:*** *Choosing Sensors to Display on the Building
-Dashboard*{% include video id="518690694" provider="vimeo" %}
+***Video:*** *Choosing Sensors to Display on the Building Dashboard*
+{% include video id="518690694" provider="vimeo" %}
 
 
-***Video:*** *Adding Custom Reports and Links to the
-Dashboard*{% include video id="518713395" provider="vimeo" %}
+***Video:*** *Adding Custom Reports and Links to the Dashboard*
+{% include video id="518713395" provider="vimeo" %}
 
 
 </details>
@@ -289,8 +289,8 @@ alert, follow these steps or view the video below:
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
 <br>{: #image11}*How to Create an Alert*
 
-***Video:*** *Creating Alerts and assigning
-Recipients*{% include video id="485808171" provider="vimeo" %}
+***Video:*** *Creating Alerts and assigning Recipients*
+{% include video id="485808171" provider="vimeo" %}
 
 \[\*\* Video 3.8 needs to be updated to include new features\*\*\]
 
