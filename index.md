@@ -3,7 +3,7 @@ layout: home
 title: BMON Building Monitoring
 author_profile: false
 header:
-  image: /assets/images/banner1.png
+  image: /assets/images/banner2.png
 ---
 
 ### -- This Website is Under Construction !!

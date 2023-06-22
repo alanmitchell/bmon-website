@@ -33,11 +33,11 @@ for line in sys.stdin:
         print('<br>{: #' + img_base +  '}*Caption*')
 
     elif "https://vimeo.com/" in line:
-        print(line)
         match = re.search(r"vimeo\.com/(\d+)", line)
         if match:
             print('*Caption*')
             print('{% include video id="' + match.group(1) + '" provider="vimeo" %}')
+        print(line)
 
     else:
         # Line not needing action
