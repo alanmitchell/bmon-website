@@ -1,13 +1,12 @@
 ---
 layout: home
+title: BMON Building Monitoring
 author_profile: false
 header:
-  overlay_image: /assets/images/hero-header.jpg
+  image: /assets/images/banner1.png
 ---
 
-# -- This Website is Under Construction !!
-
-*The current content of this site is for testing purposes only.*
+### -- This Website is Under Construction !!
 
 BMON is a web-based software application that stores and analyzes sensor data coming from buildings or other facilities. 
 The application was developed by the Alaska Housing Finance Corporation (AHFC) 
