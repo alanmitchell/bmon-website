@@ -19,6 +19,8 @@ def resize_images(image_directory, new_width, new_height):
 
 # open the YAML file containing resizing info for this set of images
 img_info = yaml.safe_load(open(f'image-{base_dir}.yaml', 'r'))
+if img_info is None:
+    img_info = {}
 print(img_info)
  
 source_dir = f'converted/{base_dir}/media'

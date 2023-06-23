@@ -25,7 +25,7 @@ guide:
         url: /guide/resources.html
   - title: "Appendices"
     children:
-      - title: "Appendix A - Configuring LoRaWAN Sensors"
-        url: /guide/appendix-config-sensors.html
-      - title: "Appendix B - Configuring Dragino LoRaWAN Gateways"
-        url: /guide/appendix-config-gateways.html
+      - title: "Appendix - Configuring LoRaWAN Sensors"
+        url: /guide/appx-config-lorawan.html
+      - title: "Appendix - Configuring Dragino LoRaWAN Gateways"
+        url: /guide/appx-dragino-gateway.html
