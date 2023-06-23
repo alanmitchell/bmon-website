@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Configuring LoRaWAN Sensors for BMON
+title: "Appendix: Configuring LoRaWAN Sensors for BMON"
 toc: true
 ---
 
@@ -134,6 +134,7 @@ sensor settings. Then you adjust those settings as needed. The video
 below shows how to use the Elsys Smartphone App to configure sensors.
 
 ***Video:*** *Configuring Elsys Sensors with your Smartphone*
+{: #video-config-elsys-smartphone}
 {% include video id="654345666" provider="vimeo" %}
 
 Your sensor supplier may have most of the following settings already

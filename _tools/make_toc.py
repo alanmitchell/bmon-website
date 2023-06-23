@@ -15,10 +15,12 @@ stop_words = ["a", "an", "the", "and", "but", "or", "on",
               "in", "with", "to", "of", "for"]
 
 md_files = [
-    ('intro', 2),
-    ('sensors', 2),
-    ('setup-bmon', 2),
-    ('use-data', 2)
+    #('intro', 2),
+    #('sensors', 2),
+    #('setup-bmon', 2),
+    #('use-data', 2)
+    ('appx-config-lorawan', 2),
+    ('appx-dragino-gateway', 2)
     ]
 
 fout = open(f'{script_dir}/out/toc.md', 'w')

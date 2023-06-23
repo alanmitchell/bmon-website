@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Configuring Dragino LoRaWAN Gateways
+title: "Appendix: Configuring Dragino LoRaWAN Gateways"
 toc: false
 ---
 

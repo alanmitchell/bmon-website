@@ -119,6 +119,26 @@ toc: true
   - **Figure:** [Why Measuring Domestic Hot Water Supply Temperature is Useful](use-data#image22)
   - **Figure:** [Example of an IAQ Energy Report](use-data#image23)
 
+### Appendix: Configuring LoRaWAN Sensors for BMON
+- [Introduction](appx-config-lorawan#introduction)
+- [Registering Sensors on the Things Network](appx-config-lorawan#register-sensors-things)
+  - **Figure:** [Screenshot of Some Critical Settings When Adding a Device](appx-config-lorawan#image3)
+  - **Figure:** [Import End Devices link on the End Devices Page](appx-config-lorawan#image14)
+- [Configuring an Elsys Sensor](appx-config-lorawan#configuring-elsys-sensor)
+  - **Video:** [Configuring Elsys Sensors with your Smartphone](appx-config-lorawan#video-config-elsys-smartphone)
+  - **Figure:** [Screenshot of Important Settings in the Elsys Sensor App](appx-config-lorawan#image11)
+  - **Figure:** [Screenshot of Important Settings in the Elsys Sensor App, Continued](appx-config-lorawan#image13)
+  - **Figure:** [Screenshot of Important Settings in the Elsys Sensor App, Continued](appx-config-lorawan#image15)
+  - **Figure:** [Screenshot of Important Settings in the Elsys Sensor App, Continued](appx-config-lorawan#image9)
+  - **Figure:** [Screenshot of Important Settings in the Elsys Sensor App, Continued](appx-config-lorawan#image16)
+- [Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2](appx-config-lorawan#notes-about-external).  Includes excellent table that 
+gives details on how to wire and configure various external sensors.
+- [Miscellaneous Sensor Wiring and Configuration](appx-config-lorawan#miscellaneous-sensor-wiring)
+
+### Appendix: Configuring Dragino LoRaWAN Gateways
+  - **Figure:** [System Diagram for Dragino LoRaWAN Gateway](appx-dragino-gateway#image6)
+  - **Figure:** [System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks](appx-dragino-gateway#image2)
+
 ## Other Resources
 {: #other-resources}
 
