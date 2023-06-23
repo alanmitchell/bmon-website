@@ -1,13 +1,13 @@
 ---
 layout: single
-title: BMON and Building Monitoring
+title: Configuring LoRaWAN Sensors for BMON
 toc: true
 ---
 
-# **Configuring LoRaWAN Sensors for BMON**
-{: #configuring-lorawan-sensors}
+## Introduction
+{: #introduction}
 
-This section shows how to:
+This page shows how to:
 
   - Register a LoRaWAN sensor on the [Things
     Network](https://www.thethingsnetwork.org/), the freely available
@@ -19,6 +19,13 @@ This section shows how to:
 
   - Configure Elsys and Dragino sensors for use with your Things Network
     account and BMON.
+
+## Registering Sensors on the Things Network
+{: #register-sensors-things}
+
+Expand the section below to find details on how to register a LoRaWAN sensor
+on the Things Network.  This process may have already been done for you
+if you have received the sensor from the Alaska Housing Finance Corporation.
 
 <details markdown="1">
 
@@ -86,7 +93,7 @@ one time.
 
 </details>
 
-# **Configuring an Elsys Sensor**
+## Configuring an Elsys Sensor
 {: #configuring-elsys-sensor}
 
 A LoRaWAN sensor needs to be configured in order to tell it a number of
@@ -263,7 +270,7 @@ ERS CO2). It is very important that you do *not* have the *Sensor keys*
 section open when you click the *WRITE* button. That section includes
 the AppKey, which is unique for each sensor and should not be changed.
 
-## **Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2**
+## Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2
 {: #notes-about-external}
 
 In this section we give some details about how to connect and configure
@@ -383,7 +390,7 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 </tbody>
 </table>
 
-## **Miscellaneous Sensor Wiring and Configuration**
+## Miscellaneous Sensor Wiring and Configuration
 {: #miscellaneous-sensor-wiring}
 
 The table below gives details on use and configuration of some selected

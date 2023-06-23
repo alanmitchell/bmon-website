@@ -1,14 +1,11 @@
 ---
 layout: single
-title: BMON and Building Monitoring
-toc: true
+title: Configuring Dragino LoRaWAN Gateways
+toc: false
 ---
 
-# **Configuring Dragino LoRaWAN Gateways**
-{: #configuring-dragino-lorawan}
-
-Dragino makes a few different LoRaWAN gateways, including the indoor
-LIG16, the outdoor DLOS8, and the indoor, cellular-capable LG308. This
+Dragino makes a few different LoRaWAN gateways, including the LPS8N
+and the outdoor DLOS8. This
 section gives some notes on how to configure these gateways. Full
 documentation for each gateway is on the Dragino website and should be
 consulted for detailed information.
@@ -27,10 +24,8 @@ requesting you to log in. For this log in, the username is “root" and
 the password is “dragino". You are then presented with the following
 system diagram:
 
-\[System Diagram for Dragino LoRaWAN Gateway\]
-
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image6.png)
-<br>{: #image6}*Caption*
+<br>{: #image6}*System Diagram for Dragino LoRaWAN Gateway*
 
 which generally displays which parts of the gateway are working. Access
 to different configuration pages can be done by clicking on parts of the
@@ -48,25 +43,26 @@ page again.
 Here are the key settings that need to be changed to configure the
 gateway for US operation on the Things Network:
 
-\[Key Settings for Configuring the Gateway for US Operation on the
-Things Network\]
-
 1.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
     Settings section to look like the following:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image1.png)
-<br>{: #image1}*Caption*
-    Click the “Save\&Apply" button at the bottom of the page.
+<br>{: #image1}
+
+    Click the “Save&Apply" button at the bottom of the page.
 
 2.  From the “LoRaWAN" menu, click the “LoRaWAN" item. Copy and save the
     Gateway ID from the General Settings section, as you will need this
     later when you register this gateway on the Things Network. Do not
     change the ID.
+
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image5.png)
-<br>{: #image5}*Caption*
+<br>{: #image5}
+
     Then set the “Primary LoRaWAN Server" as follows:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image4.png)
-<br>{: #image4}*Caption*
-    Click the “Save\&Apply" button at the bottom of the page.
+<br>{: #image4}
+
+    Click the “Save&Apply" button at the bottom of the page.
 
 3.  If you are going to connect the gateway to the Internet via a wired
     Ethernet connection, there is no more configuration required on the
@@ -84,6 +80,9 @@ Things Network\]
     not available, an Ethernet connection will also not work. If you use
     Wi-Fi for testing the gateway but ultimately intend to use an
     Ethernet connection, make sure you disable the Wi-Fi WAN Client.
+    If your gateway is capable of a cellular connection to the Internet,
+    you can set that up on the "Network" page as well.  You need to
+    know the APN of the cellular network you are connecting to.
 
 4.  You then need to register the gateway on the Things Network through
     the [Things
@@ -94,12 +93,12 @@ Things Network\]
     Gateway EUI on the Things Console). Also, the frequency plan must be
     set correctly:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image3.png)
-<br>{: #image3}*Caption*
+<br>{: #image3}
 
 5.  Unplug and then re-power the gateway. If you reconnect to the
     gateway’s Wi-Fi network and visit the home page at 10.130.1.1, you
     should see green checkmarks:
 
-\[System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks\]
+
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image2.png)
-<br>{: #image2}*Caption*
+<br>{: #image2}*System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks*
