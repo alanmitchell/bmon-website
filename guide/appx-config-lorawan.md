@@ -375,9 +375,9 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <td><strong>Maxbotix Distance Sensor</strong><br />
 Can be used to measure depth of fuel in a fuel tank.</td>
 <td>Can be used with an ELT-2.  Set the "External Sensor" setting to "Maxbotix".</td>
-<td><p>Red wire from Maxbotix: B+<br />
-Blue Maxbotix: IN<br />
-Black Maxbotix: Ground</p>
+<td><p>Red wire Maxbotix → Elsys B+<br />
+Blue Maxbotix → Elsys IN<br />
+Black Maxbotix → Elsys Gnd ⏚</p>
 <p>Clip the shield and all other colored wires.</p></td>
 </tr>
 </tbody>
