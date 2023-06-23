@@ -371,6 +371,15 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 25.0 * (val - 0.588) / 2.352</p>
 <p>(this accounts for the 7,400 Ohm internal resistance of the Elsys ELT).</p></td>
 </tr>
+<tr class="even">
+<td><strong>Maxbotix Distance Sensor</strong><br />
+Can be used to measure depth of fuel in a fuel tank.</td>
+<td>Can be used with an ELT-2.  Set the "External Sensor" setting to "Maxbotix".</td>
+<td><p>Red wire from Maxbotix: B+<br />
+Blue Maxbotix: IN<br />
+Black Maxbotix: Ground</p>
+<p>Clip the shield and all other colored wires.</p></td>
+</tr>
 </tbody>
 </table>
 
@@ -400,14 +409,6 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 <p><strong>White:</strong> temperature 1</p>
 <p><strong>Red:</strong> temperature 2</p>
 <p><strong>Black:</strong> temperature 3</p></td>
-</tr>
-<tr class="even">
-<td><strong>Maxbotix</strong></td>
-<td></td>
-<td><p>Red: B+</p>
-<p>Blue: IN</p>
-<p>Black: Ground</p>
-<p>Clip the shield and all other colored wires</p></td>
 </tr>
 </tbody>
 </table>
