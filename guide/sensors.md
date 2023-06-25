@@ -1,7 +1,5 @@
 ---
-layout: single
 title: How to Choose/Set Up Sensors
-toc: true
 ---
 
 ## Introduction

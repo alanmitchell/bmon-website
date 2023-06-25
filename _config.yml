@@ -80,6 +80,9 @@ defaults:
   - scope:
       path: "guide"
     values:
+      classes: wide
+      layout: single-no-right
+      toc: true
       sidebar:
         nav: "guide"
 

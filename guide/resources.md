@@ -1,7 +1,5 @@
 ---
-layout: single
 title: BMON Resources
-toc: true
 ---
 
 ## User Guide Contents

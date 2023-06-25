@@ -1,7 +1,5 @@
 ---
-layout: single
 title: How to Set Up Your BMON System
-toc: true
 ---
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)

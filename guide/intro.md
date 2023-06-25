@@ -1,7 +1,5 @@
 ---
-layout: single
 title: Introduction to BMON
-toc: true
 ---
 
 ## Acknowledgements

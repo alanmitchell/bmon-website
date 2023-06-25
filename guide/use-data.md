@@ -1,7 +1,5 @@
 ---
-layout: single
 title: How to Use BMON Sensor Data
-toc: true
 ---
 
 ## Creating a Monitoring Plan
