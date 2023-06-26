@@ -164,9 +164,7 @@ data to the BMON platform.
 Details on configuring BMON to gather Ecobee data are available
 [online.](https://bmon-documentation.readthedocs.io/en/latest/periodic-scripts.html#collect-data-from-ecobee-thermostats)
 This requires using the “System Administrator" portion of BMON, a topic
-that is addressed in this section of the manual \[Link to Video: System
-Administration Interface in Section 3 How to Set Up Your BMON System,
-Overview of the System Administrator Interface\].
+that is addressed in [this section of the manual](setup-bmon#video-system-administration-interface).
 
 </details>
 </details>
@@ -223,10 +221,7 @@ on how to integrate NWS data into your BMON system using the System
 Administrator functions of BMON. You can also acquire wind speed data
 from the NWS using this method.
 
-Details on the System Administrator functions of BMON are in this
-section of the [manual](#_gtapnkhesz37) \[Link to Video: System
-Administration Interface in Section 3 How to Set Up Your BMON System,
-Overview of the System Administrator Interface\].
+Details on the System Administrator functions of BMON are in [this section of the manual](setup-bmon#video-system-administration-interface).
 
 <details markdown="1">
 
@@ -651,10 +646,7 @@ companies such as:
   - [EKM Metering](https://www.ekmmetering.com/).
 
 These sensors generally can output electrical pulses, which can be
-counted by the Elsys ELT-Lite or Dragino LHT65 sensors, previously shown
-\[Link to Photo: Wireless Outdoor Temperature Sensor Options in Section
-2 How to Choose/Set Up Sensors, Outdoor Temperature Collection Methods,
-Wireless Temperature Sensor Weather Data\].
+counted by the Elsys ELT-Lite or Dragino LHT65 sensors, [shown above under outdoor temperature collection methods](sensors#table2).
 
 </details>
 
@@ -673,9 +665,7 @@ sensors to Elsys ELT sensors.
 {: #video-wiring-external-sensor}
 {% include video id="566390563" provider="vimeo" %}
 
-A later section of the manual ([NOTE: link will need to be updated with
-final one onlineAdding a Sensor and Assigning it to a
-Building](https://docs.google.com/document/d/1nrUgCqQxBiAhx5_4Gt4D7KoNxHRiORMZON_rd539IkE/edit#heading=h.sjg4w4cro0yw))
+A later section of the manual, [Adding a Sensor and Assigning it to a Building](setup-bmon#adding-sensor-assigning),
 shows how to add and configure sensors in BMON. For more detail on how
 the data from these sensors must be configured to be useful, click
 below.
@@ -699,9 +689,7 @@ Heating fuel is a major source of energy use in most every Alaska
 building. Therefore, closely monitoring fuel use is very important for
 identifying and measuring energy savings opportunities. The benefits of
 measuring fuel are very similar to the benefits of measuring electricity
-use, described in this section \[Link to Section 2 How to Choose/Set Up
-Sensors, Building Electric Power, Potential BMON-Guided Energy Savings
-in Measuring Electricity Use\]. For details on the benefits of measuring
+use, described in this section: [Potential Energy Savings of Measuring Electricity](sensors#image20). For details on the benefits of measuring
 fuel, click below.
 
 <details markdown="1">
@@ -920,8 +908,7 @@ RS485 sensors can be used to report this heat load to BMON.
 
 This section will show some typical wiring configurations for the
 sensors discussed above. There is a more [detailed table of wiring and
-configuration](https://docs.google.com/document/d/1PFpajCRwzp9jceMrVn5ofAVRoKa2LfpkqDQGIWKlfTo/edit#heading=h.90rhtdafs2zm)
-information for Elsys ELT sensors in the Appendix of this document.
+configuration information for Elsys ELT sensors](appx-config-lorawan#elsys-sensor-table) in the Appendix- Configuring LoRaWAN Sensors.
 
 Click below for more detail on each configuration.
 
@@ -1103,9 +1090,8 @@ for Things Indoor Gateway
 <summary>Dragino Gateway Setup</summary>
 
 Setup instructions for the Dragino gateways are found in their User
-Manuals; some helpful hints are also provided in Section 5 of this
-Manual\[Link to: Section 5 Configuring LoRaWAN Sensors for BMON,
-Configuring Dragino LoRaWAN Gateways\]. For setup purposes, the gateway
+Manuals; some helpful hints are also provided in the [Appendix-
+Configuring Dragino LoRaWAN Gateways](appx-dragino-gateway#topofpage). For setup purposes, the gateway
 will act like a Wi-Fi access point, which you can connect your laptop
 to, and then browse with your browser to the Setup page for the gateway.
 When you go to the Wi-Fi setup page, make sure you keep the Wi-Fi access
