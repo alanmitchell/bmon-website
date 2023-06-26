@@ -28,7 +28,7 @@ forwards the data to a server on the Internet.
 BMON currently supports two different wireless sensor platforms: LoRaWAN
 and Monnit.
 
-<details markdown="1", open="">
+<details markdown="1">
 
 <summary>LoRaWAN Wireless Sensors</summary>
 
