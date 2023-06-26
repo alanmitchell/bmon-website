@@ -40,7 +40,7 @@ title: BMON Resources
 - [Building Fuel Use Data](sensors#building-fuel-use)
   - **Figure:** [Potential Energy Savings in Measuring Fuel Use](sensors#image21)
   - **Figure:** [Natural Gas Meter With a Monnit Wireless Pulse Counter](sensors#image22)
-  - **Figure:** [Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN Sensor](https://www.elsys.se/en/lora-elt-lite/)](sensors#image9)
+  - **Figure:** [Typical LoRaWAN Pulse Counter, Elsys ELT-Lite LoRaWAN Sensor](sensors#image9)
   - **Figure:** [An Elster 4p Fuel Flow Meter Installation](sensors#image23)
   - **Figure:** [Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact Sensor](sensors#image24)
   - **Figure:** [A Motor Sensor Used to Sense Whether a Motor is On or Off](sensors#image25)
