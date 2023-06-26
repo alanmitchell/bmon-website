@@ -29,6 +29,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bmon.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alanmitchell
 
+# Search box settings
+#search: true
+#lunr:
+#  search_within_pages: true
+#  search_full_content: true
+
 # Markdown processor
 markdown: kramdown
 kramdown:
@@ -41,6 +47,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 #jekyll-archives:
 #  enabled:
