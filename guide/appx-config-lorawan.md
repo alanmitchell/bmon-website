@@ -1,6 +1,7 @@
 ---
 title: "Appendix: Configuring LoRaWAN Sensors for BMON"
 ---
+{: #topofpage}
 
 ## Introduction
 {: #introduction}
