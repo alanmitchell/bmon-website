@@ -90,4 +90,5 @@ defaults:
 exclude:
   - README.md
   - LICENSE
-
+  - Gemfile
+  - Gemfile.lock
