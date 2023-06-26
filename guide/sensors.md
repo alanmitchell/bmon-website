@@ -71,7 +71,7 @@ The primary LoRaWAN sensor manufacturers,
 [Elsys](https://www.elsys.se/en/) and
 [Dragino](https://dragino.com/products/lora-lorawan-end-node.html), are
 covered throughout this section and in more detail in the section [Appendix-
-Configuring LoRaWAN Sensors](appx-config-lorawan#introduction). There are dozens of additional manufacturers
+Configuring LoRaWAN Sensors](appx-config-lorawan#topofpage). There are dozens of additional manufacturers
 that make compatible LoRaWAN sensors, but these two manufacturers cover
 building monitoring needs well. A comparison of these two brands is
 below.
