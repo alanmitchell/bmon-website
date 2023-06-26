@@ -5,7 +5,7 @@ import re
 from PIL import Image
 import yaml
 
-FULL_WIDTH = 936      # Image width in pixels for full-width image.
+FULL_WIDTH = 1052      # Image width in pixels for full-width image.
 
 # the base directory for the images
 base_dir = sys.argv[1]

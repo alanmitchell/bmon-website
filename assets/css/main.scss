@@ -9,5 +9,7 @@ $right-sidebar-width-narrow: 300px;
 $right-sidebar-width: 300px;
 $right-sidebar-width-wide: 300px;
 
+$max-width: 1396px;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
