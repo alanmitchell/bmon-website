@@ -109,6 +109,7 @@ staff of heating failures before damage occurs.
 <summary>Potential BMON-Guided Energy Savings of Measuring
 Temperature</summary>
 
+{: #image4}
 ![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
 <br>{: #image4}*Potential Energy Savings of Measuring Building Temperature*
 
