@@ -2,6 +2,7 @@
 title: "Appendix: Configuring Dragino LoRaWAN Gateways"
 toc: false
 ---
+{: #topofpage}
 
 Dragino makes a few different LoRaWAN gateways, including the LPS8N
 and the outdoor DLOS8. This
