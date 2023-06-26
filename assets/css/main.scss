@@ -11,5 +11,8 @@ $right-sidebar-width-wide: 300px;
 
 $max-width: 1396px;
 
+$sans-serif: "Franklin Gothic Book", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
