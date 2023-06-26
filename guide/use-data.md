@@ -166,7 +166,7 @@ Available Data Visualization Tools*
 {: #common-graphs-reports}
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
-<br>{: #image4}
+<br>{: #image4}*Common BMON Graphs and Reports*
 
 **Current Sensor Values**
 
@@ -179,15 +179,15 @@ Sensor Values report will also show sensor values highlighted red if
 they are triggering an Alert.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image5.png)
-<br>{: #image5}*The top part of a Current Sensor Values report showing the sensor name,
+<br>{: #image5}*The top portion of a Current Sensor Values report (showing the sensor name,
 most recent reported value and units, the time of the last reported
-value, and the sensor ID.*
+value, and the sensor ID)*
 
 **Plot Sensor Values over Time**
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image6.png)
 <br>{: #image6}*Example of a Plot Sensor Values over Time Graph Used to Measure
-Temperature of Selected Building Areas Over a Period of Months*
+Temperature of Selected Building Areas over a Period of Months*
 
 The “Plot Sensor Values over Time" graph is used to plot the values from
 one or more sensors over time. There are a number of special features of
