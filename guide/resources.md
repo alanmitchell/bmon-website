@@ -145,6 +145,11 @@ title: BMON Resources
 
 ### Appendix: Configuring Dragino LoRaWAN Gateways
   - **Figure:** [System Diagram for Dragino LoRaWAN Gateway](appx-dragino-gateway#image6)
+- [Configuring Gateway for the Things Network](appx-dragino-gateway#configure-gateway-things)
+  - **Figure:** [Screenshot of LoRa Radio Settings](appx-dragino-gateway#image1)
+  - **Figure:** [Screenshot of Gateway ID](appx-dragino-gateway#image5)
+  - **Figure:** [Screenshot of Primary LoRaWAN Server](appx-dragino-gateway#image4)
+  - **Figure:** [Screenshot of Frequency Plan](appx-dragino-gateway#image3)
   - **Figure:** [System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks](appx-dragino-gateway#image2)
 
 ## Other Resources
