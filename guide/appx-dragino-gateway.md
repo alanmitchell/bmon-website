@@ -40,13 +40,16 @@ from your PC to the Gateway and “Proceed with Flash". You will be forced
 to reconnect to the gateway Wi-Fi network and access the configuration
 page again.
 
+## Configuring Gateway for the Things Network
+{: #configure-gateway-things}
+
 Here are the key settings that need to be changed to configure the
 gateway for US operation on the Things Network:
 
 1.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
     Settings section to look like the following:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image1.png)
-<br>{: #image1}
+<br>{: #image1}*Screenshot of LoRa Radio Settings*
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -56,11 +59,11 @@ gateway for US operation on the Things Network:
     change the ID.
 
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image5.png)
-<br>{: #image5}
+<br>{: #image5}*Screenshot of Gateway ID*
 
     Then set the “Primary LoRaWAN Server" as follows:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image4.png)
-<br>{: #image4}
+<br>{: #image4}*Screenshot of Primary LoRaWAN Server*
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -93,7 +96,7 @@ gateway for US operation on the Things Network:
     Gateway EUI on the Things Console). Also, the frequency plan must be
     set correctly:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image3.png)
-<br>{: #image3}
+<br>{: #image3}*Screenshot of Frequency Plan*
 
 5.  Unplug and then re-power the gateway. If you reconnect to the
     gateway’s Wi-Fi network and visit the home page at 10.130.1.1, you
