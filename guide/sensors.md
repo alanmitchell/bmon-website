@@ -571,6 +571,7 @@ building and should be monitored if at all possible. Electricity usage
 data can be used to find energy saving opportunities in a number of
 different ways. For more detail, click below.
 
+{: #electrical-savings}
 <details markdown="1">
 
 <summary>Potential BMON-Guided Energy Savings in Measuring
@@ -689,7 +690,7 @@ Heating fuel is a major source of energy use in most every Alaska
 building. Therefore, closely monitoring fuel use is very important for
 identifying and measuring energy savings opportunities. The benefits of
 measuring fuel are very similar to the benefits of measuring electricity
-use, described in this section: [Potential Energy Savings of Measuring Electricity](sensors#image20). For details on the benefits of measuring
+use, described in this section: [Potential Energy Savings of Measuring Electricity](sensors#electrical-savings). For details on the benefits of measuring
 fuel, click below.
 
 <details markdown="1">
