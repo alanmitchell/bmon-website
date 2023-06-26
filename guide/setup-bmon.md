@@ -105,13 +105,11 @@ features:
 {% include video id="486498160" provider="vimeo" %}
 
 
-A later section \[Link to: Section 4 How to Use the BMON Sensor Data,
-Analyzing Data, Energy Reports\] will show how to fill out the building
+A later section, [How to Use the BMON Sensor Data-
+Analyzing Data: Energy Reports](use-data#energy-reports), will show how to fill out the building
 fields that are necessary if you want to use the “Energy Reports"
 feature of the BMON system. Energy Reports are very useful for finding
-possible energy savings, so this task, described later \[Link to:
-Section 4 How to Use the BMON Sensor Data, Analyzing Data, Energy
-Reports\], should be completed.
+possible energy savings, so this [task](use-data#energy-reports) should be completed.
 
 </details>
 
@@ -218,9 +216,8 @@ is available online.
 Energy Reports are one of the data analysis tools that BMON provides.
 These reports provide graphs and information that help you identify
 possible energy savings opportunities in your buildings. Click below for
-additional explanation on Energy Reports and go to this section for far
-more detail \[Link to: Section 4 How to Use the BMON Sensor Data,
-Analyzing Data, Energy Reports\].
+additional explanation on Energy Reports and go to [this section for far
+more detail](use-data#energy-reports).
 
 <details markdown="1">
 
