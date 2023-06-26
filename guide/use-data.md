@@ -1,7 +1,7 @@
 ---
 title: How to Use BMON Sensor Data
 ---
-
+{: #topofpage}
 ## Creating a Monitoring Plan
 {: #creating-monitoring-plan}
 
