@@ -1,6 +1,11 @@
 ---
-title: Introduction to BMON
+title: User Guide
+header:
+  image: /assets/images/banner2.png
+
 ---
+
+*This site is best viewed with the Chrome web browser.*
 
 ## Acknowledgements
 {: #acknowledgements}
