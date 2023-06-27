@@ -14,7 +14,7 @@ viewing data, but includes informative charts such as Histograms and
 Hourly Profile charts for analyzing the data. Alerts can be set up to text 
 or email individuals if sensor values move outside normal ranges.
 
-Here is a link to the [AHFC BMON Web Site](https://bms.ahfc.us).
+Here is a link to the [AHFC BMON Web Site](https://bms.ahfc.us){:target="_blank"}.
 
 *This site is best viewed with the Chrome web browser.*
 
