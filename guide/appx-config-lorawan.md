@@ -9,7 +9,7 @@ title: "Appendix: Configuring LoRaWAN Sensors for BMON"
 This page shows how to:
 
   - Register a LoRaWAN sensor on the [Things
-    Network](https://www.thethingsnetwork.org/), the freely available
+    Network](https://www.thethingsnetwork.org/){:target="_blank"}, the freely available
     network of servers that can accept sensor readings and forward them
     to BMON. This section assumes that there already is a Things Network
     account set up, and that there is an Application set up in that
@@ -35,7 +35,7 @@ sensor readings and forward them to BMON via an HTTP Integration,
 individual sensors must be registered with that Application.
 
 [This Video by Things
-Industries](https://www.youtube.com/watch?v=PpbkBgz1CbI) shows how to
+Industries](https://www.youtube.com/watch?v=PpbkBgz1CbI){:target="_blank"} shows how to
 create an Application and manually add Devices to that application. Note
 that Application creation for the BMON Application should already be
 done, so that portion of the video is not important. Also, the video
@@ -77,7 +77,7 @@ BMON, here are the codes:
 <br>{: #image8}*Screenshot of Root Keys*
 
 The simplest way to enter a batch of Elsys sensors is to use the
-[Elsys-to-Things Tool](https://elsys-to-things.bmon.org/). This web
+[Elsys-to-Things Tool](https://elsys-to-things.bmon.org/){:target="_blank"}. This web
 application has you upload the CSV order file that Elsys provides with
 each order; this file contains the critical IDs and keys for each of the
 sensors. The Elsys-to-Things tool can then create a JSON file of the
@@ -155,7 +155,7 @@ value shown here means readings will be posted every 10 minutes.
 The sensor used in this example is an ELT Lite sensor, which has
 terminals to connect an *External sensor*. The type of *External sensor*
 should be selected in the drop-down. See the [Elsys
-Manual](https://www.elsys.se/en/documents-firmware/) for a full
+Manual](https://www.elsys.se/en/documents-firmware/){:target="_blank"} for a full
 description of the options, but here are commonly used selections for
 BMON:
 
@@ -175,7 +175,7 @@ BMON:
   - **1-wire Temperature probe:** Used when you connect an external
     temperature probe, either available through Elsys or through vendors
     such as Amazon (see [these
-    probes](https://www.amazon.com/gp/product/B00QGN0LKY/)).
+    probes](https://www.amazon.com/gp/product/B00QGN0LKY/)){:target="_blank"}.
 
   - **Switch:** Used when sensing whether a switch or a relay is closed.
 
@@ -276,8 +276,8 @@ the AppKey, which is unique for each sensor and should not be changed.
 In this section we give some details about how to connect and configure
 a variety of external sensors to the Elsys ELT-Lite or ELT-2 sensor.
 Consult the Elsys ELT User Manuals
-([ELT-Lite](https://elsys.se/public/manuals/Operating%20Manual%20ELT%20Lite.pdf),
-[ELT-2](https://elsys.se/public/manuals/Operating%20Manual%20ELT-2.pdf))
+([ELT-Lite](https://elsys.se/public/manuals/Operating%20Manual%20ELT%20Lite.pdf){:target="_blank"},
+[ELT-2](https://elsys.se/public/manuals/Operating%20Manual%20ELT-2.pdf)){:target="_blank"}
 for more details.
 
 *Elsys External Sensor Wiring and Configuration Table*

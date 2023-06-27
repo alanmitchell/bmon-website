@@ -13,8 +13,8 @@ Your configuration data will also be accessible to system operators from
 other organizations. Your other option is to install your own copy of
 the free BMON software on a Linux server you own or rent. “Cloud" Linux
 servers capable of running BMON can be rented starting at $6 per month
-(e.g. [Digital Ocean](https://www.digitalocean.com/),
-[Linode](https://www.linode.com/)).
+(e.g. [Digital Ocean](https://www.digitalocean.com/){:target="_blank"},
+[Linode](https://www.linode.com/)){:target="_blank"}.
 
 </details>
 
@@ -32,7 +32,7 @@ set up the building and sensors that are used in your BMON system.
 
 The LoRaWAN wireless sensors used in this section must be set up to
 deliver their data to the publicly-available [Things
-Network](https://www.thethingsnetwork.org/). The account on the Things
+Network](https://www.thethingsnetwork.org/){:target="_blank"}. The account on the Things
 Network that receives the data must be configured to forward it to your
 BMON server. For the rest of this section, we will assume that this
 configuration is in place.
@@ -190,7 +190,7 @@ accessing National Weather Service data, available without any fees.
 
 More extensive sets of weather data beyond what the NWS provides are
 available
-[online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet).
+[online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet){:target="_blank"}.
 **Important:** *The “Calculated Field" checkbox in the sensor setup
 screen needs to be marked when gathering weather data from the
 internet.*
@@ -205,7 +205,7 @@ you want to be able to see the total electric use of a building that has
 two electric meters. Most other types of calculations to create a new
 sensor are available. However, we will not dive into this deeper in this
 section. If interested, more detail on [Calculated
-Fields](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html)
+Fields](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html){:target="_blank"}
 is available online.
 
 </details>

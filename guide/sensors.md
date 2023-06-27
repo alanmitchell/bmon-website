@@ -32,11 +32,11 @@ and Monnit.
 
 <summary>LoRaWAN Wireless Sensors</summary>
 
-[LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/): LoRaWAN
+[LoRaWAN](https://www.thethingsnetwork.org/docs/lorawan/){:target="_blank"}: LoRaWAN
 wireless sensors and the associated internet gateways are available from
 numerous suppliers, although parts of the technology are proprietary.
 AHFC is currently using the world-wide [Things
-Network](https://www.thethingsnetwork.org/) to collect readings from
+Network](https://www.thethingsnetwork.org/){:target="_blank"} to collect readings from
 LoRaWAN sensors and send those readings to BMON. Any gateway on this
 network is publicly available for use by your sensors, without charge.
 You are able to add your own gateways to the network. AHFC can help you
@@ -53,7 +53,7 @@ for a new project.
 
 <summary>Monnit Wireless Sensors</summary>
 
-[Monnit](https://www.monnit.com/): This wireless sensor platform has
+[Monnit](https://www.monnit.com/){:target="_blank"}: This wireless sensor platform has
 been used with BMON since its beginning. The platform is proprietary,
 and does involve annual subscription fees to support the Internet
 servers that initially store the data before forwarding to BMON. This
@@ -65,11 +65,11 @@ used in many different facilities connected to BMON.
 The rest of the BMON User Manual will focus on using LoRaWAN wireless
 sensors, rather than Monnit sensors. More information on using Monnit
 sensors can be found
-[online](https://bmon-documentation.readthedocs.io/en/latest/adding-buildings-and-sensors.html#adding-sensors).
+[online](https://bmon-documentation.readthedocs.io/en/latest/adding-buildings-and-sensors.html#adding-sensors){:target="_blank"}.
 
 The primary LoRaWAN sensor manufacturers,
-[Elsys](https://www.elsys.se/en/) and
-[Dragino](https://dragino.com/products/lora-lorawan-end-node.html), are
+[Elsys](https://www.elsys.se/en/){:target="_blank"} and
+[Dragino](https://dragino.com/products/lora-lorawan-end-node.html){:target="_blank"}, are
 covered throughout this section and in more detail in the section [Appendix-
 Configuring LoRaWAN Sensors](appx-config-lorawan#topofpage). There are dozens of additional manufacturers
 that make compatible LoRaWAN sensors, but these two manufacturers cover
@@ -90,7 +90,7 @@ electrical outputs, detailed below.
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
 Sensors (additional information for configurations with pulse output transformation is
-[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*
+[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms)){:target="_blank"}*
 
 ## Temperature
 {: #temperature}
@@ -162,7 +162,7 @@ data to the BMON platform.
 <summary>Gathering Ecobee Data</summary>
 
 Details on configuring BMON to gather Ecobee data are available
-[online.](https://bmon-documentation.readthedocs.io/en/latest/periodic-scripts.html#collect-data-from-ecobee-thermostats)
+[online.](https://bmon-documentation.readthedocs.io/en/latest/periodic-scripts.html#collect-data-from-ecobee-thermostats){:target="_blank"}
 This requires using the “System Administrator" portion of BMON, a topic
 that is addressed in [this section of the manual](setup-bmon#video-system-administration-interface).
 
@@ -208,7 +208,7 @@ water vapor into the shell of the building.
 There are a number of good methods for collecting outdoor temperature
 data for a building. The National Weather Service has numerous weather
 stations in Alaska, and the Weather Service makes this data available on
-the [Internet for free](https://www.weather.gov/aawu/stnlist). BMON has
+the [Internet for free](https://www.weather.gov/aawu/stnlist){:target="_blank"}. BMON has
 the capability to retrieve this data directly from the Internet and this
 is the preferred source of outdoor temperature data, since a sensor does
 not need to be purchased or maintained, and the quality of the data is
@@ -216,7 +216,7 @@ generally good. For additional information on the use of Mesonet API and
 wireless temperature sensors, click below.
 
 **National Weather Service (NWS):** Information is available
-[online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet)
+[online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet){:target="_blank"}
 on how to integrate NWS data into your BMON system using the System
 Administrator functions of BMON. You can also acquire wind speed data
 from the NWS using this method.
@@ -228,14 +228,14 @@ Details on the System Administrator functions of BMON are in [this section of th
 <summary>Mesonet API Weather Data</summary>
 
 Synoptic Developers provides a service called the [Mesonet
-API](https://developers.synopticdata.com/mesonet/), which provides
+API](https://developers.synopticdata.com/mesonet/){:target="_blank"}, which provides
 weather data from a wide variety of weather station networks, including
 the National Weather Service. Limited use of the Mesonet API is free,
 but extensive use requires enrolling in a paid subscription. Only use
 this service if you don’t have a nearby NWS station that can be acquired
 for free from NWS. How to acquire data from the Mesonet API is
 [available
-online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet).
+online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet){:target="_blank"}.
 
 </details>
 
@@ -267,7 +267,7 @@ installing a sensor on the north side is not enough to avoid distorted
 readings at some times of the day. If you cannot find a
 completely-shaded spot, consider using a solar radiation shield such as
 [this
-one](https://www.amazon.com/Crosse-Technology-925-1418-Sensor-Protection/dp/B00VSXENM4/)
+one](https://www.amazon.com/Crosse-Technology-925-1418-Sensor-Protection/dp/B00VSXENM4/){:target="_blank"}
 in addition to placing the sensor in the most shaded location. Also,
 mount the sensor at least 3 feet away from building walls, as the sun on
 those walls and heat loss from the building can distort the temperature
@@ -321,7 +321,7 @@ click below.
 
 “Analog” sensors measure the amount of light, or light levels, usually
 in units of lux. Typical office lighting levels are [500
-lux](https://www.waveformlighting.com/home-residential/what-is-the-difference-between-lux-and-lumens)
+lux](https://www.waveformlighting.com/home-residential/what-is-the-difference-between-lux-and-lumens){:target="_blank"}
 or more. This is the preferred type of sensor.
 
 </details>
@@ -423,7 +423,7 @@ you to see how ventilation air is distributed through a building and/or
 whether the ventilation airflow is keeping up with occupancy in specific
 spaces. Accessing CO<sub>2</sub> measurements from a control system can
 be done using [this
-process](https://bmon-documentation.readthedocs.io/en/latest/setting-up-sensors-to-post-to-bmon.html#general-method-for-gathering-data-from-building-automation-systems).
+process](https://bmon-documentation.readthedocs.io/en/latest/setting-up-sensors-to-post-to-bmon.html#general-method-for-gathering-data-from-building-automation-systems){:target="_blank"}.
 A potential downside of gathering CO<sub>2</sub> measurements from a
 Building Automation Systems (BAS) is that the sensors may drift out of
 calibration. Also, if only one measurement exists, the correct reading
@@ -435,7 +435,7 @@ will be hard to determine.
 
 CO<sub>2</sub> sensors require calibration, following the appropriate
 set-up procedure is important. Refer to page 13, Section 7.4 of the
-[Elsys Operating Manual](https://elsys.se/public/manuals/Operating%20Manual%20ERS2%20series_v10.pdf).
+[Elsys Operating Manual](https://elsys.se/public/manuals/Operating%20Manual%20ERS2%20series_v10.pdf){:target="_blank"}.
 </details>
 </details>
 
@@ -451,7 +451,7 @@ the measurements should be accurate for years and not suffer from the
 drift that others can experience.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
-<br>{: #image13}[*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/)
+<br>{: #image13}[*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/){:target="_blank"}
 
 Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
@@ -511,10 +511,10 @@ Control System</summary>
 
 Boiler and DHW temperatures can sometimes be collected directly from the
 building control system, through [this
-process](https://bmon-documentation.readthedocs.io/en/latest/setting-up-sensors-to-post-to-bmon.html#general-method-for-gathering-data-from-building-automation-systems)
+process](https://bmon-documentation.readthedocs.io/en/latest/setting-up-sensors-to-post-to-bmon.html#general-method-for-gathering-data-from-building-automation-systems){:target="_blank"}
 or other ways of communicating with the control system. If heating
 equipment has a MODBUS interface, a small computer such as a [Raspberry
-Pi](https://mini-monitor-documentation.readthedocs.io/en/latest/index.html)
+Pi](https://mini-monitor-documentation.readthedocs.io/en/latest/index.html){:target="_blank"}
 can be programmed to retrieve the readings and report them to BMON.
 
 </details>
@@ -550,7 +550,7 @@ temperature probe. Here are three possibilities:
 When installing a temperature probe on a pipe, it is important to make
 good thermal contact for higher accuracy (within 5 degrees Fahrenheit).
 Thermal heat sink paste, such as this [Super Lube
-product](https://www.amazon.com/Super-Lube-98003-Silicone-White/dp/B0044NI2M2/),
+product](https://www.amazon.com/Super-Lube-98003-Silicone-White/dp/B0044NI2M2/){:target="_blank"},
 works well. The image below shows a well done installation of a
 temperature probe on a pipe:
 
@@ -601,11 +601,11 @@ Not all utilities utilize this feature or make it available to
 consumers. But, some do and have made the data available to BMON without
 charge. These include:
 
-  - [Chugach Electric Association](https://www.chugachelectric.com/)
+  - [Chugach Electric Association](https://www.chugachelectric.com/){:target="_blank"}
 
-  - [Matanuska Electric Association](https://www.mea.coop/)
+  - [Matanuska Electric Association](https://www.mea.coop/){:target="_blank"}
 
-  - [Golden Valley Electric Association](https://www.gvea.com/)
+  - [Golden Valley Electric Association](https://www.gvea.com/){:target="_blank"}
 
 We are currently working with other Alaska electric utilities to capture
 this type of data, including Alaska Village Electric Cooperative.
@@ -641,10 +641,10 @@ electrician to install an electrical power transducer on the main power
 service entering the building. This type of sensor is available from
 companies such as:
 
-  - [Continental Control Systems](https://ctlsys.com/), the Watt-Node
+  - [Continental Control Systems](https://ctlsys.com/){:target="_blank"}, the Watt-Node
     product line.
 
-  - [EKM Metering](https://www.ekmmetering.com/).
+  - [EKM Metering](https://www.ekmmetering.com/){:target="_blank"}.
 
 These sensors generally can output electrical pulses, which can be
 counted by the Elsys ELT-Lite or Dragino LHT65 sensors, [shown above under outdoor temperature collection methods](sensors#table2).
@@ -679,7 +679,7 @@ Sensors that have a pulse output, such as electrical power sensors, need
 to be configured with a special transform function in order to convert
 the sensor output into meaningful values that can be graphed and
 analyzed. How to set up this special configuration is [available
-online](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms).
+online](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms){:target="_blank"}.
 
 </details>
 
@@ -727,10 +727,10 @@ meter every 30 seconds or so; these transmissions are received by
 utility meter-reading personnel who typically drive by on a monthly
 basis. But, these transmissions can also be received by a small computer
 connected to a “software-defined radio". The [AHFC Mini-Monitor
-project](https://mini-monitor-documentation.readthedocs.io/en/latest/hardware.html#part-cv4-sdr-radio-for-utility-meter-reading)
+project](https://mini-monitor-documentation.readthedocs.io/en/latest/hardware.html#part-cv4-sdr-radio-for-utility-meter-reading){:target="_blank"}
 uses an inexpensive Raspberry Pi computer coupled with a RTL-SDR
 receiver such as [this
-one](https://www.amazon.com/NooElec-NESDR-Smart-Bundle-R820T2-Based/dp/B01GDN1T4S/)
+one](https://www.amazon.com/NooElec-NESDR-Smart-Bundle-R820T2-Based/dp/B01GDN1T4S/){:target="_blank"}
 to perform this task; the required hardware costs about $120. This
 set-up can send the received readings to BMON.
 
@@ -756,7 +756,7 @@ perform this task:
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image9.png)
 <br>{: #image9}*Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
-Sensor](https://www.elsys.se/en/lora-elt-lite/)*
+Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*
 
 This weatherproof unit can be configured as a Pulse Counter to read
 pulses from any meter (electric, fuel, water, BTU) or device equipped
@@ -803,7 +803,7 @@ change in the oil level in the tank. Ultrasonic distance measuring
 devices or pressure measurement devices can be used to determine tank
 level. These devices can be battery-powered and transmit their readings
 via a LoRaWAN sensor. A [current
-project](https://analysisnorth.com/fuel-mon/oil-fuel-mon.html) at Alaska
+project](https://analysisnorth.com/fuel-mon/oil-fuel-mon.html){:target="_blank"} at Alaska
 Housing Finance Corporation is underway to determine the viability of
 these approaches.
 
@@ -826,7 +826,7 @@ oil pressure supplied to the nozzle. The rated flow rate is achieved
 when the oil pressure at the nozzle is 100 PSI. If the pressure is
 different than 100 PSI, the flow will be different and can be determined
 from a chart [like this
-one](https://www.hvacrschool.com/oil_nozzles/#:~:text=Nozzle%20flow%20is%20rated%20in,the%20flue%20as%20unused%20energy.).
+one](https://www.hvacrschool.com/oil_nozzles/#:~:text=Nozzle%20flow%20is%20rated%20in,the%20flue%20as%20unused%20energy.){:target="_blank"}.
 
 While all of these sensors are handy tools, they will never compare to
 empirical, hands-on testing. Be sure to verify your readings by dipping
@@ -877,7 +877,7 @@ A Toyostove heating system has multiple different fuel consumption rates
 allow you to make an accurate estimate of fuel consumption. The Alaska
 Center for Energy and Power has developed a technique for measuring
 Toyostove fuel consumption by measuring the fuel pump on the Toyostove
-heater. [Contact them](https://acep.uaf.edu/about/contact.aspx) to learn
+heater. [Contact them](https://acep.uaf.edu/about/contact.aspx){:target="_blank"} to learn
 more about their PuMA Fuel Meter.
 
 </details>
@@ -944,7 +944,7 @@ If you are reading a sensor with a 4-20 mA current output, you can
 convert the current into voltage by using a resistor, as shown in the
 image below. The resistor wires across the IN and ⏚ground terminals of
 the ELT-Lite. An appropriate size resistor is [150 ohms with 1%
-accuracy](https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-150R/12831).
+accuracy](https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-150R/12831){:target="_blank"}.
 Then the ELT-Lite can be configured to use the 0 - 3 Volt Analog Voltage
 scale. The following formula will convert the voltage read by the
 ELT-Lite into the engineering value read by the sensor:
@@ -1017,8 +1017,8 @@ Temperature probe but is less expensive, less obtrusive, and can be used
 if air temperature needs to be measured. (The “1-wire Temperature Probe"
 is the correct External Sensor setting on the ELT-Lite). The model
 number for the sensor is DS18B20, and sensors are available on
-[Digikey](https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983),
-[Amazon](https://www.amazon.com/Eiechip-DS18B20-Digital-Thermometer-Temperature/dp/B07MR71WVS/)
+[Digikey](https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983){:target="_blank"},
+[Amazon](https://www.amazon.com/Eiechip-DS18B20-Digital-Thermometer-Temperature/dp/B07MR71WVS/){:target="_blank"}
 or other sources. When wiring the sensor, the flat face of the sensor
 should be facing up as shown in the photo below.
 
@@ -1083,7 +1083,7 @@ Here are some good choices for LoRaWAN gateways:
 ![]({{ site.baseurl }}/assets/guide/sensors/image31.png)
 <br>{: #image31}*Pros and Cons of Select LoRaWAN Gateways*
 
-[Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/)
+[Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/){:target="_blank"}
 for Things Indoor Gateway
 
 <details markdown="1">
@@ -1138,15 +1138,15 @@ building) and the placement of the antenna above the peak of the roof.**
 
   - The antennas shown so far are:
     Taoglas WM.95.A.305111, available
-    [Here](https://www.digikey.com/en/products/detail/taoglas-limited/WM-95-A-305111/11196960).
+    [Here](https://www.digikey.com/en/products/detail/taoglas-limited/WM-95-A-305111/11196960){:target="_blank"}.
     Dragino Outdoor 915 MHz Antenna, available
-    [Here](https://www.robotshop.com/en/dragino-lora-lorawan-glass-fiber-outdoor-antenna-915-mhz.html).
+    [Here](https://www.robotshop.com/en/dragino-lora-lorawan-glass-fiber-outdoor-antenna-915-mhz.html){:target="_blank"}.
     Similar models available on Amazon, such as [this
-    one](https://www.amazon.com/Gateway-Antenna-N-Female-SMA-Male-Extension/dp/B09J7Z7VV3/).
+    one](https://www.amazon.com/Gateway-Antenna-N-Female-SMA-Male-Extension/dp/B09J7Z7VV3/){:target="_blank"}.
 
   - A J-pipe antenna mount shown in [*Figure 12*](#fig_gateway_antenna)
     is [available
-    here](https://www.amazon.com/Skywalker-Signature-38in-Pipe-Antenna/dp/B01MSFGZIW/).
+    here](https://www.amazon.com/Skywalker-Signature-38in-Pipe-Antenna/dp/B01MSFGZIW/){:target="_blank"}.
 
 </details>
 
@@ -1164,11 +1164,11 @@ building) and the placement of the antenna above the peak of the roof.**
     antenna end needs to mate with the connector on your antenna. You
     generally can buy a coax customized with the connectors you need and
     the length you want. Online, [WiFi
-    Expert](https://www.ebay.com/str/wifiexpert) can provide custom coax
+    Expert](https://www.ebay.com/str/wifiexpert){:target="_blank"} can provide custom coax
     cables.
 
   - [These
-    clips](https://www.amazon.com/Single-Black-Mounting-Strain-Relief/dp/B077QH8R9G/)
+    clips](https://www.amazon.com/Single-Black-Mounting-Strain-Relief/dp/B077QH8R9G/){:target="_blank"}
     can secure the coax to the building.
 
 </details>

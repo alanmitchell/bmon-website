@@ -621,7 +621,7 @@ outdoors helps remove airborne viruses from a building. Statements in
 the rest of this section suggesting reduction of outside air ventilation
 rates are only appropriate if airborne virus infection rates are under
 control. Visit [CDC ventilation
-recommendations](https://www.cdc.gov/coronavirus/2019-ncov/community/ventilation.html#:~:text=Aim%20for%205%20Air%20Changes,of%20germs%20in%20the%20air.)
+recommendations](https://www.cdc.gov/coronavirus/2019-ncov/community/ventilation.html#:~:text=Aim%20for%205%20Air%20Changes,of%20germs%20in%20the%20air.){:target="_blank"}
 for more information when considering this issue.
 
 </details>

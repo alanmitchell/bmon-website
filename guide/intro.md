@@ -64,10 +64,9 @@ Examples of BMON uses:
 
 Here are examples of a couple different BMON information sites:
 
-Alaska Housing Finance Corporation: <https://bms.ahfc.us/>
+[Alaska Housing Finance Corporation BMON Site](https://bms.ahfc.us/){:target="_blank"}
 
-Alaska Native Tribal Health Consortium:
-<https://anthc.bmon.org/reports/>
+[Alaska Native Tribal Health Consortium](https://anthc.bmon.org/){:target="_blank"}
 
 
 ![]({{ site.baseurl }}/assets/guide/intro/image1.png)
@@ -82,9 +81,9 @@ Alaska Native Tribal Health Consortium:
 {: #purpose-this-manual}
 
 This manual is a guide to setting up and using the [Building
-Monitoring](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680)
+Monitoring](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680){:target="_blank"}
 (BMON)
-[System](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680).
+[System](https://bms.ahfc.us/reports/?select_org=0&select_group=0&select_bldg=2&select_chart=0&select_sensor=680){:target="_blank"}.
 The manual is not a comprehensive guide to building monitoring and
 BMON; instead, it focuses on a basic but valuable monitoring system that
 allows the user to identify energy savings potential, better maintain
@@ -95,7 +94,7 @@ comfort, and identification of equipment malfunction to prevent
 catastrophic failures. This manual contains the information necessary
 to set up and use the BMON system, plus some tips based on past
 experience. More in-depth information can be found in the [BMON software
-documentation](https://bmon-documentation.readthedocs.io/en/latest/user-introduction.html).
+documentation](https://bmon-documentation.readthedocs.io/en/latest/user-introduction.html){:target="_blank"}.
 
 This manual covers:
 

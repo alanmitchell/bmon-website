@@ -158,40 +158,40 @@ title: BMON Resources
 Other web resources helpful for developing a monitoring plan and
 implementing BMON:
 
-[BMON User Forum](https://forum.bmon.org/) - A forum for all users to
+[BMON User Forum](https://forum.bmon.org/){:target="_blank"} - A forum for all users to
 post questions, answers and tips on hardware, software or anything else
 related to BMON and energy use in buildings.
 
-[Analysis North](http://www.analysisnorth.com/) - The primary software
+[Analysis North](https://analysisnorth.com/){:target="_blank"} - The primary software
 developer, contains links to other related projects such as the [heat
-pump calculator](https://akheatsmart.org/resources/calculator/) and
+pump calculator](https://akheatsmart.org/resources/calculator/){:target="_blank"} and
 [AkWarm energy modeling
-software](https://www.ahfc.us/efficiency/tools/akwarm-energy-rating-software).
+software](https://www.ahfc.us/efficiency/tools/akwarm-energy-rating-software){:target="_blank"}.
 
 [BMON
-documentation](https://bmon-documentation.readthedocs.io/en/latest/) -
+documentation](https://bmon-documentation.readthedocs.io/en/latest/){:target="_blank"} -
 Detailed software documentation for more complex situations and network
 administrators.
 
 [AHFC SEMP
-Manual](https://www.ahfc.us/application/files/9414/5193/2592/SEMP-Master_Manual_FINAL_AHFC_12.31.15.pdf)
+Manual](https://www.ahfc.us/application/files/9414/5193/2592/SEMP-Master_Manual_FINAL_AHFC_12.31.15.pdf){:target="_blank"}
 - A manual to introduce public facility owners and managers to tools and
 resources that can be used to complete successful energy efficiency
 retrofit projects.
 
 [LoRa
-Alliance](https://lora-alliance.org/?gclid=CjwKCAiA9vOABhBfEiwATCi7GLt4J4GiNHHCqJsDrNvlfHuLOuvDYP5YykZtjRnmmy6ssL1ra7BzpxoCu3YQAvD_BwE)
+Alliance](https://lora-alliance.org/?gclid=CjwKCAiA9vOABhBfEiwATCi7GLt4J4GiNHHCqJsDrNvlfHuLOuvDYP5YykZtjRnmmy6ssL1ra7BzpxoCu3YQAvD_BwE){:target="_blank"}
 - the group representing the communication technology LoRa (Long-Range
 wireless communication).
 
-[The Things Network](https://www.thethingsnetwork.org/) - The web
+[The Things Network](https://www.thethingsnetwork.org/){:target="_blank"} - The web
 service that enables LoRaWAN devices to communicate with BMON.
 
-[Monnit](https://www.monnit.com/) - A wireless sensor manufacturer
+[Monnit](https://www.monnit.com/){:target="_blank"} - A wireless sensor manufacturer
 utilizing a proprietary technology.
 
-[Dragino](https://www.dragino.com/) - A wireless sensor manufacturer
+[Dragino](https://www.dragino.com/){:target="_blank"} - A wireless sensor manufacturer
 utilizing LoRaWAN technology.
 
-[Elsys](https://www.elsys.se/en/) - wireless sensor manufacturer
+[Elsys](https://www.elsys.se/en/){:target="_blank"} - wireless sensor manufacturer
 utilizing LoRaWAN technology.
