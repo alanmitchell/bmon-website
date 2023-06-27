@@ -1042,7 +1042,7 @@ they are within range of the sensors.**
 
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image30.png)
-<br>{: #image30-}*Gateways for Wireless Sensors*
+<br>{: #image30}*Gateways for Wireless Sensors*
 
 Important considerations for LoRaWAN gateways are:
 
