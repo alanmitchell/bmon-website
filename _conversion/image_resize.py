@@ -5,6 +5,9 @@ import re
 from PIL import Image
 import yaml
 
+# Set of images to resize: 'All' or 'Selected' (those that appear in the info file)
+IMAGE_SET = 'Selected'
+
 FULL_WIDTH = 1052      # Image width in pixels for full-width image.
 
 # the base directory for the images
@@ -20,10 +23,14 @@ source_dir = f'converted/{base_dir}/media'
 out_dir = f'../assets/guide/{base_dir}'
 for filename in os.listdir(source_dir):
     if filename.endswith('.jpg') or filename.endswith('.png') or filename.endswith('.jpeg'):
-        print(filename)
         # get image number
         match = re.search(r"image(\d+)", filename)
         img_num = int(match.group(1))
+
+        if IMAGE_SET.lower() == 'selected' and (img_num not in img_info):
+            continue
+
+        print(filename)
 
         img = Image.open(os.path.join(source_dir, filename))
         width, height = img.size
