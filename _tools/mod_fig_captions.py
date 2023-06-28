@@ -1,5 +1,7 @@
 #!/usr/bin/env python
-"""Script to replace italicized figure captions with <figcaption> HTML
+""" *** DANGEROUS to use.  Over captures some figure captions.
+
+Script to replace italicized figure captions with <figcaption> HTML
 tagged captions.
 """
 import re
