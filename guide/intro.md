@@ -29,6 +29,10 @@ and analyze energy use and operations in buildings of all sizes.
 Analysis North has been the primary software developer of the BMON
 application through a contract funded by the DOE State Energy Program.
 
+![]({{ site.baseurl }}/assets/guide/intro/image2.png)
+<br>{: #image1}*Alaskan BMON User Photographs(photo credit to Andrew Kroll)*
+<br>
+
 While the software is available to the public at no cost, a BMON user’s
 data collection and storage costs must be weighed against potential
 energy cost savings such that an acceptable payback on monitoring can be
