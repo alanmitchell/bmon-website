@@ -25,7 +25,7 @@ the password is “dragino". You are then presented with the following
 system diagram:
 
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image6.png)
-<br>{: #image6}*System Diagram for Dragino LoRaWAN Gateway*
+<br>{: #image6}*System Diagram for Dragino LoRaWAN Gateway*{: .small_text}
 
 which generally displays which parts of the gateway are working. Access
 to different configuration pages can be done by clicking on parts of the
@@ -49,7 +49,7 @@ gateway for US operation on the Things Network:
 1.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
     Settings section to look like the following:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image1.png)
-<br>{: #image1}*Screenshot of LoRa Radio Settings*
+<br>{: #image1}*Screenshot of LoRa Radio Settings*{: .small_text}
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -59,11 +59,11 @@ gateway for US operation on the Things Network:
     change the ID.
 
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image5.png)
-<br>{: #image5}*Screenshot of Gateway ID*
+<br>{: #image5}*Screenshot of Gateway ID*{: .small_text}
 
     Then set the “Primary LoRaWAN Server" as follows:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image4.png)
-<br>{: #image4}*Screenshot of Primary LoRaWAN Server*
+<br>{: #image4}*Screenshot of Primary LoRaWAN Server*{: .small_text}
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -96,7 +96,7 @@ gateway for US operation on the Things Network:
     Gateway EUI on the Things Console). Also, the frequency plan must be
     set correctly:
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image3.png)
-<br>{: #image3}*Screenshot of Frequency Plan*
+<br>{: #image3}*Screenshot of Frequency Plan*{: .small_text}
 
 5.  Unplug and then re-power the gateway. If you reconnect to the
     gateway’s Wi-Fi network and visit the home page at 10.130.1.1, you
@@ -104,4 +104,4 @@ gateway for US operation on the Things Network:
 
 
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image2.png)
-<br>{: #image2}*System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks*
+<br>{: #image2}*System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks*{: .small_text}
