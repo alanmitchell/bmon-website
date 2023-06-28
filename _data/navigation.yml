@@ -5,6 +5,7 @@ main:
     url: /guide/intro.html
   - title: "Documentation"
     url: https://bmon-documentation.readthedocs.io/en/latest/
+    new_tab: true
   - title: "Blog"
     url: /archive/
   - title: "About"
