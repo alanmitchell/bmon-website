@@ -50,7 +50,7 @@ are screenshots of critical settings (but not all settings) when
 manually adding a Device:
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image3.png)
-<br>{: #image3}*Screenshot of Activation, Version, and Network Settings*
+<br>{: #image3}*Screenshot of Activation, Version, and Network Settings*{: .small_text}
 
 For the “End device ID" shown below, you must create an ID that starts
 with a code indicating the model of sensor. For the sensors known by
@@ -68,13 +68,13 @@ BMON, here are the codes:
 
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image1.png)
-<br>{: #image1}*Screenshot of Device ID*
+<br>{: #image1}*Screenshot of Device ID*{: .small_text}
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image2.png)
-<br>{: #image2}*Screenshot of Frequency Plan*
+<br>{: #image2}*Screenshot of Frequency Plan*{: .small_text}
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image8.png)
-<br>{: #image8}*Screenshot of Root Keys*
+<br>{: #image8}*Screenshot of Root Keys*{: .small_text}
 
 The simplest way to enter a batch of Elsys sensors is to use the
 [Elsys-to-Things Tool](https://elsys-to-things.bmon.org/){:target="_blank"}. This web
@@ -85,7 +85,7 @@ proper format to upload to the Things Console at this “Import end
 devices" link on the End Devices page in the Things Console:
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image14.png)
-<br>{: #image14}*Import End Devices link on the End Devices Page*
+<br>{: #image14}*Import End Devices link on the End Devices Page*{: .small_text}
 
 The full batch of sensors will be entered into your Things Account at
 one time.
@@ -144,7 +144,7 @@ connected. The following screen captures explain the important settings
 in the App.
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image11.jpg)
-<br>{: #image11}*Screenshot of Sensor, Timebase, and External Sensor Settings in the Elsys Sensor App*
+<br>{: #image11}*Screenshot of Sensor, Timebase, and External Sensor Settings in the Elsys Sensor App*{: .small_text}
 
 The first three settings are *Sensor*, *Timebase*, and *External
 sensor*. The Sensor setting was read from your actual unit and should be
@@ -185,7 +185,7 @@ BMON:
     when it opens (motor turns off).
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image13.jpg)
-<br>{: #image13}*Screenshot of Period Settings in the Elsys Sensor App*
+<br>{: #image13}*Screenshot of Period Settings in the Elsys Sensor App*{: .small_text}
 
 For these settings, the “period" settings are important. These determine
 which sensor readings will be included when a transmission occurs. So,
@@ -208,7 +208,7 @@ be *continually* powered, so enter in a large number like 10 million
 into the cell (10000000, with no commas).
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image15.jpg)
-<br>{: #image15}*Screenshot of Sensor Keys Settings in the Elsys Sensor App*
+<br>{: #image15}*Screenshot of Sensor Keys Settings in the Elsys Sensor App*{: .small_text}
 
 The *Sensor keys* section contains two important identifying numbers
 that will be used when registering this sensor on the Things Network.
@@ -226,7 +226,7 @@ included in the Multiple Write operation. They are ID values for this
 one sensor and should *not* be written to other sensors.
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image9.jpg)
-<br>{: #image9}*Screenshot of LoRaWAN Configuration Settings in the Elsys Sensor App*
+<br>{: #image9}*Screenshot of LoRaWAN Configuration Settings in the Elsys Sensor App*{: .small_text}
 
 These are the default settings for *OTAA* and *Confirmed message* and
 are the correct values for our application. *Frequency plan* and
@@ -234,7 +234,7 @@ are the correct values for our application. *Frequency plan* and
 Elsys sensor to operate on the correct frequency band.
 
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image16.png)
-<br>{: #image16}*Screenshot of Extended LoRaWAN Configuration Settings in the Elsys Sensor App*
+<br>{: #image16}*Screenshot of Extended LoRaWAN Configuration Settings in the Elsys Sensor App*{: .small_text}
 
 Default values are OK here except for the three *Datarate* settings. The
 sensor datarate affects how far the sensor can transmit--the lowest
@@ -280,7 +280,7 @@ Consult the Elsys ELT User Manuals
 [ELT-2](https://elsys.se/public/manuals/Operating%20Manual%20ELT-2.pdf)){:target="_blank"}
 for more details.
 
-*Elsys External Sensor Wiring and Configuration Table*
+*Elsys External Sensor Wiring and Configuration Table*{: .small_text}
 {: #elsys-sensor-table}
 
 <table>
@@ -397,7 +397,7 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 The table below gives details on use and configuration of some selected
 LoRaWAN sensors, not addressed in the prior Elsys table.
 
-*Use and Configuration of Selected LoRaWAN Sensors Table*
+*Use and Configuration of Selected LoRaWAN Sensors Table*{: .small_text}
 {: #misc-sensor-table}
 <table>
 <thead>
