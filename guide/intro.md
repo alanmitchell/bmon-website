@@ -30,7 +30,7 @@ Analysis North has been the primary software developer of the BMON
 application through a contract funded by the DOE State Energy Program.
 
 ![]({{ site.baseurl }}/assets/guide/intro/image2.png)
-<br>{: #image1}*Alaskan BMON User Photographs(photo credit to Andrew Kroll)*
+<br>{: #image1}*Alaskan BMON User Photographs (photo credit to Andrew Kroll)*
 <br>
 
 While the software is available to the public at no cost, a BMON user’s
