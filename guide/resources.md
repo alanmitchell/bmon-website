@@ -8,6 +8,7 @@ title: BMON Resources
 ### Introduction to BMON
 - [Acknowledgements](intro#acknowledgements)
 - [Introduction](intro#introduction)
+  - **Figure:** [Alaskan BMON User Collecting Fuel Use Data](intro#image2)
   - **Figure:** [Basic Architecture of the BMON System](intro#image1)
   - **Video:** [Introduction to BMON](intro#video-introduction-bmon)
 
