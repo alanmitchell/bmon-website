@@ -34,9 +34,7 @@ for f in md_files:
                     # if this line doesn't have the full caption, read subsequent lines and add them
                     while not lin.endswith('*'):
                         lin += ' ' + fin.readline().strip()
-
-                    mod_lin = lin[:-1].replace('*', '\n<figcaption markdown="1">\n') + '\n</figcaption>'
-                    print(mod_lin, file=fout)
+                    print(lin + "{: .small_text}", file=fout)
                     
                 else:
                     print(lin, file=fout)
