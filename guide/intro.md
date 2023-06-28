@@ -30,7 +30,7 @@ Analysis North has been the primary software developer of the BMON
 application through a contract funded by the DOE State Energy Program.
 
 ![]({{ site.baseurl }}/assets/guide/intro/image2.png)
-<br>{: #image2}*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*
+<br>{: #image2}*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: .small_text}
 <br>
 
 While the software is available to the public at no cost, a BMON user’s
@@ -74,7 +74,7 @@ Here are examples of a couple different BMON information sites:
 
 
 ![]({{ site.baseurl }}/assets/guide/intro/image1.png)
-<br>{: #image1}*Basic Architecture of the BMON System*
+<br>{: #image1}*Basic Architecture of the BMON System*{: .small_text}
 <br>
 
 ***Video:*** *Introduction to BMON*
