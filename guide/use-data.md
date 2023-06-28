@@ -79,7 +79,7 @@ to be adjusted during critical times, cold weather, wind, humidity
 levels, and occupancy.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image1.png)
-<br>{: #image1}*Key Steps to an Effective Monitoring Strategy*
+<br>{: #image1}*Key Steps to an Effective Monitoring Strategy*{: .small_text}
 
 Each component should be agreed upon by the team and written down. The
 monitoring strategy should be available to each member of the monitoring
@@ -160,13 +160,13 @@ menu provided.
 {: #image2}
 <img src="{{ site.baseurl }}/assets/guide/use-data/image3.png" style="display: block; margin-left: auto; margin-right: 0; padding-right: 130px;">
 <br>{: #image3}*Drop Down Menu in the Graph/Report Tab That Allows Selection of
-Available Data Visualization Tools*
+Available Data Visualization Tools*{: .small_text}
 
 #### Common Graphs and Reports
 {: #common-graphs-reports}
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
-<br>{: #image4}*Common BMON Graphs and Reports*
+<br>{: #image4}*Common BMON Graphs and Reports*{: .small_text}
 
 **Current Sensor Values**
 
@@ -181,13 +181,13 @@ they are triggering an Alert.
 ![]({{ site.baseurl }}/assets/guide/use-data/image5.png)
 <br>{: #image5}*The top portion of a Current Sensor Values report (showing the sensor name,
 most recent reported value and units, the time of the last reported
-value, and the sensor ID)*
+value, and the sensor ID)*{: .small_text}
 
 **Plot Sensor Values over Time**
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image6.png)
 <br>{: #image6}*Example of a Plot Sensor Values over Time Graph Used to Measure
-Temperature of Selected Building Areas over a Period of Months*
+Temperature of Selected Building Areas over a Period of Months*{: .small_text}
 
 The “Plot Sensor Values over Time" graph is used to plot the values from
 one or more sensors over time. There are a number of special features of
@@ -202,7 +202,7 @@ following video.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image7.png)
 <br>{: #image7}*Example of an X vs Y Scatter Plot Used to Measure the Correlation
-Between Fuel Use and Outdoor Temperature*
+Between Fuel Use and Outdoor Temperature*{: .small_text}
 
 The X vs Y Scatter Plot allows you to see how two different sensor
 values relate to one another. For example, plotting boiler gas use vs
@@ -217,7 +217,7 @@ shows how to use X vs Y Scatter Plots:
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image8.png)
 <br>{: #image8}*Example of an Hourly Profile Plot Used to Measure Differences in a
-Building’s Electric Use on Occupied and Unoccupied Days*
+Building’s Electric Use on Occupied and Unoccupied Days*{: .small_text}
 
 Another useful plot called the “Hourly Profile of a Sensor" helps show
 how a sensor reading varies depending on the hour of the day and the day
@@ -293,7 +293,7 @@ below shows an example where only one sensor has been highlighted. The
 gray areas on the graph are the unoccupied periods for the building.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image9.png)
-<br>{: #image9}*Indoor Temp Report in the Energy Reports Section of BMON*
+<br>{: #image9}*Indoor Temp Report in the Energy Reports Section of BMON*{: .small_text}
 
 <details markdown="1">
 
@@ -309,7 +309,7 @@ back began later than needed. The space is up to occupied temperature at
 reasons for this extended schedule, but it is worth in
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image10.png)
-<br>{: #image10}*A Closer View of the Indoor Temp Report*
+<br>{: #image10}*A Closer View of the Indoor Temp Report*{: .small_text}
 
 Temperatures during the gray, unoccupied periods are often *higher* than
 they are during occupied periods. There appears to be a controls or
@@ -319,7 +319,7 @@ of a space in a different building:
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image11.png)
 <br>{: #image11}*Indoor Temperature Report Displaying a Potential Problem in a
-Building’s Heating Pattern*
+Building’s Heating Pattern*{: .small_text}
 
 </details>
 
@@ -330,7 +330,7 @@ temperatures outside of the generally accepted normal range.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image12.png)
 <br>{: #image12}*Temperature Energy Report Feature That Alerts Users of Indoor
-Temperatures Outside the Normal Range*
+Temperatures Outside the Normal Range*{: .small_text}
 
 The red horizontal bar marks a heating temperature range that is
 generally beyond that needed for comfort. Although it is a bit hard to
@@ -364,7 +364,7 @@ investigating whether the control schedule can be tightened up.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image13.png)
 <br>{: #image13}*Lighting Energy Report Showing Several Light Sensor Patterns Through a
-Week*
+Week*{: .small_text}
 
 By double-clicking on a sensor in the graph legend, you can isolate and
 show just one of the sensors. Double clicking on the chart area once a
@@ -372,7 +372,7 @@ single sensor is displayed *(Light Sensor 29897*), as seen in the graph
 below, brings all the sensors in the report back.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image14.png)
-<br>{: #image14}*Lighting Energy Report Showing a Single Light Sensor*
+<br>{: #image14}*Lighting Energy Report Showing a Single Light Sensor*{: .small_text}
 
 The pattern of this single light sensor may indicate lights being used
 on weekends or may indicate daylight to a work space. Daylight studies
@@ -393,7 +393,7 @@ horizontal axis shows hours of the day and the vertical axis shows days
 of the week.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image15.png)
-<br>{: #image15}*"Heat Map Hourly Profile" for One Light Sensor at AHFC Headquarters*
+<br>{: #image15}*"Heat Map Hourly Profile" for One Light Sensor at AHFC Headquarters*{: .small_text}
 
 On Monday through Thursday, this space is lit until 9 pm at night. While
 there may be a legitimate explanation for lights staying on this late,
@@ -421,7 +421,7 @@ efficiency improvements.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image16.png)
 <br>{: #image16}*Examples of Energy Reports That Focus on Displaying and Analyzing
-Electric and Fuel Data*
+Electric and Fuel Data*{: .small_text}
 
 Instead of walking through these reports in detail, we will try to explain the general analysis
 approaches used by these reports. Click on the topics below to learn
@@ -443,7 +443,7 @@ outdoor temperature.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image17.png)
 <br>{: #image17}*Ways to Compare Fuel Use and Account for Outdoor
-Temperature*
+Temperature*{: .small_text}
 
 These electrical and fuel use comparisons can identify that an energy use
 problem is occurring, but they do not give much help in determining what
@@ -467,7 +467,7 @@ unoccupied periods.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image18.png)
 <br>{: #image18}*What to Look for When Diagnosing High Energy Use in an Unoccupied
-Building*
+Building*{: .small_text}
 
 <details markdown="1">
 
@@ -544,7 +544,7 @@ hydronic fluid circulates.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
 <br>{: #image19}*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
-Can Show if an Outdoor Reset is Working*
+Can Show if an Outdoor Reset is Working*{: .small_text}
 
 </details>
 
@@ -561,7 +561,7 @@ example of a building that has an outdoor temperature reset:
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image20.png)
 <br>{: #image20}*X vs Y Scatter Plot Showing a Boiler with an Outdoor Reset Curve
-Applied to the Supply Temperature Controls*
+Applied to the Supply Temperature Controls*{: .small_text}
 
 Clearly the boiler supply temperature rises with colder outdoor
 temperatures. The shape of this relationship can be changed through the
@@ -583,7 +583,7 @@ temperature and the boiler supply temperature:
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image21.png)
 <br>{: #image21}*X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
-Curve*
+Curve*{: .small_text}
 
 The X Y scatter plot for this heating system does not have an outdoor
 reset curve because the supply temperature remains essentially constant
@@ -595,7 +595,7 @@ reasonable levels, and a BMON Alert can be set up to notify you when
 this occurs.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image22.png)
-<br>{: #image22}*Why Measuring Domestic Hot Water Supply Temperature is Useful*
+<br>{: #image22}*Why Measuring Domestic Hot Water Supply Temperature is Useful*{: .small_text}
 
 </details>
 
@@ -650,7 +650,7 @@ sensors or CO<sub>2</sub> measurements to increase/reduce ventilation
 when occupancy drops.
 
 ![]({{ site.baseurl }}/assets/guide/use-data/image23.png)
-<br>{: #image23}*Example of an IAQ Energy Report*
+<br>{: #image23}*Example of an IAQ Energy Report*{: .small_text}
 
 <details markdown="1">
 
