@@ -16,6 +16,6 @@ or email individuals if sensor values move outside normal ranges.
 
 Here is a link to the [AHFC BMON Web Site](https://bms.ahfc.us){:target="_blank"}.
 
-*This site is best viewed with the Chrome web browser.*
+*This site is best viewed with the Google Chrome or Microsoft Edge web browsers.*
 
 ---

@@ -5,7 +5,7 @@ header:
 
 ---
 
-*This site is best viewed with the Chrome web browser.*
+*This site is best viewed with the Google Chrome or Microsoft Edge web browsers.*
 
 ## Acknowledgements
 {: #acknowledgements}
