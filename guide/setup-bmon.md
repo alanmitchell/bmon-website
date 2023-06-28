@@ -3,7 +3,7 @@ title: How to Set Up Your BMON System
 ---
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
-<br>{: #image1}*What you Need to Set Up a Basic BMON System*
+<br>{: #image1}*What you Need to Set Up a Basic BMON System*{: .small_text}
 
 <details markdown="1">
 
@@ -22,7 +22,7 @@ servers capable of running BMON can be rented starting at $6 per month
 {: #bmon-user-interface}
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
-<br>{: #image2}*Ways to Interact with the BMON Software*
+<br>{: #image2}*Ways to Interact with the BMON Software*{: .small_text}
 
 In this section, we will be using the System Administrator interface to
 set up the building and sensors that are used in your BMON system.
@@ -53,10 +53,10 @@ is received by your BMON server.
 {: #overview-system-administrator}
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
-<br>{: #image3}*A View of the BMON System Administrator Interface*
+<br>{: #image3}*A View of the BMON System Administrator Interface*{: .small_text}
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
-<br>{: #image4}*How to Access the Administrator Interface*
+<br>{: #image4}*How to Access the Administrator Interface*{: .small_text}
 
 This video shows how to access the System Administrator interface and
 gives an overview of how the interface is used:
@@ -76,7 +76,7 @@ In BMON, sensors are associated with buildings.
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
 <br>{: #image5}*Essential Information Needed to Add a Building in
-BMON*
+BMON*{: .small_text}
 
 See how to add a new building into the BMON system in the video below.
 If you are using the AHFC Shared BMON system, this video also shows how
@@ -95,7 +95,7 @@ More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
-<br>{: #image6}*Examples of Building Details That Can Be Entered in BMON*
+<br>{: #image6}*Examples of Building Details That Can Be Entered in BMON*{: .small_text}
 
 View the video below to see how to set up some of these optional
 features:
@@ -120,7 +120,7 @@ Once you have your buildings added to BMON, you can then add the
 individual sensors that report sensor readings.
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
-<br>{: #image7}*Information Needed to Add a Sensor to the BMON Software*
+<br>{: #image7}*Information Needed to Add a Sensor to the BMON Software*{: .small_text}
 
 It is also important to understand that one physical sensor device, like an Elsys ERS-CO2
 sensor, will report multiple different sensor values, such as
@@ -258,7 +258,7 @@ set up in different ways to serve different goals.
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
 <br>{: #image8}*The Dashboard for the AHFC Headquarters Building Illustrates Some
-Options of What Can Be Displayed*
+Options of What Can Be Displayed*{: .small_text}
 
 </details>
 
@@ -267,7 +267,7 @@ Options of What Can Be Displayed*
 <summary>Guidelines for a Useful Dashboard</summary>
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
-<br>{: #image9}*Guidelines for a Useful Dashboard*
+<br>{: #image9}*Guidelines for a Useful Dashboard*{: .small_text}
 
 ***Video:*** *Choosing Sensors to Display on the Building Dashboard*
 {: #video-choosing-sensors-display}
@@ -285,14 +285,14 @@ Options of What Can Be Displayed*
 {: #using-creating-alerts}
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
-<br>{: #image10}*Examples of What to Use Alerts for in BMON*
+<br>{: #image10}*Examples of What to Use Alerts for in BMON*{: .small_text}
 
 An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
-<br>{: #image11}*How to Create an Alert*
+<br>{: #image11}*How to Create an Alert*{: .small_text}
 
 ***Video:*** *Creating Alerts and assigning Recipients*
 {: #video-creating-alerts-assigning}
