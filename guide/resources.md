@@ -139,10 +139,12 @@ title: BMON Resources
   - **Figure:** [Screenshot of Sensor Keys Settings in the Elsys Sensor App](appx-config-lorawan#image15)
   - **Figure:** [Screenshot of LoRaWAN Configuration Settings in the Elsys Sensor App](appx-config-lorawan#image9)
   - **Figure:** [Screenshot of Extended LoRaWAN Configuration Settings in the Elsys Sensor App](appx-config-lorawan#image16)
-- [Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2](appx-config-lorawan#notes-about-external)
-  - **Figure:**[Elsys External Sensor Wiring and Configuration Table ](#elsys-sensor-table)
-- [Miscellaneous Sensor Wiring and Configuration](appx-config-lorawan#miscellaneous-sensor-wiring)
-  - **Figure:**[Use and Configuration of Selected LoRaWAN Sensors Table](#misc-sensor-table)
+
+### Appendix: Notes on Various Sensor Applications
+- [Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2](appx-sensor-applications#notes-about-external)
+  - **Table:** [Elsys External Sensor Wiring and Configuration Table ](appx-sensor-applications#elsys-sensor-table)
+- [Miscellaneous Sensor Wiring and Configuration](appx-sensor-applications#miscellaneous-sensor-wiring)
+  - **Table:** [Use and Configuration of Selected LoRaWAN Sensors Table](appx-sensor-applications#misc-sensor-table)
 
 ### Appendix: Configuring Dragino LoRaWAN Gateways
   - **Figure:** [System Diagram for Dragino LoRaWAN Gateway](appx-dragino-gateway#image6)

@@ -70,8 +70,9 @@ sensors can be found
 The primary LoRaWAN sensor manufacturers,
 [Elsys](https://www.elsys.se/en/){:target="_blank"} and
 [Dragino](https://dragino.com/products/lora-lorawan-end-node.html){:target="_blank"}, are
-covered throughout this section and in more detail in the section [Appendix-
-Configuring LoRaWAN Sensors](appx-config-lorawan#topofpage). There are dozens of additional manufacturers
+covered throughout this section and in more detail in the [Appendix -
+Configuring LoRaWAN Sensors](appx-config-lorawan) and [Appendix - Note on Various Sensor Applications](appx-sensor-applications).
+There are dozens of additional manufacturers
 that make compatible LoRaWAN sensors, but these two manufacturers cover
 building monitoring needs well. A comparison of these two brands is
 below.
@@ -909,7 +910,8 @@ RS485 sensors can be used to report this heat load to BMON.
 
 This section will show some typical wiring configurations for the
 sensors discussed above. There is a more [detailed table of wiring and
-configuration information for Elsys ELT sensors](appx-config-lorawan#elsys-sensor-table) in the Appendix- Configuring LoRaWAN Sensors.
+configuration information for Elsys ELT sensors](appx-sensor-applications#elsys-sensor-table) in 
+the Appendix - Notes on Various Sensor Applications.
 
 Click below for more detail on each configuration.
 
