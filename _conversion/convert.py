@@ -30,7 +30,7 @@ for line in sys.stdin:
         print(line)
         img_file = line.split('/')[-1]
         img_base = img_file.split('.')[0]
-        print('<br>{: #' + img_base +  '}*Caption*')
+        print('{: #' + img_base +  '}\n<br>*Caption*')
 
     elif "https://vimeo.com/" in line:
         match = re.search(r"vimeo\.com/(\d+)", line)
