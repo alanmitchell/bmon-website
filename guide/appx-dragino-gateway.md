@@ -5,8 +5,6 @@ previous:
   title: "Appendix - Notes on Various Sensor Applications"
   url: /guide/appx-sensor-applications.html
 ---
-{: #topofpage}
-
 Dragino makes a few different LoRaWAN gateways, including the LPS8N
 and the outdoor DLOS8. This
 section gives some notes on how to configure these gateways. Full

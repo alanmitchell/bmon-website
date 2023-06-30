@@ -7,7 +7,6 @@ next:
   title: "Resources"
   url: /guide/resources.html
 ---
-{: #topofpage}
 ## Creating a Monitoring Plan
 {: #creating-monitoring-plan}
 

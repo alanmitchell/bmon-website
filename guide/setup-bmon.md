@@ -49,7 +49,7 @@ configuration is in place.
 
 We expect that Alaska sensor suppliers will perform this configuration
 for you, but if you receive an unconfigured sensor, [Appendix-
-Configuring LoRaWAN Sensors](appx-config-lorawan#topofpage) gives details on how
+Configuring LoRaWAN Sensors](appx-config-lorawan) gives details on how
 to configure the sensor and the Things Network to ensure the sensor data
 is received by your BMON server.
 

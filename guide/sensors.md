@@ -115,9 +115,8 @@ staff of heating failures before damage occurs.
 <summary>Potential BMON-Guided Energy Savings of Measuring
 Temperature</summary>
 
-{: #image4}
-![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
-<br>{: #image4}*Potential Energy Savings of Measuring Building Temperature*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/sensors/image4.png){: #image4}
+<br>*Potential Energy Savings of Measuring Building Temperature*{: .small_text}
 
 A building’s energy consumption is almost always affected by the outdoor temperature.
 Heating and cooling energy use relate to heat loss or gain through the
@@ -193,7 +192,7 @@ td {
 <tr style="vertical-align:top">
 <td><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: All of the Elsys ERS sensors provide a temperature reading, ranging from the full-featured ERS CO2 sensor down to the ERS Lite sensor<br />
 <img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:3.02083in;height:2.91667in" /></p></td>
-<td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
+<td><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="width:3.02083in;height:3.58333in" /></p></td>
 </tr>
 </tbody>
@@ -591,7 +590,7 @@ Electricity Use</summary>
 </details>
 
 ### Methods for Collecting Building Electric Data
-{: #methods-collecting-building}
+{: #methods-collecting-building-elec}
 
 The easiest way to collect 15-minute electricity use data is to acquire
 it directly from the electric utility, if that is possible. Many
@@ -712,7 +711,7 @@ Use</summary>
 </details>
 
 ### Methods for Collecting Building Fuel Use Data
-{: #methods-collecting-building}
+{: #methods-collecting-building-fuel}
 
 The method for measuring fuel use will depend on the fuel type. Here we
 focus on natural gas and fuel oil and also offer a data collection
@@ -833,7 +832,7 @@ oil pressure supplied to the nozzle. The rated flow rate is achieved
 when the oil pressure at the nozzle is 100 PSI. If the pressure is
 different than 100 PSI, the flow will be different and can be determined
 from a chart [like this
-one](https://www.hvacrschool.com/oil_nozzles/#:~:text=Nozzle%20flow%20is%20rated%20in,the%20flue%20as%20unused%20energy.){:target="_blank"}.
+one](https://hvacrschool.com/oil_nozzles/#:~:text=Nozzle%20flow%20is%20rated%20in,the%20flue%20as%20unused%20energy.){:target="_blank"}.
 
 While all of these sensors are handy tools, they will never compare to
 empirical, hands-on testing. Be sure to verify your readings by dipping
@@ -1100,7 +1099,7 @@ for Things Indoor Gateway
 
 Setup instructions for the Dragino gateways are found in their User
 Manuals; some helpful hints are also provided in the [Appendix-
-Configuring Dragino LoRaWAN Gateways](appx-dragino-gateway#topofpage). For setup purposes, the gateway
+Configuring Dragino LoRaWAN Gateways](appx-dragino-gateway). For setup purposes, the gateway
 will act like a Wi-Fi access point, which you can connect your laptop
 to, and then browse with your browser to the Setup page for the gateway.
 When you go to the Wi-Fi setup page, make sure you keep the Wi-Fi access
@@ -1134,8 +1133,8 @@ a gateway to cover a large portion of downtown Nome, Alaska. **Note the
 drip loops on the coaxial cable (to prevent water leakage into the
 building) and the placement of the antenna above the peak of the roof.**
 
-![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
-<br>{: #image34}*A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg){: #image34}
+<br>*A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}
 
 <details markdown="1">
 
@@ -1148,11 +1147,11 @@ building) and the placement of the antenna above the peak of the roof.**
     Taoglas WM.95.A.305111, available
     [Here](https://www.digikey.com/en/products/detail/taoglas-limited/WM-95-A-305111/11196960){:target="_blank"}.
     Dragino Outdoor 915 MHz Antenna, available
-    [Here](https://www.robotshop.com/en/dragino-lora-lorawan-glass-fiber-outdoor-antenna-915-mhz.html){:target="_blank"}.
+    [Here](https://www.choovio.com/product/blg-an-040-glass-fiber-outdoor-antenna/){:target="_blank"}.
     Similar models available on Amazon, such as [this
     one](https://www.amazon.com/Gateway-Antenna-N-Female-SMA-Male-Extension/dp/B09J7Z7VV3/){:target="_blank"}.
 
-  - A J-pipe antenna mount shown in [*Figure 12*](#fig_gateway_antenna)
+  - A J-pipe antenna mount shown in the [picture above](#image34)
     is [available
     here](https://www.amazon.com/Skywalker-Signature-38in-Pipe-Antenna/dp/B01MSFGZIW/){:target="_blank"}.
 
