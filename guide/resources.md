@@ -175,7 +175,7 @@ related to BMON and energy use in buildings.
 developer, contains links to other related projects such as the [heat
 pump calculator](https://akheatsmart.org/resources/calculator/){:target="_blank"} and
 [AkWarm energy modeling
-software](https://www.ahfc.us/efficiency/tools/akwarm-energy-rating-software){:target="_blank"}.
+software](https://www.ahfc.us/efficiency/pro-builders/akwarm-energy-rating-software){:target="_blank"}.
 
 [BMON
 documentation](https://bmon-documentation.readthedocs.io/en/latest/){:target="_blank"} -

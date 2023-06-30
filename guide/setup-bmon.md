@@ -20,7 +20,7 @@ other organizations. Your other option is to install your own copy of
 the free BMON software on a Linux server you own or rent. “Cloud" Linux
 servers capable of running BMON can be rented starting at $6 per month
 (e.g. [Digital Ocean](https://www.digitalocean.com/){:target="_blank"},
-[Linode](https://www.linode.com/)){:target="_blank"}.
+[Linode](https://www.linode.com/){:target="_blank"}).
 
 </details>
 

@@ -90,7 +90,7 @@ gateway for US operation on the Things Network:
 
 4.  You then need to register the gateway on the Things Network through
     the [Things
-    Console](https://console.cloud.thethings.network/https://console.cloud.thethings.network/){:target="_blank"}.
+    Console](https://console.cloud.thethings.network/https:/console.cloud.thethings.network/){:target="_blank"}.
     The important settings there are the “Gateway EUI", which is the
     “Gateway ID" that we copied in a prior step (it is called the
     Gateway ID on the Dragino configuration page, but it is labeled
