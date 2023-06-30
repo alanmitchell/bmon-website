@@ -147,7 +147,7 @@ shown here with an ELT-Lite:
 </p>
 </td>
 <td>
-<p>Most fuel float sensors, including the one linked to the in the
+<p>Most fuel float sensors, including the one linked to in the
 left column, have a varying resistance output from 33 Ohms (full) to 
 240 Ohms (empty). With this sensor, the following BMON Transform will
 produce a value of 0 for Empty and 100 for Full:</p>
