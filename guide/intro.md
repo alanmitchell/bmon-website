@@ -19,7 +19,7 @@ Technologies & Practices (ABC) award, award number DE-EE0009088.
 
 This manual was created under a contract with Analysis North over the
 Alaska state fiscal years 2021 and 2022. Many thanks to Information
-Insishts and Loeffler Engineering for editing this manual.
+Insights and Loeffler Engineering for editing this manual.
 
 ## Introduction
 {: #introduction}
