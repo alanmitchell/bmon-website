@@ -1,6 +1,9 @@
 ---
 title: "Appendix: Configuring Dragino LoRaWAN Gateways"
 toc: false
+previous:
+  title: "Appendix - Notes on Various Sensor Applications"
+  url: /guide/appx-sensor-applications.html
 ---
 {: #topofpage}
 

@@ -2,7 +2,9 @@
 title: User Guide
 header:
   image: /assets/images/banner2.png
-
+next:
+  title: "How to Choose/Set Up Sensors"
+  url: /guide/sensors.html
 ---
 
 *This site is best viewed with the Google Chrome or Microsoft Edge web browsers.*

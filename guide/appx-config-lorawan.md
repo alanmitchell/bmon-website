@@ -1,5 +1,11 @@
 ---
 title: "Appendix: Configuring LoRaWAN Sensors for BMON"
+previous:
+  title: "Resources"
+  url: /guide/resources.html
+next:
+  title: "Appendix - Notes on Various Sensor Applications"
+  url: /guide/appx-sensor-applications.html
 ---
 {: #topofpage}
 

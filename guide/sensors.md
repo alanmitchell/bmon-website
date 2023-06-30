@@ -1,5 +1,11 @@
 ---
 title: How to Choose/Set Up Sensors
+previous:
+  title: "Intro to BMON"
+  url: /guide/intro.html
+next:
+  title: "How to Set Up Your BMON System"
+  url: /guide/setup-bmon.html
 ---
 
 ## Introduction

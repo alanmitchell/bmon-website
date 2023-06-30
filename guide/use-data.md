@@ -1,5 +1,11 @@
 ---
 title: How to Use BMON Sensor Data
+previous:
+  title: "How to Set Up Your BMON System"
+  url: /guide/setup-bmon.html
+next:
+  title: "Resources"
+  url: /guide/resources.html
 ---
 {: #topofpage}
 ## Creating a Monitoring Plan

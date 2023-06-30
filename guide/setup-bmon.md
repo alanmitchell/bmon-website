@@ -1,5 +1,11 @@
 ---
 title: How to Set Up Your BMON System
+previous:
+  title: "How to Choose/Set Up Sensors"
+  url: /guide/sensors.html
+next:
+  title: "How to Use BMON Sensor Data"
+  url: /guide/use-data.html
 ---
 
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)

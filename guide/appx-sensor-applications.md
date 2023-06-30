@@ -1,5 +1,11 @@
 ---
 title: "Appendix: Notes on Various Sensor Applications"
+previous:
+  title: "Appendix - Configuring LoRaWAN Sensors"
+  url: /guide/appx-config-lorawan.html
+next:
+  title: "Appendix - Configuring Dragino LoRaWAN Gateways"
+  url: /guide/appx-dragino-gateway.html
 ---
 
 This Appendix gives wiring diagrams and configuration settings relevant to a

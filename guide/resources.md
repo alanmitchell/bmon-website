@@ -1,5 +1,11 @@
 ---
 title: BMON Resources
+previous:
+  title: "How to Use BMON Sensor Data"
+  url: /guide/use-data.html
+next:
+  title: "Appendix - Configuring LoRaWAN Sensors"
+  url: /guide/appx-config-lorawan.html
 ---
 
 ## User Guide Contents
