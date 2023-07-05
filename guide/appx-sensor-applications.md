@@ -34,7 +34,7 @@ for more details.
 </tr>
 </thead>
 <tbody>
-<tr class="odd", style="vertical align:top">
+<tr class="odd", style="vertical align:top, border: 1px solid black">
 <td><strong>Temperature Sensor<br />
 </strong>This must be a DS18B20-type temperature sensor such as the one sold by Elsys or <a href="https://www.amazon.com/HiLetgo-DS18B20-Temperature-Stainless-Waterproof/dp/B00M1PM55K/" target="_blank">these</a> on Amazon. It can also be a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983" target="_blank">bare DS18B20</a> mounted directly to the terminal block in the Elsys. Note that the ELT-2 has a built-in temperature and humidity sensor, in addition to allowing for an external sensor.</td>
 <td><p>“External sensor" setting on the Elsys should be “1-wire Temperature probe". Wiring of the external probe is:</p>
