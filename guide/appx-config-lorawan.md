@@ -106,7 +106,7 @@ things:
 
   - How frequently to report its readings.
 
-  - What type of external sensor is connected (e.g. temperature, pulse,
+  - What type of external sensor is connected (e.g., temperature, pulse,
     switch)
 
   - What frequencies the sensor should operate on.
@@ -131,7 +131,7 @@ phones that do have NFC capability from vendors like Amazon are: Nokia
 not need to buy a cellular plan to use the phone, as you can connect the
 phone to Wi-Fi and download the necessary app.
 
-When using the Elsys Sensor app, there are three modes of operation; the
+When using the Elsys Sensor App, there are three modes of operation; the
 “Advanced" mode, which is selected by the lightning bolt icon on the top
 row of the App, is used here. To start the process of configuring a
 sensor, you first tap the phone to the sensor to read in the existing
@@ -181,7 +181,7 @@ BMON:
   - **1-wire Temperature probe:** Used when you connect an external
     temperature probe, either available through Elsys or through vendors
     such as Amazon (see [these
-    probes](https://www.amazon.com/gp/product/B00QGN0LKY/)){:target="_blank"}.
+    probes](https://www.amazon.com/gp/product/B00QGN0LKY/){:target="_blank"}).
 
   - **Switch:** Used when sensing whether a switch or a relay is closed.
 
@@ -255,9 +255,9 @@ down the datarate to the DR0 setting, ensuring the best chance for
 sensor reading success. You do this by setting *Datarate default,
 Datarate max,* and *Datarate min* to the value of DR0.
 
-Use of the ERS CO2 or VOC sensor is a special case. Because these
+Use of the ERS CO<sub>2</sub> or VOC sensor is a special case. Because these
 sensors produce so many different readings (temperature, light, motion,
-humidity, CO2), they are not supported at datarate DR0 in the United
+humidity, CO<sub>2</sub>), they are not supported at datarate DR0 in the United
 States because of the large data payload size. For these sensors, **the
 *Datarate default* and *Datarate min* must be set to DR1 at the
 lowest**.
@@ -268,7 +268,7 @@ you changed values are open and not collapsed, then you click the
 *WRITE* button at the bottom of the screen and tap the sensor. Further
 explanation is available in the appropriate Elsys manual.
 
-The Elsys sensor app has a time-saving feature called *Multiple Write.*
+The Elsys Sensor App has a time-saving feature called *Multiple Write.*
 You can turn this feature On from the drop-down menu in the upper left
 of the App (three horizontal bars). With this feature On, you can write
 the same settings to multiple sensors of the same type (e.g. ELT-Lite or
