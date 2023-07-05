@@ -67,7 +67,7 @@ Examples of BMON uses:
     lighting is not used unnecessarily during unoccupied times.
 
   - Monitoring indoor temperatures compared to the occupied schedule to
-    properly time warm-up sequence.
+    properly time warm-up sequences.
 
 Here are examples of a couple different BMON information sites:
 
