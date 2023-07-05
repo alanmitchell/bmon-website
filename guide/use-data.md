@@ -157,7 +157,7 @@ Energy Data by Sensor.
 {: #graphs-reports}
 
 This section focuses on the most commonly used Graphs/Reports to view in
-BMON, accessed through the top menu bar titled “Graph/Report". Once
+BMON, accessed through the top menu bar titled “Graph/Report." Once
 there, select the type of Graph or Report to view from the drop-down
 menu provided.
 
@@ -291,7 +291,7 @@ The “Indoor Temp" Energy Report provides the information you need to
 identify these energy saving opportunities. The first graph in the
 report shows indoor temperatures for the past week and highlights the
 unoccupied periods when those temperatures should be lowered during the
-heating season. In the Energy Report, these graphs are “live", meaning
+heating season. In the Energy Report, these graphs are “live," meaning
 you can hide and show lines by clicking on items in the legend, and you
 can zoom in by clicking and dragging a rectangle on the graph. The graph
 below shows an example where only one sensor has been highlighted. The
@@ -522,7 +522,7 @@ can be chosen to compare across buildings in all organizations.
 
 Two useful temperatures to measure in a building are the boiler supply
 temperature, if the building utilizes a boiler, and the supply
-temperature of the domestic hot water. "Boiler supply and return
+temperature of the domestic hot water. Boiler supply and return
 temperatures, as well as domestic hot water supply temperatures, can
 give indications about the amount of energy that is being consumed to
 heat the building and provide hot water.
@@ -590,7 +590,7 @@ temperature and the boiler supply temperature:
 <br>{: #image21}*X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
 Curve*{: .small_text}
 
-The X Y scatter plot for this heating system does not have an outdoor
+The X vs Y scatter plot for this heating system does not have an outdoor
 reset curve because the supply temperature remains essentially constant
 at the range of outdoor temperatures.
 
