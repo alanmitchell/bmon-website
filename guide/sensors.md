@@ -541,10 +541,9 @@ temperature probe. Here are three possibilities:
 </tbody>
 <tbody>
 <tr border="0">
-<td><p><a href="https://www.tindie.com/products/edwin/lsn50v2-d23-lorawan-waterproof-outdoor-tempera/">Dragino LSN50v2-D23 Triple Temperature Sensor</a></p>
+<td colspan="2"><p><a href="https://www.tindie.com/products/edwin/lsn50v2-d23-lorawan-waterproof-outdoor-tempera/">Dragino LSN50v2-D23 Triple Temperature Sensor</a></p>
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:2.84514in;height:4.38542in" /></p>
 <p>This weatherproof unit includes three temperature probes, with about 3 feet of cable on each. Very economically priced (~$60).</p></td>
-<td><p>Intentionally Blank</p></td>
 </tr>
 </tbody>
 </table>
