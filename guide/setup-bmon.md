@@ -19,7 +19,7 @@ Your configuration data will also be accessible to system operators from
 other organizations. Your other option is to install your own copy of
 the free BMON software on a Linux server you own or rent. “Cloud" Linux
 servers capable of running BMON can be rented starting at $6 per month
-(e.g. [Digital Ocean](https://www.digitalocean.com/){:target="_blank"},
+(e.g., [Digital Ocean](https://www.digitalocean.com/){:target="_blank"},
 [Linode](https://www.linode.com/){:target="_blank"}).
 
 </details>
@@ -128,13 +128,13 @@ individual sensors that report sensor readings.
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
 <br>{: #image7}*Information Needed to Add a Sensor to the BMON Software*{: .small_text}
 
-It is also important to understand that one physical sensor device, like an Elsys ERS-CO2
+It is also important to understand that one physical sensor device, like an Elsys ERS-CO<sub>2</sub>
 sensor, will report multiple different sensor values, such as
 CO<sub>2</sub>, temperature, light, humidity, and motion. Although these
 different values are coming from one sensor in the field, they need to
 be set up as *separate* sensors in BMON.
 
-Click below for description and a video on how to set up LoRaWAN
+Click below for a description and a video on how to set up LoRaWAN
 wireless sensors. This will also help you configure other sensors, such
 as Monnit wireless sensors or values reported by a Raspberry Pi, since
 both are configured in the same way as the LoRaWAN wireless sensors.
@@ -300,7 +300,7 @@ alert, follow these steps or view the video below:
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
 <br>{: #image11}*How to Create an Alert*{: .small_text}
 
-***Video:*** *Creating Alerts and assigning Recipients*
+***Video:*** *Creating Alerts and Assigning Recipients*
 {: #video-creating-alerts-assigning}
 {% include video id="485808171" provider="vimeo" %}
 
