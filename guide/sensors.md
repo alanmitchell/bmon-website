@@ -96,7 +96,7 @@ electrical outputs, detailed below.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
-Sensors (additional information for configurations with pulse output transformation is
+Sensors (*additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*{: .small_text}
 
 ## Temperature
@@ -388,7 +388,7 @@ determine when artificial lights are on, but it still will be possible.
 ## Indoor Carbon Dioxide (CO<sub>2</sub>) Levels
 {: #indoor-carbon-dioxide}
 
-CO2 indicates whether the ventilation system for a building or space is
+CO<sub>2</sub> indicates whether the ventilation system for a building or space is
 supplying adequate outside air for the health and wellbeing of the
 occupants. Ventilation helps dilute contaminants in indoor air and
 replaces oxygen that is removed by breathing. Ventilation can use a lot
@@ -403,7 +403,7 @@ the heating fuel usage of a facility if it is not measured.
 CO<sub>2</sub> Levels</summary>
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image15.png)
-<br>{: #image15}*Potential Energy Savings of Measuring Indoor Carbon Dioxide
+<br>{: #image15}*Potential Energy Savings of Measuring Indoor CO<sub>2</sub>
 Levels*{: .small_text}
 
 </details>
@@ -732,7 +732,7 @@ Most gas meters have a transmitter that sends out the reading on the
 meter every 30 seconds or so; these transmissions are received by
 utility meter-reading personnel who typically drive by on a monthly
 basis. But, these transmissions can also be received by a small computer
-connected to a “software-defined radio". The [AHFC Mini-Monitor
+connected to a “software-defined radio." The [AHFC Mini-Monitor
 project](https://mini-monitor-documentation.readthedocs.io/en/latest/hardware.html#part-cv4-sdr-radio-for-utility-meter-reading){:target="_blank"}
 uses an inexpensive Raspberry Pi computer coupled with a RTL-SDR
 receiver such as [this
@@ -822,10 +822,10 @@ constant rate of firing / fuel use. For these systems, if you know the
 firing rate of the burner, you can measure how long the burner is on in
 order to then determine how much fuel was used.
 
-**Firing rate**
+**Firing Rate**
 
 If you can determine the size of the fuel oil nozzle used in the burner
-(e.g. 1.10 gallon per hour, GPH), you have a reasonably accurate
+(e.g., 1.10 gallon per hour, GPH), you have a reasonably accurate
 estimate of the fuel consumption rate of the heating appliance when it
 is on. You can refine your estimate of fuel rate by also measuring the
 oil pressure supplied to the nozzle. The rated flow rate is achieved
@@ -901,7 +901,7 @@ the building. For details on additional methods, click below.
 
 <summary>Additional Methods of Measuring Heat Load</summary>
 
-The ONICON System 10 and System 40 meters have been used if cutting into
+The ONICON System 10 and System 40 meters can be used if cutting into
 the hydronic piping is a possibility. Otherwise, an ultrasonic BTU meter
 should be used to measure heat delivery. Note that none of these methods
 measures the fuel burned but can give an accurate measurement of the
@@ -964,8 +964,7 @@ an internal resistance of 7,400 Ohms in parallel with the 150 Ohm
 resistor value).
 
 BMON can do this conversion by entering a formula into the Transform
-field when setting up a sensor. As an example, assume the sensor is a 0
-- 10 PSI pressure sensor. The appropriate Transform formula to use in
+field when setting up a sensor. As an example, assume the sensor is a 10 PSI pressure sensor. The appropriate Transform formula to use in
 BMON would be:
 
 10.0 \* (val - 0.588) / 2.352
@@ -1001,7 +1000,7 @@ Battery*{: .small_text}
 For external sensors that need to receive power from the ELT-Lite,
 configuration of the ELT-Lite is important. In the “Sample Times"
 section of the ELT-Lite configuration parameters, there is a setting
-labeled “External startup time". This setting determines how early power
+labeled “External startup time." This setting determines how early power
 is applied to the external sensor before the sensor is read. The setting
 is expressed in milliseconds. For some sensors such as pressure sensors,
 power can be turned off except for a short period of time prior to
@@ -1022,7 +1021,7 @@ This image shows a small temperature sensor wired inside the ELT-Lite.
 Electronically, this is the same sensor that is sold as the Elsys
 Temperature probe but is less expensive, less obtrusive, and can be used
 if air temperature needs to be measured. (The “1-wire Temperature Probe"
-is the correct External Sensor setting on the ELT-Lite). The model
+is the correct External Sensor setting on the ELT-Lite.) The model
 number for the sensor is DS18B20, and sensors are available on
 [Digikey](https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983){:target="_blank"},
 [Amazon](https://www.amazon.com/Eiechip-DS18B20-Digital-Thermometer-Temperature/dp/B07MR71WVS/){:target="_blank"}
@@ -1055,7 +1054,7 @@ Important considerations for LoRaWAN gateways are:
 
   - Gateways usually require 120V wall power rather than a battery.
 
-  - Means of Connecting to the Internet: Ethernet, WiFi, Cellular.
+  - Means of Connecting to the Internet: Ethernet, Wi-Fi, Cellular.
 
       - An Ethernet connection tends to be the most reliable but limits
         where you can place the gateway.
