@@ -34,7 +34,7 @@ for more details.
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr class="odd", style="vertical align:top">
 <td><strong>Temperature Sensor<br />
 </strong>This must be a DS18B20-type temperature sensor such as the one sold by Elsys or <a href="https://www.amazon.com/HiLetgo-DS18B20-Temperature-Stainless-Waterproof/dp/B00M1PM55K/" target="_blank">these</a> on Amazon. It can also be a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983" target="_blank">bare DS18B20</a> mounted directly to the terminal block in the Elsys. Note that the ELT-2 has a built-in temperature and humidity sensor, in addition to allowing for an external sensor.</td>
 <td><p>“External sensor" setting on the Elsys should be “1-wire Temperature probe". Wiring of the external probe is:</p>
@@ -47,7 +47,7 @@ For the bare DS18B20:<br />
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image6.png" style="width:0.95035in;height:1.46354in" /></p></td>
 <td>The external temperature sensor shows up as a “xxx_extTemperature" (°F units) Sensor ID; the internal sensor in the ELT-2 is “xxx_temperature" and “xxx_humidity" (%RH units) for the relative humidity measurement.</td>
 </tr>
-<tr class="even">
+<tr class="even", style="vertical align:top">
 <td><strong>Pulse Output Sensor</strong><br />
 Sensors like electric power transducers, fuel flow meters, water meters.</td>
 <td><p>The two wires from the pulse output wire to the IN and Gnd ⏚ terminals on the Elsys.</p>
@@ -55,7 +55,7 @@ Sensors like electric power transducers, fuel flow meters, water meters.</td>
 The “External Sensor" setting on the Elsys should be “Absolute pulse Input, pull up", unless the pulse output sensor puts out voltage pulses instead of switch closure pulses. In that rarer case the setting should be “Absolute pulse count, no pull up/down".</p></td>
 <td>The pulse count shows up in BMON as “xxx_pulse". It will be a cumulative pulse count and is usually converted into a rate-of-use value like gallons/minute or kW, using the special “rate" variable in the BMON Transform. See <a href="https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms" target="_blank">this section</a> of the BMON documentation.</td>
 </tr>
-<tr class="odd">
+<tr class="odd", style="vertical align:top">
 <td><strong>Analysis North Motor Sensor</strong><br />
 This sensor attaches to a motor or other electric device emitting an AC electric field, and it senses when the device turns On and Off.<br />
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image7.png" style="width:1.78125in;height:1.18056in" /></td>
@@ -68,14 +68,14 @@ Black : Gnd ⏚</p>
 <p>The other critical setting in the “Sample times" section of the configuration is the “External startup time", which should be set to 10 million (10000000, a 1 with seven zeroes and no commas). This setting ensures that battery power will be continuously delivered to the Motor Sensor from the Elsys ELT.</p></td>
 <td>Readings appear in BMON with a Sensor ID of “xxx_digital". A good unit selection is “1=On 0=Off" since the reading value is a 1 when the motor is On and a 0 when it is Off.</td>
 </tr>
-<tr class="even">
+<tr class="even", style="vertical align:top">
 <td><strong>Switch Closure<br />
 </strong>You may have a Relay wired across a device to sense when the device turns On and Off. Or, you may have a door sensor that closes a switch when the door shuts.</td>
 <td><p>For a dry switch closure, there is no polarity and wiring at the Elsys is across the IN and Gnd ⏚ terminals.</p>
 <p>The “External Sensor" setting should be “Switch, dual edge trig" if you want to receive a reading for both a closing and an opening of the switch. If you just want a reading when the switch closes, select “Switch (normally open)".</p></td>
 <td>Readings in BMON are the same as with the Motor Sensor: “xxx_digital" Sensor ID, and a value of 1 when switch is closed and 0 when it is opened.</td>
 </tr>
-<tr class="odd">
+<tr class="odd", style="vertical align:top">
 <td><strong>Sensor with 0 - 10 VDC Output<br />
 </strong>Pressure sensors and other types of sensors can be obtained with a 0 - 10 VDC output signal.</td>
 <td><p>Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br />
@@ -87,7 +87,7 @@ Ground : Gnd ⏚</p>
 <td><p>Readings in BMON arrive with a Sensor ID of “xxx_analog", measured in Volts. A <a href="https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html" target="_blank">BMON Transform</a> is required to convert this to engineering units. For example, if a pressure can read a maximum of 25 PSI, which corresponds to 10 V output, the Transform formula to produce readings in PSI would be:</p>
 <p>25.0 * val / 10.0</p></td>
 </tr>
-<tr class="even">
+<tr class="even", style="vertical align:top">
 <td><strong>Sensor with 0 - 10 VDC Output, powered by the Elsys<br />
 </strong><br />
 With the addition of a Voltage Converter board, it is possible to have the Elsys ELT supply power to an external sensor that needs a relatively high power supply voltage. Sensors with a 0 - 10 VDC output generally need a power supply voltage of 14 Volts or more. The Elsys battery itself can only supply about 3.6 Volts.</td>
@@ -103,7 +103,7 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <p>For the Elsys configuration, “External Sensor" is set to “Analog 0-10V". The “External startup time" setting determines how early power is applied to the external sensor before it is read by the Elsys. Some sensors need as little as 20 milliseconds to stabilize. Others can require 750 milliseconds or more. Experimentation or an oscilloscope test can determine this value. Longer times are the safe approach but reduce battery life.</p></td>
 <td>Same as the prior row, “xxx_analog" is Sensor ID, and a suitable BMON Transform must be entered to convert to engineering units.</td>
 </tr>
-<tr class="odd">
+<tr class="odd", style="vertical align:top">
 <td><strong>Sensor with 4 - 20 mA Current Output<br />
 </strong>Some sensors have a current output varying from 4 to 20 milliamperes (mA). The Elsys ELT cannot read current directly, but a resistor can be used to convert the current output into a voltage output, which can be read by the Elsys.</td>
 <td><p>The proper resistor value is <a href="https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-150R/12831" target="_blank">150 Ohms, 1% accuracy</a>. Here is a wiring picture:</p>
@@ -120,7 +120,7 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 25.0 * (val - 0.588) / 2.352</p>
 <p>(this accounts for the 7,400 Ohm internal resistance of the Elsys ELT).</p></td>
 </tr>
-<tr class="even">
+<tr class="even", style="vertical align:top">
 <td><strong>Maxbotix Distance Sensor</strong><br />
 Can be used to measure depth of fuel in a fuel or water tank.</td>
 <td><p>Can be used with an ELT-2.  Set the "External Sensor" setting to "Maxbotix".</p>
@@ -130,7 +130,7 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 <p>Clip the shield and all other colored wires.</p></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="odd", style="vertical align:top">
 <td id="fuel-float-sensor">
 <p><strong>Fuel Tank Level Sensor</strong><br />
 Allows sensing the level in a fuel tank using a float-based sensor such
