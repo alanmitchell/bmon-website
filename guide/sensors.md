@@ -252,9 +252,9 @@ sensors:
 <table border="1">
 <tbody>
 <tr style="vertical-align:top">
-<td><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a>: This weatherproof unit can accept many types of sensors, including a temperature sensor. Elsys sells an external temperature probe that can be used to sense outdoor temperature, or a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983">bare DS18B20</a> temperature sensor can be attached inside the ELT-Lite unit.<br/>
+<td style="width:50%;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a>: This weatherproof unit can accept many types of sensors, including a temperature sensor. Elsys sells an external temperature probe that can be used to sense outdoor temperature, or a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983">bare DS18B20</a> temperature sensor can be attached inside the ELT-Lite unit.<br/>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:2.94236in;height:2.53889in" /></p></td>
-<td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
+<td style="width:50%;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:3.02083in;height:1.95833in" /></p></td>
 </tr>
 </tbody>
@@ -542,7 +542,7 @@ temperature probe. Here are three possibilities:
 </tr>
 </tbody>
 </table>
-*Three Wireless Temperature Sensor Options With External Temperature Probes*{: #table4}{: .small_text}
+*Wireless Temperature Sensor Options With External Temperature Probes*{: #table4}{: .small_text}
 
 ### Installing Boiler and Domestic Hot Water Sensors
 {: #installing-boiler-domestic}
