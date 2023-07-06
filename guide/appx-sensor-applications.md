@@ -22,7 +22,7 @@ Consult the Elsys ELT User Manuals
 [ELT-2](https://elsys.se/public/manuals/Operating%20Manual%20ELT-2.pdf){:target="_blank"})
 for more details.
 
-*Elsys External Sensor Wiring and Configuration Table*{: .small_text}
+*Elsys External Sensor Wiring and Configuration*{: .small_text}
 {: #elsys-sensor-table}
 
 <table border="1">
@@ -175,7 +175,7 @@ team for more information.</p>
 The table below gives details on use and configuration of some selected
 LoRaWAN sensors, not addressed in the prior Elsys table.
 
-*Use and Configuration of Selected LoRaWAN Sensors Table*{: .small_text}
+*Use and Configuration of Selected LoRaWAN Sensors*{: .small_text}
 {: #misc-sensor-table}
 <table border="1">
 <thead>
