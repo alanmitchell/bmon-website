@@ -531,10 +531,10 @@ temperature probe. Here are three possibilities:
 <table border="1">
 <tbody>
 <tr style="vertical-align:top">
-<td><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
+<td style="width:50%;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
 <img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:3.10417in;height:2.34375in" /></p>
 <p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></td>
-<td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
+<td style="width:50%;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:3.10417in;height:2.01389in" /></p>
 <p>The standard configuration of the LHT65 wireless sensor includes an external temperature probe, as shown in the picture above.</p></td>
 </tr>
