@@ -21,18 +21,18 @@ next:
 ### How to Choose/Set Up Sensors
 - [Introduction](sensors#introduction)
   - **Figure:** [Basic Architecture of the BMON System](sensors#image1)
-  - **Figure:** [LoRaWAN Sensor Comparison](sensors#image2)
+  - **Table:** [LoRaWAN Sensor Comparison](sensors#image2)
   - **Figure:** [Types of Electrical Outputs Found in Sensors](sensors#image3)
 - [Temperature](sensors#temperature)
   - **Figure:** [Potential Energy Savings of Measuring Building Temperature](sensors#image4)
   - **Figure:** [Collecting Indoor Temperature Data Using an Existing Building Control System](sensors#image5)
   - **Figure:** [Ecobee Thermostat](sensors#image6)
-  - **Figure:** [Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors](sensors#table1)
-  - **Figure:** [Wireless Outdoor Temperature Sensor Options](sensors#table2)
+  - **Table:** [Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors](sensors#table1)
+  - **Table:** [Wireless Outdoor Temperature Sensor Options](sensors#table2)
   - **Figure:** [Installation Guidelines for Temperature Sensors](sensors#image11)
 - [Light Levels](sensors#light-levels)
   - **Figure:** [Potential Energy Savings of Measuring Light Levels](sensors#image12)
-  - **Figure:** [Recommended Wireless Light Level Sensors](sensors#table3)
+  - **Table:** [Recommended Wireless Light Level Sensors](sensors#table3)
 - [Indoor Carbon Dioxide (CO<sub>2</sub>) Levels](sensors#indoor-carbon-dioxide)
   - **Figure:** [Potential Energy Savings of Measuring Indoor Carbon Dioxide Levels](sensors#image15)
   - **Figure:** [Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](sensors#image13)
@@ -58,7 +58,7 @@ next:
   - **Figure:** [Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure](sensors#image29)
 - [Gateways for Wireless Sensors](sensors#gateways-wireless-sensors)
   - **Figure:** [Gateways for Wireless Sensors](sensors#image30)
-  - **Figure:** [Pros and Cons of Select LoRaWAN Gateways](sensors#image31)
+  - **Table:** [Pros and Cons of Select LoRaWAN Gateways](sensors#image31)
   - **Figure:** [Solutions for Potential Sensor Connection Issues](sensors#image32)
   - **Figure:** [Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia](sensors#image33)
   - **Figure:** [A Properly Installed Exterior Antenna for a LoRaWAN Gateway](sensors#image34)
@@ -148,9 +148,9 @@ next:
 
 ### Appendix: Notes on Various Sensor Applications
 - [Notes About External Sensors Connected to the Elsys ELT-Lite or ELT-2](appx-sensor-applications#notes-about-external)
-  - **Table:** [Elsys External Sensor Wiring and Configuration Table ](appx-sensor-applications#elsys-sensor-table)
+  - **Table:** [Elsys External Sensor Wiring and Configuration](appx-sensor-applications#elsys-sensor-table)
 - [Miscellaneous Sensor Wiring and Configuration](appx-sensor-applications#miscellaneous-sensor-wiring)
-  - **Table:** [Use and Configuration of Selected LoRaWAN Sensors Table](appx-sensor-applications#misc-sensor-table)
+  - **Table:** [Use and Configuration of Selected LoRaWAN Sensors](appx-sensor-applications#misc-sensor-table)
 
 ### Appendix: Configuring Dragino LoRaWAN Gateways
   - **Figure:** [System Diagram for Dragino LoRaWAN Gateway](appx-dragino-gateway#image6)
