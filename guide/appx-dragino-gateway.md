@@ -41,7 +41,7 @@ from your PC to the Gateway and “Proceed with Flash". You will be forced
 to reconnect to the gateway Wi-Fi network and access the configuration
 page again.
 
-## Configuring Gateway for the Things Network
+## Configuring a Gateway for the Things Network
 {: #configure-gateway-things}
 
 Here are the key settings that need to be changed to configure the
