@@ -13,16 +13,16 @@ consulted for detailed information.
 
 When you power up the gateway, it broadcasts a new Wi-Fi network that
 you can connect to with a PC (just like connecting to a Wi-Fi network at
-a coffee shop). The network name always starts with “dragino", for
-example “dragino-1eb408". The Wi-Fi password for connecting to this
-network is “dragino+dragino".
+a coffee shop). The network name always starts with “dragino," for
+example “dragino-1eb408." The Wi-Fi password for connecting to this
+network is “dragino+dragino."
 
 Next, you need to use a web browser to access the configuration web
 pages located on the gateway. You access those pages by typing in the
 following IP address into the address bar of your browser: 10.130.1.1.
 The first time you try to access this address, a dialog will pop up
 requesting you to log in. For this log in, the username is “root" and
-the password is “dragino". You are then presented with the following
+the password is “dragino." You are then presented with the following
 system diagram:
 
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image6.png)
@@ -72,12 +72,12 @@ gateway for US operation on the Things Network:
     Ethernet connection, there is no more configuration required on the
     gateway. If you want to use Wi-Fi to connect the gateway to the
     Internet, then you need to access the “Network" menu and click
-    “WiFi". On the WiFi page, you must fill out the settings in the
+    “WiFi." On the WiFi page, you must fill out the settings in the
     “WiFi WAN Client Settings" section of the page, making sure to
     “Enable WiFi WAN Client" and to properly fill out the name of the
     Wi-Fi network (SSID) and the Passphrase. Also, keep the “Enable WiFi
     Access Point" checkbox enabled so that you can access the gateway in
-    the future for configuration (i.e. make no changes in that
+    the future for configuration (i.e., make no changes in that
     section).
     Note one issue we have discovered with filling out and enabling the
     “WiFi WAN Client Settings" section: if that Wi-Fi connection is
