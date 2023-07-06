@@ -48,11 +48,6 @@ network is publicly available for use by your sensors, without charge.
 You are able to add your own gateways to the network. AHFC can help you
 determine whether gateways exist in your area that may provide coverage
 for a new project.
-
-
-![]({{ site.baseurl }}/assets/guide/sensors/image1.png)
-<br>{: #image1}*Basic Architecture of the BMON System*{: .small_text}
-
 </details>
 
 <details markdown="1">
