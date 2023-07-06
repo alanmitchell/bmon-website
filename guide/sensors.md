@@ -96,7 +96,7 @@ electrical outputs, detailed below.
 
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>{: #image3}*Types of Electrical Outputs Found in
-Sensors (*additional information for configurations with pulse output transformation is
+Sensors (&#42;additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*{: .small_text}
 
 ## Temperature
