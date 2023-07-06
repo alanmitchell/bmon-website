@@ -352,9 +352,9 @@ Here are some recommended wireless light level sensors:
 <table border="1">
 <tbody>
 <tr style="vertical-align:top">
-<td><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: for the ERS Lite and the ERS CO2 Lite come with a light sensor.<br/>
+<td style="width:50%;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: for the ERS Lite and the ERS CO2 Lite come with a light sensor.<br/>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image13.png" style="width:2.61944in;height:2.6375in" /></p></td>
-<td><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65-E5 Temperature/Humidity/Light LoRaWAN Sensor</a>: One version of the LHT65 sensor comes with an external light level sensor, which plugs into the main sensor unit via a 20" cable (shown here).<br/>
+<td style="width:50%;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65-E5 Temperature/Humidity/Light LoRaWAN Sensor</a>: One version of the LHT65 sensor comes with an external light level sensor, which plugs into the main sensor unit via a 20" cable (shown here).<br/>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image14.png" style="width:3.10417in;height:2.55556in" /></p></td>
 </tr>
 </tbody>
