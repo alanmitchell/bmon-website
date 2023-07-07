@@ -79,7 +79,7 @@ building monitoring needs well. A comparison of these two brands is
 below.
 
 
-{: #image2}*LoRaWAN Sensor Comparison*{: .small_text}
+*LoRaWAN Sensor Comparison*{: .small_text}{: #image2}
 ![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
 <br>
 
