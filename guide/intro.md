@@ -35,8 +35,6 @@ application through a contract funded by the DOE State Energy Program.
 {: style="text-align: center;"}
 ![]({{ site.baseurl }}/assets/guide/intro/image2.png){: .align-center style="width: 60%;"}
 <br>{: #image2}
-*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: .small_text}
-{: style="text-align: center;"}
 
 While the software is available to the public at no cost, a BMON user’s
 data collection and storage costs must be weighed against potential
@@ -77,9 +75,9 @@ Here are examples of a couple different BMON information sites:
 
 [Alaska Native Tribal Health Consortium](https://anthc.bmon.org/){:target="_blank"}
 
-
+*Basic Architecture of the BMON System*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/intro/image1.png)
-<br>{: #image1}*Basic Architecture of the BMON System*{: .small_text}
+<br>{: #image1}
 <br>
 
 ***Video:*** *Introduction to BMON*
