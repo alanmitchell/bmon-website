@@ -31,9 +31,9 @@ and analyze energy use and operations in buildings of all sizes.
 Analysis North has been the primary software developer of the BMON
 application through a contract funded by the DOE State Energy Program.
 
-*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: .small_text}{: style="text-align: center;"}
+*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: .small_text}{: style="text-align: center;"}{: #image2}
 ![]({{ site.baseurl }}/assets/guide/intro/image2.png){: .align-center style="width: 60%;"}
-<br>{: #image2}
+<br>
 
 While the software is available to the public at no cost, a BMON user’s
 data collection and storage costs must be weighed against potential
@@ -74,9 +74,9 @@ Here are examples of a couple different BMON information sites:
 
 [Alaska Native Tribal Health Consortium](https://anthc.bmon.org/){:target="_blank"}
 
-*Basic Architecture of the BMON System*{: .small_text}
+*Basic Architecture of the BMON System*{: .small_text}{: #image1}
 ![]({{ site.baseurl }}/assets/guide/intro/image1.png)
-<br>{: #image1}
+<br>
 <br>
 
 ***Video:*** *Introduction to BMON*
