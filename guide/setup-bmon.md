@@ -8,8 +8,9 @@ next:
   url: /guide/use-data.html
 ---
 
+{: #image1}*What you Need to Set Up a Basic BMON System*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
-<br>{: #image1}*What you Need to Set Up a Basic BMON System*{: .small_text}
+<br>
 
 <details markdown="1">
 
@@ -27,8 +28,9 @@ servers capable of running BMON can be rented starting at $6 per month
 ## The BMON User Interface vs the System Administrator Interface
 {: #bmon-user-interface}
 
+{: #image2}*Ways to Interact with the BMON Software*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
-<br>{: #image2}*Ways to Interact with the BMON Software*{: .small_text}
+<br>
 
 In this section, we will be using the System Administrator interface to
 set up the building and sensors that are used in your BMON system.
@@ -58,11 +60,14 @@ is received by your BMON server.
 ## **Overview of the System Administrator Interface**
 {: #overview-system-administrator}
 
+{: #image3}*A View of the BMON System Administrator Interface*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
-<br>{: #image3}*A View of the BMON System Administrator Interface*{: .small_text}
+<br>
 
+
+{: #image4}*How to Access the Administrator Interface*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
-<br>{: #image4}*How to Access the Administrator Interface*{: .small_text}
+<br>
 
 This video shows how to access the System Administrator interface and
 gives an overview of how the interface is used:
@@ -80,9 +85,9 @@ careful to only edit your data.
 
 In BMON, sensors are associated with buildings.
 
+{: #image5}*Essential Information Needed to Add a Building in BMON*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
-<br>{: #image5}*Essential Information Needed to Add a Building in
-BMON*{: .small_text}
+<br>
 
 See how to add a new building into the BMON system in the video below.
 If you are using the AHFC Shared BMON system, this video also shows how
@@ -100,8 +105,9 @@ server.
 More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
+{: #image6}*Examples of Building Details That Can Be Entered in BMON*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
-<br>{: #image6}*Examples of Building Details That Can Be Entered in BMON*{: .small_text}
+<br>
 
 View the video below to see how to set up some of these optional
 features:
@@ -125,8 +131,9 @@ possible energy savings, so this [task](use-data#energy-reports) should be compl
 Once you have your buildings added to BMON, you can then add the
 individual sensors that report sensor readings.
 
+{: #image7}*Information Needed to Add a Sensor to the BMON Software*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
-<br>{: #image7}*Information Needed to Add a Sensor to the BMON Software*{: .small_text}
+<br>
 
 It is also important to understand that one physical sensor device, like an Elsys ERS-CO<sub>2</sub>
 sensor, will report multiple different sensor values, such as
@@ -262,9 +269,10 @@ healthy and comfortable conditions for occupants and reducing
 complaints, or it could be a combination of goals. The dashboard can be
 set up in different ways to serve different goals.
 
-![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
-<br>{: #image8}*The Dashboard for the AHFC Headquarters Building Illustrates Some
+{: #image8}*The Dashboard for the AHFC Headquarters Building Illustrates Some
 Options of What Can Be Displayed*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
+<br>
 
 </details>
 
@@ -272,8 +280,9 @@ Options of What Can Be Displayed*{: .small_text}
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
+{: #image9}*Guidelines for a Useful Dashboard*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
-<br>{: #image9}*Guidelines for a Useful Dashboard*{: .small_text}
+<br>
 
 ***Video:*** *Choosing Sensors to Display on the Building Dashboard*
 {: #video-choosing-sensors-display}
@@ -290,15 +299,17 @@ Options of What Can Be Displayed*{: .small_text}
 ## Using and Creating Alerts
 {: #using-creating-alerts}
 
+{: #image10}*Examples of What to Use Alerts for in BMON*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
-<br>{: #image10}*Examples of What to Use Alerts for in BMON*{: .small_text}
+<br>
 
 An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
+{: #image11}*How to Create an Alert*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
-<br>{: #image11}*How to Create an Alert*{: .small_text}
+<br>
 
 ***Video:*** *Creating Alerts and Assigning Recipients*
 {: #video-creating-alerts-assigning}
