@@ -31,7 +31,8 @@ and analyze energy use and operations in buildings of all sizes.
 Analysis North has been the primary software developer of the BMON
 application through a contract funded by the DOE State Energy Program.
 
-*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: style="text-align: center;"}{: .small_text}{: #image2}
+*Alaskan BMON User Collecting Fuel Use Data (photo credit to Andrew Kroll)*{: .small_text}{: #image2}
+{: style="text-align: center;"}
 ![]({{ site.baseurl }}/assets/guide/intro/image2.png){: .align-center style="width: 60%;"}
 <br>
 
