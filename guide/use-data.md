@@ -83,8 +83,9 @@ comes later. Your strategy may evolve after data is collected and need
 to be adjusted during critical times, cold weather, wind, humidity
 levels, and occupancy.
 
+{: #image1}*Key Steps to an Effective Monitoring Strategy*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image1.png)
-<br>{: #image1}*Key Steps to an Effective Monitoring Strategy*{: .small_text}
+<br>
 
 Each component should be agreed upon by the team and written down. The
 monitoring strategy should be available to each member of the monitoring
@@ -161,17 +162,17 @@ BMON, accessed through the top menu bar titled “Graph/Report." Once
 there, select the type of Graph or Report to view from the drop-down
 menu provided.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image2.png)
-{: #image2}
+{: #image3}*Drop Down Menu in the Graph/Report Tab That Allows Selection of Available Data Visualization Tools*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image2.png){: #image2}
 <img src="{{ site.baseurl }}/assets/guide/use-data/image3.png" style="display: block; margin-left: auto; margin-right: 0; padding-right: 130px;">
-<br>{: #image3}*Drop Down Menu in the Graph/Report Tab That Allows Selection of
-Available Data Visualization Tools*{: .small_text}
+<br>
 
 #### Common Graphs and Reports
 {: #common-graphs-reports}
 
+{: #image4}*Common BMON Graphs and Reports*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
-<br>{: #image4}*Common BMON Graphs and Reports*{: .small_text}
+<br>
 
 **Current Sensor Values**
 
@@ -183,16 +184,16 @@ reported value will be from a day, week, or even month ago. The Current
 Sensor Values report will also show sensor values highlighted red if
 they are triggering an Alert.
 
+{: #image5}*The top portion of a Current Sensor Values report (showing the sensor name, most recent reported value and units, the time of the last reported value, and the sensor ID)*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image5.png)
-<br>{: #image5}*The top portion of a Current Sensor Values report (showing the sensor name,
-most recent reported value and units, the time of the last reported
-value, and the sensor ID)*{: .small_text}
+<br>
 
 **Plot Sensor Values over Time**
 
-![]({{ site.baseurl }}/assets/guide/use-data/image6.png)
-<br>{: #image6}*Example of a Plot Sensor Values over Time Graph Used to Measure
+{: #image6}*Example of a Plot Sensor Values over Time Graph Used to Measure
 Temperature of Selected Building Areas over a Period of Months*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image6.png)
+<br>
 
 The “Plot Sensor Values over Time" graph is used to plot the values from
 one or more sensors over time. There are a number of special features of
@@ -205,9 +206,10 @@ following video.
 
 **Sensor X vs Y Scatter Plot**
 
-![]({{ site.baseurl }}/assets/guide/use-data/image7.png)
-<br>{: #image7}*Example of an X vs Y Scatter Plot Used to Measure the Correlation
+{: #image7}*Example of an X vs Y Scatter Plot Used to Measure the Correlation
 Between Fuel Use and Outdoor Temperature*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image7.png)
+<br>
 
 The X vs Y Scatter Plot allows you to see how two different sensor
 values relate to one another. For example, plotting boiler gas use vs
@@ -220,9 +222,10 @@ shows how to use X vs Y Scatter Plots:
 
 **Hourly Profile Plots**
 
-![]({{ site.baseurl }}/assets/guide/use-data/image8.png)
-<br>{: #image8}*Example of an Hourly Profile Plot Used to Measure Differences in a
+{: #image8}*Example of an Hourly Profile Plot Used to Measure Differences in a
 Building’s Electric Use on Occupied and Unoccupied Days*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image8.png)
+<br>
 
 Another useful plot called the “Hourly Profile of a Sensor" helps show
 how a sensor reading varies depending on the hour of the day and the day
@@ -297,8 +300,9 @@ can zoom in by clicking and dragging a rectangle on the graph. The graph
 below shows an example where only one sensor has been highlighted. The
 gray areas on the graph are the unoccupied periods for the building.
 
+{: #image9}*Indoor Temp Report in the Energy Reports Section of BMON*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image9.png)
-<br>{: #image9}*Indoor Temp Report in the Energy Reports Section of BMON*{: .small_text}
+<br>
 
 <details markdown="1">
 
@@ -313,8 +317,9 @@ back began later than needed. The space is up to occupied temperature at
 5 am and then is not set back again until 9 pm. There may be good
 reasons for this extended schedule, but it is worth in
 
+{: #image10}*A Closer View of the Indoor Temp Report*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image10.png)
-<br>{: #image10}*A Closer View of the Indoor Temp Report*{: .small_text}
+<br>
 
 Temperatures during the gray, unoccupied periods are often *higher* than
 they are during occupied periods. There appears to be a controls or
@@ -322,9 +327,10 @@ heating system problem in this building, and investigation is warranted.
 The figure below is an indoor temperature graph from the Energy Report
 of a space in a different building:
 
-![]({{ site.baseurl }}/assets/guide/use-data/image11.png)
-<br>{: #image11}*Indoor Temperature Report Displaying a Potential Problem in a
+{: #image11}*Indoor Temperature Report Displaying a Potential Problem in a
 Building’s Heating Pattern*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image11.png)
+<br>
 
 </details>
 
@@ -333,9 +339,10 @@ temperatures are excessive during the heating season. The graph below
 shows a sample graph utilizing this highlighting feature for
 temperatures outside of the generally accepted normal range.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image12.png)
-<br>{: #image12}*Temperature Energy Report Feature That Alerts Users of Indoor
+{: #image12}*Temperature Energy Report Feature That Alerts Users of Indoor
 Temperatures Outside the Normal Range*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image12.png)
+<br>
 
 The red horizontal bar marks a heating temperature range that is
 generally beyond that needed for comfort. Although it is a bit hard to
@@ -367,17 +374,19 @@ the gray shaded areas are the unoccupied periods of the building. If
 lighting is On during a substantial part of these periods, it is worth
 investigating whether the control schedule can be tightened up.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image13.png)
-<br>{: #image13}*Lighting Energy Report Showing Several Light Sensor Patterns Through a
+{: #image13}*Lighting Energy Report Showing Several Light Sensor Patterns Through a
 Week*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image13.png)
+<br>
 
 By double-clicking on a sensor in the graph legend, you can isolate and
 show just one of the sensors. Double clicking on the chart area once a
 single sensor is displayed *(Light Sensor 29897*), as seen in the graph
 below, brings all the sensors in the report back.
 
+{: #image14}*Lighting Energy Report Showing a Single Light Sensor*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image14.png)
-<br>{: #image14}*Lighting Energy Report Showing a Single Light Sensor*{: .small_text}
+<br>
 
 The pattern of this single light sensor may indicate lights being used
 on weekends or may indicate daylight to a work space. Daylight studies
@@ -397,8 +406,9 @@ the lighting level of a particular hour during the week. Notice that the
 horizontal axis shows hours of the day and the vertical axis shows days
 of the week.
 
+{: #image15}*"Heat Map Hourly Profile" for One Light Sensor at AHFC Headquarters*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image15.png)
-<br>{: #image15}*"Heat Map Hourly Profile" for One Light Sensor at AHFC Headquarters*{: .small_text}
+<br>
 
 On Monday through Thursday, this space is lit until 9 pm at night. While
 there may be a legitimate explanation for lights staying on this late,
@@ -424,9 +434,10 @@ Measuring electricity and fuel use provides important data on where
 energy can be saved and helps verify and track savings from energy
 efficiency improvements.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image16.png)
-<br>{: #image16}*Examples of Energy Reports That Focus on Displaying and Analyzing
+{: #image16}*Examples of Energy Reports That Focus on Displaying and Analyzing
 Electric and Fuel Data*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image16.png)
+<br>
 
 Instead of walking through these reports in detail, we will try to explain the general analysis
 approaches used by these reports. Click on the topics below to learn
@@ -446,9 +457,10 @@ outside temperature when you do the comparison, because fuel is
 generally used to heat the building, and heating needs will vary with
 outdoor temperature.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image17.png)
-<br>{: #image17}*Ways to Compare Fuel Use and Account for Outdoor
+{: #image17}*Ways to Compare Fuel Use and Account for Outdoor
 Temperature*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image17.png)
+<br>
 
 These electrical and fuel use comparisons can identify that an energy use
 problem is occurring, but they do not give much help in determining what
@@ -470,9 +482,10 @@ purposes. The “Electric Use" and “Fuel Use" Energy Reports have a couple
 different graphs that allow you to identify excessive energy use during
 unoccupied periods.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image18.png)
-<br>{: #image18}*What to Look for When Diagnosing High Energy Use in an Unoccupied
+{: #image18}*What to Look for When Diagnosing High Energy Use in an Unoccupied
 Building*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image18.png)
+<br>
 
 <details markdown="1">
 
@@ -547,9 +560,10 @@ versa. The difference between the supply and return temperatures (known
 as delta-T) is related to how much heat is delivered to the space as the
 hydronic fluid circulates.
 
-![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
-<br>{: #image19}*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
+{: #image19}*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
 Can Show if an Outdoor Reset is Working*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
+<br>
 
 </details>
 
@@ -564,9 +578,10 @@ Temperature, and on the vertical Y Axis, plot boiler supply temperature.
 Use one day averaging to smooth out the data. The graph below shows an
 example of a building that has an outdoor temperature reset:
 
-![]({{ site.baseurl }}/assets/guide/use-data/image20.png)
-<br>{: #image20}*X vs Y Scatter Plot Showing a Boiler with an Outdoor Reset Curve
+{: #image20}*X vs Y Scatter Plot Showing a Boiler with an Outdoor Reset Curve
 Applied to the Supply Temperature Controls*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image20.png)
+<br>
 
 Clearly the boiler supply temperature rises with colder outdoor
 temperatures. The shape of this relationship can be changed through the
@@ -586,9 +601,10 @@ The graph below shows a building where outdoor temperature reset is
 clearly not being used. There is no relationship between the outdoor
 temperature and the boiler supply temperature:
 
-![]({{ site.baseurl }}/assets/guide/use-data/image21.png)
-<br>{: #image21}*X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
+{: #image21}*X vs Y Scatter Plot for a Heating System Without an Outdoor Reset
 Curve*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/use-data/image21.png)
+<br>
 
 The X vs Y scatter plot for this heating system does not have an outdoor
 reset curve because the supply temperature remains essentially constant
@@ -599,8 +615,9 @@ there is a boiler failure. The supply temperature will drop below
 reasonable levels, and a BMON Alert can be set up to notify you when
 this occurs.
 
+{: #image22}*Why Measuring Domestic Hot Water Supply Temperature is Useful*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image22.png)
-<br>{: #image22}*Why Measuring Domestic Hot Water Supply Temperature is Useful*{: .small_text}
+<br>
 
 </details>
 
@@ -654,8 +671,9 @@ good idea to have a control strategy in place that relies on occupancy
 sensors or CO<sub>2</sub> measurements to increase/reduce ventilation
 when occupancy drops.
 
+{: #image23}*Example of an IAQ Energy Report*{: .small_text}
 ![]({{ site.baseurl }}/assets/guide/use-data/image23.png)
-<br>{: #image23}*Example of an IAQ Energy Report*{: .small_text}
+<br>
 
 <details markdown="1">
 
