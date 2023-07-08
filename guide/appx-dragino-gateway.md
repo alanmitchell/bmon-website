@@ -25,9 +25,10 @@ requesting you to log in. For this log in, the username is “root" and
 the password is “dragino." You are then presented with the following
 system diagram:
 
-*System Diagram for Dragino LoRaWAN Gateway*{: .small_text}
+*System Diagram for Dragino LoRaWAN Gateway*{: .small_text}{: #image6}
+<br>
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image6.png)
-<br>{: #image6}
+<br>
 
 which generally displays which parts of the gateway are working. Access
 to different configuration pages can be done by clicking on parts of the
@@ -51,9 +52,10 @@ gateway for US operation on the Things Network:
 1.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
     Settings section to look like the following:
 
-    *Screenshot of LoRa Radio Settings*{: .small_text}
+    *Screenshot of LoRa Radio Settings*{: .small_text}{: #image1}
+    <br>
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image1.png)
-<br>{: #image1}
+<br>
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -62,15 +64,17 @@ gateway for US operation on the Things Network:
     later when you register this gateway on the Things Network. Do not
     change the ID.
 
-    *Screenshot of Gateway ID*{: .small_text}
+    *Screenshot of Gateway ID*{: .small_text}{: #image5}
+    <br>
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image5.png)
-<br>{: #image5}
+<br>
 
     Then set the “Primary LoRaWAN Server" as follows:
 
-    *Screenshot of Primary LoRaWAN Server*{: .small_text}
+    *Screenshot of Primary LoRaWAN Server*{: .small_text}{: #image4}
+    <br>
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image4.png)
-<br>{: #image4}
+<br>
 
     Click the “Save&Apply" button at the bottom of the page.
 
@@ -113,6 +117,7 @@ gateway for US operation on the Things Network:
     should see green checkmarks:
 
 
-*System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks*{: .small_text}
+*System Diagram for Dragino LoRaWAN Gateway with Green Checkmarks*{: .small_text}{: #image2}
+<br>
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image2.png)
-<br>{: #image2}
+<br>
