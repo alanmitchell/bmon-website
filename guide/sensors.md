@@ -776,6 +776,7 @@ perform this task:
 
 *Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
 Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*{: .small_text}{: #image9}
+<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image9.png)
 <br>
 
@@ -886,8 +887,9 @@ coil is energized and connects to a wireless switch sensor to transmit
 that reading. The image below shows a motor sensor attached to small
 circulating pump:
 
-*A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}
-![]({{ site.baseurl }}/assets/guide/sensors/image25.png){: #image25}
+*A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}{: #image25}
+<br>
+![]({{ site.baseurl }}/assets/guide/sensors/image25.png)
 <br>
 
 <details markdown="1">
@@ -1147,6 +1149,7 @@ This image shows a simple external antenna that can be used with a
 sensor or gateway to improve signal strength between buildings.
 
 *Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia*{: .small_text}{: #image33}
+<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image33.png)
 <br>
 
@@ -1157,6 +1160,7 @@ drip loops on the coaxial cable (to prevent water leakage into the
 building) and the placement of the antenna above the peak of the roof.**
 
 *A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}{: #image34}
+<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
 <br>
 
