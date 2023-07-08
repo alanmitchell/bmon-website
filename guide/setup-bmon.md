@@ -8,7 +8,7 @@ next:
   url: /guide/use-data.html
 ---
 
-{: #image1}*What you Need to Set Up a Basic BMON System*{: .small_text}
+*What you Need to Set Up a Basic BMON System*{: .small_text}{: #image1}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
 <br>
 
@@ -28,7 +28,7 @@ servers capable of running BMON can be rented starting at $6 per month
 ## The BMON User Interface vs the System Administrator Interface
 {: #bmon-user-interface}
 
-{: #image2}*Ways to Interact with the BMON Software*{: .small_text}
+*Ways to Interact with the BMON Software*{: .small_text}{: #image2}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
 <br>
 
@@ -43,7 +43,7 @@ deliver their data to the publicly-available [Things
 Network](https://www.thethingsnetwork.org/){:target="_blank"}. The account on the Things
 Network that receives the data must be configured to forward it to your
 BMON server. For the rest of this section, we will assume that this
-configuration is in place.
+configuration is in place. 
 
 <details markdown="1">
 
@@ -60,12 +60,12 @@ is received by your BMON server.
 ## **Overview of the System Administrator Interface**
 {: #overview-system-administrator}
 
-{: #image3}*A View of the BMON System Administrator Interface*{: .small_text}
+*A View of the BMON System Administrator Interface*{: .small_text}{: #image3}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
 <br>
 
 
-{: #image4}*How to Access the Administrator Interface*{: .small_text}
+*How to Access the Administrator Interface*{: .small_text}{: #image4}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
 <br>
 
@@ -85,7 +85,7 @@ careful to only edit your data.
 
 In BMON, sensors are associated with buildings.
 
-{: #image5}*Essential Information Needed to Add a Building in BMON*{: .small_text}
+*Essential Information Needed to Add a Building in BMON*{: .small_text}{: #image5}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image5.png)
 <br>
 
@@ -105,7 +105,7 @@ server.
 More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
-{: #image6}*Examples of Building Details That Can Be Entered in BMON*{: .small_text}
+*Examples of Building Details That Can Be Entered in BMON*{: .small_text}{: #image6}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
 <br>
 
@@ -131,7 +131,7 @@ possible energy savings, so this [task](use-data#energy-reports) should be compl
 Once you have your buildings added to BMON, you can then add the
 individual sensors that report sensor readings.
 
-{: #image7}*Information Needed to Add a Sensor to the BMON Software*{: .small_text}
+*Information Needed to Add a Sensor to the BMON Software*{: .small_text}{: #image7}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
 <br>
 
@@ -269,8 +269,8 @@ healthy and comfortable conditions for occupants and reducing
 complaints, or it could be a combination of goals. The dashboard can be
 set up in different ways to serve different goals.
 
-{: #image8}*The Dashboard for the AHFC Headquarters Building Illustrates Some
-Options of What Can Be Displayed*{: .small_text}
+*The Dashboard for the AHFC Headquarters Building Illustrates Some
+Options of What Can Be Displayed*{: .small_text}{: #image8}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image8.png)
 <br>
 
@@ -280,7 +280,7 @@ Options of What Can Be Displayed*{: .small_text}
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
-{: #image9}*Guidelines for a Useful Dashboard*{: .small_text}
+*Guidelines for a Useful Dashboard*{: .small_text}{: #image9}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>
 
@@ -299,7 +299,7 @@ Options of What Can Be Displayed*{: .small_text}
 ## Using and Creating Alerts
 {: #using-creating-alerts}
 
-{: #image10}*Examples of What to Use Alerts for in BMON*{: .small_text}
+*Examples of What to Use Alerts for in BMON*{: .small_text}{: #image10}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
 <br>
 
@@ -307,7 +307,7 @@ An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
-{: #image11}*How to Create an Alert*{: .small_text}
+*How to Create an Alert*{: .small_text}{: #image11}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
 <br>
 
