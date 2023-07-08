@@ -127,6 +127,7 @@ energy use data for a building, it is very important to have accurate
 outside temperature data to make valid comparisons.
 
 </details>
+<br>
 
 ### Indoor Temperature Collection Methods
 {: #indoor-temperature-collection}
@@ -151,6 +152,7 @@ collection within your building, contact [Tyler
 Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 </details>
+<br>
 
 <details markdown="1">
 
@@ -178,7 +180,7 @@ that is addressed in [this section of the manual](setup-bmon#video-system-admini
 
 </details>
 </details>
-
+<br>
 Battery-powered wireless temperature sensors are easy to install, low
 cost, and have reasonable battery life (over two years, and generally
 last more than four years).
@@ -186,7 +188,7 @@ last more than four years).
 <details markdown="1">
 
 <summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
-
+<br>
 *Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*{: .small_text}{: #table1}
 <table border="1">
 <tbody>
@@ -208,7 +210,7 @@ indicate poor ventilation and can potentially drive damaging levels of
 water vapor into the shell of the building.
 
 </details>
-
+<br>
 ### Outdoor Temperature Collection Methods
 {: #outdoor-temperature-collection}
 
@@ -245,7 +247,7 @@ for free from NWS. How to acquire data from the Mesonet API is
 online](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.html#acquiring-weather-data-from-the-internet){:target="_blank"}.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Wireless Temperature Sensor Weather Data</summary>
@@ -254,7 +256,7 @@ If an existing weather station is not available, using a wireless
 temperature sensor placed outdoors is a reasonable method for collecting
 outdoor temperature data. Here are some choices for wireless temperature
 sensors:
-
+<br>
 *Wireless Outdoor Temperature Sensor Options*{: .small_text}{: #table2}
 <table border="1">
 <tbody>
@@ -282,7 +284,7 @@ those walls and heat loss from the building can distort the temperature
 readings.
 
 </details>
-
+<br>
 ### Installing Temperature Sensors
 {: #installing-temperature-sensors}
 
@@ -315,7 +317,7 @@ Levels</summary>
 <br>
 
 </details>
-
+<br>
 ### Light Level Sensors
 {: #light-level-sensors}
 
@@ -335,7 +337,7 @@ lux](https://www.waveformlighting.com/home-residential/what-is-the-difference-be
 or more. This is the preferred type of sensor.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Digital Light Level Sensors</summary>
@@ -350,9 +352,9 @@ information on how much daylight a space is getting. For these reasons,
 “digital” sensors are not recommended.
 
 </details>
-
+<br>
 Here are some recommended wireless light level sensors:
-
+<br>
 *Recommended Wireless Light Level Sensors*{: .small_text}{: #table3}
 <table border="1">
 <tbody>
@@ -389,7 +391,7 @@ lighting. The influence of daylight will make it somewhat harder to
 determine when artificial lights are on, but it still will be possible.
 
 </details>
-
+<br>
 ## Indoor Carbon Dioxide (CO<sub>2</sub>) Levels
 {: #indoor-carbon-dioxide}
 
@@ -413,7 +415,7 @@ Levels*{: .small_text}{: #image15}
 <br>
 
 </details>
-
+<br>
 ### Methods of Collecting CO<sub>2</sub> data
 {: #methods-collecting-co}
 
@@ -450,7 +452,7 @@ set-up procedure is important. Refer to page 13, Section 7.4 of the
 [Elsys Operating Manual](https://elsys.se/public/manuals/Operating%20Manual%20ERS2%20series_v10.pdf){:target="_blank"}.
 </details>
 </details>
-
+<br>
 Wireless sensors are currently limited to a few manufacturers, but the
 Elsys ERS CO<sub>2</sub> sensor has been shown to work reliably.
 
@@ -471,7 +473,7 @@ Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
 
 </details>
-
+<br>
 ### Installing CO<sub>2</sub> Sensors
 {: #installing-co-sub}
 
@@ -512,7 +514,7 @@ Temperatures*{: .small_text}{: #image17}
 <br>
 
 </details>
-
+<br>
 ### Methods for Collecting Boiler and DHW Temperatures
 {: #methods-collecting-boiler}
 
@@ -534,10 +536,10 @@ Pi](https://mini-monitor-documentation.readthedocs.io/en/latest/index.html){:tar
 can be programmed to retrieve the readings and report them to BMON.
 
 </details>
-
+<br>
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
-
+<br>
 *Wireless Temperature Sensor Options With External Temperature Probes*{: .small_text}{: #table4}
 <table border="1">
 <tbody>
@@ -600,7 +602,7 @@ Electricity Use</summary>
 <br>
 
 </details>
-
+<br>
 ### Methods for Collecting Building Electric Data
 {: #methods-collecting-building-elec}
 
@@ -634,7 +636,7 @@ Boyes](mailto:tboyes@ahfc.us) for assistance with this task.
 For other options on how to acquire this data, click below.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Electrical Utility Installs KYZ Pulse Output
@@ -648,7 +650,7 @@ pulse counter, such as the Elsys ELT-Lite or the Dragino LHT65
 to BMON.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Electrician Installed Electrical Power
@@ -668,7 +670,7 @@ These sensors generally can output electrical pulses, which can be
 counted by the Elsys ELT-Lite or Dragino LHT65 sensors, [shown above under outdoor temperature collection methods](sensors#table2).
 
 </details>
-
+<br>
 ### Installing Electrical Sensors
 {: #installing-electrical-sensors}
 
@@ -700,7 +702,7 @@ analyzed. How to set up this special configuration is [available
 online](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms){:target="_blank"}.
 
 </details>
-
+<br>
 ## Building Fuel Use Data
 {: #building-fuel-use}
 
@@ -722,7 +724,7 @@ Use</summary>
 <br>
 
 </details>
-
+<br>
 ### Methods for Collecting Building Fuel Use Data
 {: #methods-collecting-building-fuel}
 
@@ -754,7 +756,7 @@ to perform this task; the required hardware costs about $120. This
 set-up can send the received readings to BMON.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Pulse Output Unit</summary>
@@ -785,7 +787,7 @@ pulses from any meter (electric, fuel, water, BTU) or device equipped
 with a pulse-output unit.
 
 </details>
-
+<br>
 **Fuel Oil**
 
 The type of system for measuring fuel oil use depends heavily on the
@@ -815,7 +817,7 @@ Dragino LTH65.
 <br>
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Fuel Level in the Tank</summary>
@@ -831,7 +833,7 @@ Housing Finance Corporation is underway to determine the viability of
 these approaches.
 
 </details>
-
+<br>
 **Fixed Firing Rate Systems**
 
 Some fuel oil heating systems utilize a combustion burner that runs at a
@@ -907,7 +909,7 @@ heater. [Contact them](https://acep.uaf.edu/about/contact.aspx){:target="_blank"
 more about their PuMA Fuel Meter.
 
 </details>
-
+<br>
 **District Heat Systems (i.e, biomass, oil, or electric generator waste
 heat)**
 
@@ -929,7 +931,7 @@ heating demand of an individual building. LoRaWAN pulse counters or
 RS485 sensors can be used to report this heat load to BMON.
 
 </details>
-
+<br>
 ## Typical Sensor Wiring Examples
 {: #typical-sensor-wiring}
 
@@ -962,7 +964,7 @@ ELT-Lite Sensor*{: .small_text}{: #image26}
 <br>
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Converting a 4-20 mA Current Output Sensor to Voltage with
@@ -999,7 +1001,7 @@ Resistor*{: .small_text}{: #image27}
 <br>
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Wiring for a Sensor that Needs to Receive Power from an Elys ELT-Lite Battery</summary>
@@ -1034,7 +1036,7 @@ startup time" settings should be set to 10 million in those cases
 sensor.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Wiring a Temperature Sensor Inside the ELT-Lite</summary>
@@ -1056,7 +1058,7 @@ should be facing up as shown in the photo below.
 <br>
 
 </details>
-
+<br>
 ## Gateways for Wireless Sensors
 {: #gateways-wireless-sensors}
 
@@ -1130,7 +1132,7 @@ point enabled so you can come back later, if need be, to change
 settings.
 
 </details>
-
+<br>
 ### More Notes on LoRaWAN Signal Coverage and Antennas
 {: #more-notes-lorawan}
 
@@ -1184,7 +1186,7 @@ building) and the placement of the antenna above the peak of the roof.**
     here](https://www.amazon.com/Skywalker-Signature-38in-Pipe-Antenna/dp/B01MSFGZIW/){:target="_blank"}.
 
 </details>
-
+<br>
 <details markdown="1">
 
 <summary>Antenna Connections Notes and Sourcing</summary>
@@ -1207,7 +1209,7 @@ building) and the placement of the antenna above the peak of the roof.**
     can secure the coax to the building.
 
 </details>
-
+<br>
 On a final note, often installing multiple inexpensive, indoor gateways
 in different buildings can be as effective as installing one outdoor
 gateway or a gateway with a high external antenna. Multiple gateways
