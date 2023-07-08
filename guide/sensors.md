@@ -90,9 +90,9 @@ These two sensor platforms are able to read numerous types of sensors
 and post their data to BMON. In general, sensors have four types of
 electrical outputs, detailed below.
 
-{: #image3}*Types of Electrical Outputs Found in
+*Types of Electrical Outputs Found in
 Sensors (&#42;additional information for configurations with pulse output transformation is
-[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*{: .small_text}
+[available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*{: .small_text}{: #image3}
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>
 
@@ -112,7 +112,7 @@ staff of heating failures before damage occurs.
 <summary>Potential BMON-Guided Energy Savings of Measuring
 Temperature</summary>
 
-{: #image4}*Potential Energy Savings of Measuring Building Temperature*{: .small_text}
+*Potential Energy Savings of Measuring Building Temperature*{: .small_text}{: #image4}
 ![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
 <br>
 
@@ -138,8 +138,8 @@ control system or from Ecobee thermostats.
 <summary>Retrieval from the Building Control System</summary>
 
 
-{: #image5}*Collecting Indoor Temperature Data Using an Existing Building Control
-System*{: .small_text}
+*Collecting Indoor Temperature Data Using an Existing Building Control
+System*{: .small_text}{: #image5}
 ![]({{ site.baseurl }}/assets/guide/sensors/image5.png)
 <br>
 
@@ -153,7 +153,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 <summary>Retrieval from Ecobee Thermostats</summary>
 
-{: #image6}*Ecobee Thermostat*{: .small_text}
+*Ecobee Thermostat*{: .small_text}{: #image6}
 ![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
 <br>
 
@@ -183,7 +183,7 @@ last more than four years).
 
 <summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
 
-*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*{: #table1}{: .small_text}
+*Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*{: .small_text}{: #table1}
 <table border="1">
 <tbody>
 <tr>
@@ -251,7 +251,7 @@ temperature sensor placed outdoors is a reasonable method for collecting
 outdoor temperature data. Here are some choices for wireless temperature
 sensors:
 
-*Wireless Outdoor Temperature Sensor Options*{: #table2}{: .small_text}
+*Wireless Outdoor Temperature Sensor Options*{: .small_text}{: #table2}
 <table border="1">
 <tbody>
 <tr>
@@ -288,7 +288,7 @@ thermostats, you should adhere to guidelines similar to installing a
 thermostat:
 
 
-{: #image11}*Installation Guidelines for Temperature Sensors*{: .small_text}
+*Installation Guidelines for Temperature Sensors*{: .small_text}{: #image11}
 ![]({{ site.baseurl }}/assets/guide/sensors/image11.png)
 <br>
 
@@ -306,7 +306,7 @@ largest electricity uses in commercial buildings.
 Levels</summary>
 
 
-{: #image12}*Potential Energy Savings of Measuring Light Levels*{: .small_text}
+*Potential Energy Savings of Measuring Light Levels*{: .small_text}{: #image12}
 ![]({{ site.baseurl }}/assets/guide/sensors/image12.png)
 <br>
 
@@ -349,7 +349,7 @@ information on how much daylight a space is getting. For these reasons,
 
 Here are some recommended wireless light level sensors:
 
-*Recommended Wireless Light Level Sensors*{: #table3}{: .small_text}
+*Recommended Wireless Light Level Sensors*{: .small_text}{: #table3}
 <table border="1">
 <tbody>
 <tr>
@@ -403,8 +403,8 @@ the heating fuel usage of a facility if it is not measured.
 <summary>Potential BMON-Guided Energy Savings in Measuring
 CO<sub>2</sub> Levels</summary>
 
-{: #image15}*Potential Energy Savings of Measuring Indoor CO<sub>2</sub>
-Levels*{: .small_text}
+*Potential Energy Savings of Measuring Indoor CO<sub>2</sub>
+Levels*{: .small_text}{: #image15}
 ![]({{ site.baseurl }}/assets/guide/sensors/image15.png)
 <br>
 
@@ -458,9 +458,10 @@ The Elsys sensor, when set up properly, auto-calibrates every 8 days so
 the measurements should be accurate for years and not suffer from the
 drift that others can experience.
 
-{: #image13}[*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/){:target="_blank"}
-![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
+[*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/){:target="_blank"}{: .small_text}{: #image13}
 <br>
+![]({{ site.baseurl }}/assets/guide/sensors/image13.png)
+
 
 Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
@@ -479,7 +480,7 @@ amount of CO<sub>2</sub> in a sample of air can have large impacts on
 the ppm of CO<sub>2</sub> recorded.
 
 
-{: #image16}*What to Consider When Installing CO<sub>2</sub> Sensors*{: .small_text}
+*What to Consider When Installing CO<sub>2</sub> Sensors*{: .small_text}{: #image16}
 ![]({{ site.baseurl }}/assets/guide/sensors/image16.png)
 <br>
 
@@ -501,8 +502,8 @@ too small.
 Temperature</summary>
 
 
-{: #image17}*Potential Energy Savings of Measuring Boiler and Domestic Hot Water
-Temperatures*{: .small_text}
+*Potential Energy Savings of Measuring Boiler and Domestic Hot Water
+Temperatures*{: .small_text}{: #image17}
 ![]({{ site.baseurl }}/assets/guide/sensors/image17.png)
 <br>
 
@@ -533,7 +534,7 @@ can be programmed to retrieve the readings and report them to BMON.
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
 
-*Wireless Temperature Sensor Options With External Temperature Probes*{: #table4}{: .small_text}
+*Wireless Temperature Sensor Options With External Temperature Probes*{: .small_text}{: #table4}
 <table border="1">
 <tbody>
 <tr>
@@ -566,7 +567,7 @@ works well. The image below shows a well done installation of a
 temperature probe on a pipe:
 
 
-{: #image19}*A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*{: .small_text}
+*A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*{: .small_text}{: #image19}
 ![]({{ site.baseurl }}/assets/guide/sensors/image19.png)
 <br>
 
@@ -590,7 +591,7 @@ different ways. For more detail, click below.
 Electricity Use</summary>
 
 
-{: #image20}*Potential Energy Savings of Measuring Electricity*{: .small_text}
+*Potential Energy Savings of Measuring Electricity*{: .small_text}{: #image20}
 ![]({{ site.baseurl }}/assets/guide/sensors/image20.png)
 <br>
 
@@ -712,7 +713,7 @@ fuel, click below.
 Use</summary>
 
 
-{: #image21}*Potential Energy Savings in Measuring Fuel Use*{: .small_text}
+*Potential Energy Savings in Measuring Fuel Use*{: .small_text}{: #image21}
 ![]({{ site.baseurl }}/assets/guide/sensors/image21.png)
 <br>
 
@@ -761,7 +762,7 @@ wireless pulse counter can be used to read and transmit those pulse
 counts to BMON.
 
 
-{: #image22}*Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and transmits the reading to BMON)*{: .small_text}
+*Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and transmits the reading to BMON)*{: .small_text}{: #image22}
 ![]({{ site.baseurl }}/assets/guide/sensors/image22.png)
 <br>
 
@@ -769,8 +770,8 @@ A Monnit wireless pulse counter is shown above. Below is a typical
 LoRaWAN pulse counter, with a weatherproof enclosure, that can also
 perform this task:
 
-{: #image9}*Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
-Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*{: .small_text}
+*Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
+Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*{: .small_text}{: #image9}
 ![]({{ site.baseurl }}/assets/guide/sensors/image9.png)
 <br>
 
@@ -804,7 +805,7 @@ connected to a wireless pulse counter, such as the Elsys ELT-Lite or the
 Dragino LTH65.
 
 
-{: #image23}*An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}
+*An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}{: #image23}
 ![]({{ site.baseurl }}/assets/guide/sensors/image23.png)
 <br>
 
@@ -866,8 +867,8 @@ example of a relay connected to an oil burner; a wireless switch (Dry
 Contact) sensor is shown wired to the relay contacts.
 
 
-{: #image24}*Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact
-Sensor*{: .small_text}
+*Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact
+Sensor*{: .small_text}{: #image24}
 ![]({{ site.baseurl }}/assets/guide/sensors/image24.png)
 <br>
 
@@ -881,8 +882,8 @@ coil is energized and connects to a wireless switch sensor to transmit
 that reading. The image below shows a motor sensor attached to small
 circulating pump:
 
-{: #image25}*A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}
-![]({{ site.baseurl }}/assets/guide/sensors/image25.png)
+*A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}
+![]({{ site.baseurl }}/assets/guide/sensors/image25.png){: #image25}
 <br>
 
 <details markdown="1">
@@ -949,8 +950,8 @@ connections, but other sensors do have polarity: positive to IN and
 negative to ⏚ ground.
 
 
-{: #image26}*Wiring a Voltage-Output Sensor or a Switch Closure Sensor to an Elsys
-ELT-Lite Sensor*{: .small_text}
+*Wiring a Voltage-Output Sensor or a Switch Closure Sensor to an Elsys
+ELT-Lite Sensor*{: .small_text}{: #image26}
 ![]({{ site.baseurl }}/assets/guide/sensors/image26.png)
 <br>
 
@@ -986,8 +987,8 @@ BMON would be:
 since the “val" variable holds the voltage read by the sensor.
 
 
-{: #image27}*Correct Wiring of a 4-20mA Output on an ELT-Lite Sensor With
-Resistor*{: .small_text}
+*Correct Wiring of a 4-20mA Output on an ELT-Lite Sensor With
+Resistor*{: .small_text}{: #image27}
 ![]({{ site.baseurl }}/assets/guide/sensors/image27.png)
 <br>
 
@@ -1008,7 +1009,7 @@ from the motor sensor goes to the ground ⏚ terminal on the ELT-Lite.
 Similar wiring is used for any external sensor that needs to receive
 power from the ELT-Lite.
 
-{: #image28}*Correct Wiring of an External Sensor Powered From the ELT Sensor Battery*{: .small_text}
+*Correct Wiring of an External Sensor Powered From the ELT Sensor Battery*{: .small_text}{: #image28}
 ![]({{ site.baseurl }}/assets/guide/sensors/image28.png)
 <br>
 
@@ -1044,8 +1045,8 @@ or other sources. When wiring the sensor, the flat face of the sensor
 should be facing up as shown in the photo below.
 
 
-{: #image29}*Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure*
-![]({{ site.baseurl }}/assets/guide/sensors/image29.png){: .small_text}
+*Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure*{: .small_text}{: #image29}
+![]({{ site.baseurl }}/assets/guide/sensors/image29.png)
 <br>
 
 </details>
@@ -1062,7 +1063,7 @@ automatically shared across all users of the Things LoRaWAN network.
 they are within range of the sensors.**
 
 
-{: #image30}*Gateways for Wireless Sensors*{: .small_text}
+*Gateways for Wireless Sensors*{: .small_text}{: #image30}
 ![]({{ site.baseurl }}/assets/guide/sensors/image30.png)
 <br>
 
@@ -1102,7 +1103,7 @@ Important considerations for LoRaWAN gateways are:
 Here are some good choices for LoRaWAN gateways:
 
 
-{: #image31}*Pros and Cons of Select LoRaWAN Gateways*{: .small_text}
+*Pros and Cons of Select LoRaWAN Gateways*{: .small_text}{: #image31}
 ![]({{ site.baseurl }}/assets/guide/sensors/image31.png)
 <br>
 
@@ -1134,14 +1135,14 @@ sensor or improve the antenna of the sensor. Another option is to
 improve the location or antenna of the gateway (or both).
 
 
-{: #image32}*Solutions for Potential Sensor Connection Issues*{: .small_text}
+*Solutions for Potential Sensor Connection Issues*{: .small_text}{: #image32}
 ![]({{ site.baseurl }}/assets/guide/sensors/image32.png)
 <br>
 
 This image shows a simple external antenna that can be used with a
 sensor or gateway to improve signal strength between buildings.
 
-{: #image33}*Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia*{: .small_text}
+*Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia*{: .small_text}{: #image33}
 ![]({{ site.baseurl }}/assets/guide/sensors/image33.png)
 <br>
 
@@ -1151,7 +1152,7 @@ a gateway to cover a large portion of downtown Nome, Alaska. **Note the
 drip loops on the coaxial cable (to prevent water leakage into the
 building) and the placement of the antenna above the peak of the roof.**
 
-{: #image34}*A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}
+*A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}{: #image34}
 ![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
 <br>
 
