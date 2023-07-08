@@ -112,9 +112,9 @@ staff of heating failures before damage occurs.
 
 <details markdown="1">
 
-<summary>Potential BMON-Guided Energy Savings of Measuring
-Temperature</summary>
-
+<summary>Energy Savings with BMON-Guided Temperature Measurements</summary>
+<br>
+<br>
 *Potential Energy Savings of Measuring Building Temperature*{: .small_text}{: #image4}
 ![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
 <br>
@@ -187,7 +187,7 @@ last more than four years).
 
 <details markdown="1">
 
-<summary>Wireless Temperature Sensors Tested to Work with BMON</summary>
+<summary>Indoor Wireless Temperature Sensors Tested to Work with BMON</summary>
 <br>
 *Examples of Elsys and Dragino LoRaWAN Indoor Temperature Sensors*{: .small_text}{: #table1}
 <table border="1">
@@ -211,6 +211,7 @@ water vapor into the shell of the building.
 
 </details>
 <br>
+
 ### Outdoor Temperature Collection Methods
 {: #outdoor-temperature-collection}
 
@@ -257,6 +258,7 @@ temperature sensor placed outdoors is a reasonable method for collecting
 outdoor temperature data. Here are some choices for wireless temperature
 sensors:
 <br>
+<br>
 *Wireless Outdoor Temperature Sensor Options*{: .small_text}{: #table2}
 <table border="1">
 <tbody>
@@ -285,6 +287,7 @@ readings.
 
 </details>
 <br>
+
 ### Installing Temperature Sensors
 {: #installing-temperature-sensors}
 
@@ -308,10 +311,10 @@ largest electricity uses in commercial buildings.
 
 <details markdown="1">
 
-<summary>Potential BMON-Guided Energy Savings in Measuring Light
-Levels</summary>
+<summary>Energy Savings with BMON-Guided Light Level Measurements</summary>
 
-
+<br>
+<br>
 *Potential Energy Savings of Measuring Light Levels*{: .small_text}{: #image12}
 ![]({{ site.baseurl }}/assets/guide/sensors/image12.png)
 <br>
@@ -354,6 +357,7 @@ information on how much daylight a space is getting. For these reasons,
 </details>
 <br>
 Here are some recommended wireless light level sensors:
+<br>
 <br>
 *Recommended Wireless Light Level Sensors*{: .small_text}{: #table3}
 <table border="1">
@@ -406,9 +410,9 @@ the heating fuel usage of a facility if it is not measured.
 
 <details markdown="1">
 
-<summary>Potential BMON-Guided Energy Savings in Measuring
-CO<sub>2</sub> Levels</summary>
-
+<summary>Energy Savings with BMON-Guided CO<sub>2</sub> Measurements</summary>
+<br>
+<br>
 *Potential Energy Savings of Measuring Indoor CO<sub>2</sub>
 Levels*{: .small_text}{: #image15}
 ![]({{ site.baseurl }}/assets/guide/sensors/image15.png)
@@ -504,10 +508,10 @@ too small.
 
 <details markdown="1">
 
-<summary>Potential BMON-Guided Energy Savings in Measuring Water
-Temperature</summary>
-
-
+<summary>Energy Savings with BMON-Guided Water
+Temperature Measurements</summary>
+<br>
+<br>
 *Potential Energy Savings of Measuring Boiler and Domestic Hot Water
 Temperatures*{: .small_text}{: #image17}
 ![]({{ site.baseurl }}/assets/guide/sensors/image17.png)
@@ -515,6 +519,7 @@ Temperatures*{: .small_text}{: #image17}
 
 </details>
 <br>
+
 ### Methods for Collecting Boiler and DHW Temperatures
 {: #methods-collecting-boiler}
 
@@ -539,6 +544,7 @@ can be programmed to retrieve the readings and report them to BMON.
 <br>
 The wireless sensor used for this purpose must have an external
 temperature probe. Here are three possibilities:
+<br>
 <br>
 *Wireless Temperature Sensor Options With External Temperature Probes*{: .small_text}{: #table4}
 <table border="1">
@@ -593,10 +599,10 @@ different ways. For more detail, click below.
 {: #electrical-savings}
 <details markdown="1">
 
-<summary>Potential BMON-Guided Energy Savings in Measuring
-Electricity Use</summary>
+<summary>Energy Savings with BMON-Guided Electricity Use Measurements</summary>
 
-
+<br>
+<br>
 *Potential Energy Savings of Measuring Electricity*{: .small_text}{: #image20}
 ![]({{ site.baseurl }}/assets/guide/sensors/image20.png)
 <br>
@@ -714,11 +720,11 @@ use, described in this section: [Potential Energy Savings of Measuring Electrici
 fuel, click below.
 
 <details markdown="1">
+<br>
+<summary>Energy Savings with BMON-Guided Fuel Use Measurements</summary>
 
-<summary>Potential BMON-Guided Energy Savings in Measuring Fuel
-Use</summary>
-
-
+<br>
+<br>
 *Potential Energy Savings in Measuring Fuel Use*{: .small_text}{: #image21}
 ![]({{ site.baseurl }}/assets/guide/sensors/image21.png)
 <br>
@@ -1059,7 +1065,8 @@ should be facing up as shown in the photo below.
 
 </details>
 <br>
-## Gateways for Wireless Sensors
+
+## Connecting Wireless Sensors to the Internet with Gateways
 {: #gateways-wireless-sensors}
 
 **All wireless sensors need a gateway that serves as a central receiving
