@@ -104,7 +104,7 @@ next:
   - **Figure:** [Key Steps to an Effective Monitoring Strategy](use-data#image1)
 - [Analyzing Data](use-data#analyzing-data)
   - **Figure:** [Drop Down Menu in the Graph/Report Tab That Allows Selection of Available Data Visualization Tools](use-data#image3)
-  - **Figure:** [Common BMON Graphs and Reports](use-data#image4)
+  - **Figure:** [Listing of the Most Common BMON Graphs and Reports](use-data#image4)
   - **Figure:** [The top part of a Current Sensor Values report](use-data#image5)
   - **Figure:** [Example of a Plot Sensor Values over Time Graph Used to Measure Temperature of Selected Building Areas Over a Period of Months](use-data#image6)
   - **Video:** [Plot Sensor Values over Time Graph](use-data#video-plot-sensor-values)
