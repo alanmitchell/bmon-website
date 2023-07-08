@@ -24,11 +24,12 @@ servers capable of running BMON can be rented starting at $6 per month
 [Linode](https://www.linode.com/){:target="_blank"}).
 
 </details>
+<br>
 
 ## The BMON User Interface vs the System Administrator Interface
 {: #bmon-user-interface}
 
-*Ways to Interact with the BMON Software*{: .small_text}{: #image2}
+*Ways to Interact with the BMON Software*{: .small_text}{: #image2}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image2.png)
 <br>
 
@@ -56,16 +57,17 @@ to configure the sensor and the Things Network to ensure the sensor data
 is received by your BMON server.
 
 </details>
+<br>
 
 ## **Overview of the System Administrator Interface**
 {: #overview-system-administrator}
 
-*A View of the BMON System Administrator Interface*{: .small_text}{: #image3}
+*A View of the BMON System Administrator Interface*{: .small_text}{: #image3}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image3.png)
 <br>
 
 
-*How to Access the Administrator Interface*{: .small_text}{: #image4}
+*How to Access the Administrator Interface*{: .small_text}{: #image4}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
 <br>
 
@@ -105,7 +107,7 @@ server.
 More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
-*Examples of Building Details That Can Be Entered in BMON*{: .small_text}{: #image6}
+*Examples of Building Details That Can Be Entered in BMON*{: .small_text}{: #image6<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
 <br>
 
@@ -124,6 +126,7 @@ feature of the BMON system. Energy Reports are very useful for finding
 possible energy savings, so this [task](use-data#energy-reports) should be completed.
 
 </details>
+<br>
 
 ## **Adding a Sensor and Assigning it to a Building**
 {: #adding-sensor-assigning}
@@ -131,7 +134,7 @@ possible energy savings, so this [task](use-data#energy-reports) should be compl
 Once you have your buildings added to BMON, you can then add the
 individual sensors that report sensor readings.
 
-*Information Needed to Add a Sensor to the BMON Software*{: .small_text}{: #image7}
+*Information Needed to Add a Sensor to the BMON Software*{: .small_text}{: #image7}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image7.png)
 <br>
 
@@ -163,6 +166,7 @@ system.
 {% include video id="492722273" provider="vimeo" %}
 
 </details>
+<br>
 
 This video walks through the process of setting up a Sensor in BMON and
 assigning it to a Building and to a Sensor Group within that Building.
@@ -222,6 +226,7 @@ Fields](https://bmon-documentation.readthedocs.io/en/latest/calculated-fields.ht
 is available online.
 
 </details>
+<br>
 
 ## Assigning Sensors used by Energy Reports
 {: #assigning-sensors-used}
@@ -275,12 +280,13 @@ Options of What Can Be Displayed*{: .small_text}{: #image8}
 <br>
 
 </details>
+<br>
 
 <details markdown="1">
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
-*Guidelines for a Useful Dashboard*{: .small_text}{: #image9}
+*Guidelines for a Useful Dashboard*{: .small_text}{: #image9}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>
 
@@ -295,11 +301,12 @@ Options of What Can Be Displayed*{: .small_text}{: #image8}
 
 
 </details>
+<br>
 
 ## Using and Creating Alerts
 {: #using-creating-alerts}
 
-*Examples of What to Use Alerts for in BMON*{: .small_text}{: #image10}
+*Examples of What to Use Alerts for in BMON*{: .small_text}{: #image10}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image10.png)
 <br>
 
@@ -307,7 +314,7 @@ An alert is a function that sends a message when a sensor’s reported
 value is outside the range that was established as normal. To create an
 alert, follow these steps or view the video below:
 
-*How to Create an Alert*{: .small_text}{: #image11}
+*How to Create an Alert*{: .small_text}{: #image11}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image11.png)
 <br>
 
