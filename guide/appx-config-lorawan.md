@@ -79,7 +79,7 @@ BMON, here are the codes:
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image1.png)
 <br>
 
-*Screenshot of Frequency Plan*{: .small_text}{: #image2}<br>
+*Screenshot of Frequency Plan*{: .small_text}{: #image2}
 <br>
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image2.png)
 <br>
