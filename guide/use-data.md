@@ -171,7 +171,7 @@ menu provided.
 #### Common Graphs and Reports
 {: #common-graphs-reports}
 
-*Common BMON Graphs and Reports*{: .small_text}{: #image4}
+*Listing of the Most Common BMON Graphs and Reports*{: .small_text}{: #image4}
 ![]({{ site.baseurl }}/assets/guide/use-data/image4.png)
 <br>
 
@@ -566,8 +566,8 @@ versa. The difference between the supply and return temperatures (known
 as delta-T) is related to how much heat is delivered to the space as the
 hydronic fluid circulates.
 
-{: #image19}*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
-Can Show if an Outdoor Reset is Working*{: .small_text}
+*Sensors Over Time Plot with Supply, Return, and Outdoor Temperature
+Can Show if an Outdoor Reset is Working*{: .small_text}{: #image19}
 ![]({{ site.baseurl }}/assets/guide/use-data/image19.png)
 <br>
 
