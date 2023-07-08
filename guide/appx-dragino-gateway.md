@@ -103,9 +103,10 @@ gateway for US operation on the Things Network:
     Gateway EUI on the Things Console). Also, the frequency plan must be
     set correctly:
 
-    *Screenshot of Frequency Plan*{: .small_text}
+    *Screenshot of Frequency Plan*{: .small_text}{: #image3}
+    <br>
     ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image3.png)
-<br>{: #image3}
+<br>
 
 8.  Unplug and then re-power the gateway. If you reconnect to the
     gateway’s Wi-Fi network and visit the home page at 10.130.1.1, you
