@@ -56,7 +56,7 @@ next:
   - **Figure:** [Correct Wiring of a 4-20mA Output on an ELT-Lite Sensor With Resistor](sensors#image27)
   - **Figure:** [Correct Wiring of an External Sensor Powered From the ELT Sensor Battery](sensors#image28)
   - **Figure:** [Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure](sensors#image29)
-- [Gateways for Wireless Sensors](sensors#gateways-wireless-sensors)
+- [Connecting Wireless Sensors to the Internet with Gateways](sensors#gateways-wireless-sensors)
   - **Figure:** [Gateways for Wireless Sensors](sensors#image30)
   - **Table:** [Pros and Cons of Select LoRaWAN Gateways](sensors#image31)
   - **Figure:** [Solutions for Potential Sensor Connection Issues](sensors#image32)
