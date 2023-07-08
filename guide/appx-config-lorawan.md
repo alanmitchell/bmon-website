@@ -84,9 +84,10 @@ BMON, here are the codes:
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image2.png)
 <br>
 
-*Screenshot of Root Keys*{: .small_text}
+*Screenshot of Root Keys*{: .small_text}{: #image8}
+<br>
 ![]({{ site.baseurl }}/assets/guide/appx-config-lorawan/image8.png)
-<br>{: #image8}
+<br>
 
 The simplest way to enter a batch of Elsys sensors is to use the
 [Elsys-to-Things Tool](https://elsys-to-things.bmon.org/){:target="_blank"}. This web
