@@ -286,7 +286,7 @@ Options of What Can Be Displayed*{: .small_text}{: #image8}
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
-*Guidelines for a Useful Dashboard*{: .small_text}{: #image9}<br>
+*Considerations and Tips for Setting up a Useful Dashboard fo*{: .small_text}{: #image9}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>
 
