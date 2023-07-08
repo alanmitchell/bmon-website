@@ -49,6 +49,7 @@ You are able to add your own gateways to the network. AHFC can help you
 determine whether gateways exist in your area that may provide coverage
 for a new project.
 </details>
+<br>
 
 <details markdown="1">
 
@@ -62,6 +63,7 @@ platform offers dozens of different sensor types, and these have been
 used in many different facilities connected to BMON.
 
 </details>
+<br>
 
 The rest of the BMON User Manual will focus on using LoRaWAN wireless
 sensors, rather than Monnit sensors. More information on using Monnit
@@ -91,7 +93,8 @@ and post their data to BMON. In general, sensors have four types of
 electrical outputs, detailed below.
 
 *Types of Electrical Outputs Found in
-Sensors (&#42;additional information for configurations with pulse output transformation is
+Sensors
+(&#42;additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms))*{: .small_text}{: #image3}
 ![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>
@@ -154,6 +157,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 <summary>Retrieval from Ecobee Thermostats</summary>
 
 *Ecobee Thermostat*{: .small_text}{: #image6}
+<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
 <br>
 
