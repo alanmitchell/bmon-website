@@ -723,8 +723,6 @@ fuel, click below.
 <br>
 <summary>Energy Savings with BMON-Guided Fuel Use Measurements</summary>
 
-<br>
-<br>
 *Potential Energy Savings in Measuring Fuel Use*{: .small_text}{: #image21}
 ![]({{ site.baseurl }}/assets/guide/sensors/image21.png)
 <br>
