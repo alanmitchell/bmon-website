@@ -178,7 +178,7 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 *Use and Configuration of Selected LoRaWAN Sensors*{: .small_text}
 {: #misc-sensor-table}
 <table border="1">
-<thead style="background-color: #A5D0E0; color:white">
+<thead style="background-color: #003366; color:white">
 <tr>
 <th><strong>Sensor</strong></th>
 <th><strong>Configuration &amp; Wiring</strong></th>
