@@ -67,7 +67,7 @@ is received by your BMON server.
 <br>
 
 
-*How to Access the Administrator Interface*{: .small_text}{: #image4}<br>
+*Steps to Access the Administrator Interface*{: .small_text}{: #image4}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image4.png)
 <br>
 
@@ -107,7 +107,7 @@ server.
 More detailed information can be entered for a building to make the User
 Interface more useful, but that is optional.
 
-*Examples of Building Details That Can Be Entered in BMON*{: .small_text}{: #image6<br>
+*Examples of Building Details That Can Be Entered in BMON*{: .small_text}{: #image6}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image6.png)
 <br>
 
@@ -286,7 +286,7 @@ Options of What Can Be Displayed*{: .small_text}{: #image8}
 
 <summary>Guidelines for a Useful Dashboard</summary>
 
-*Considerations and Tips for Setting up a Useful Dashboard fo*{: .small_text}{: #image9}<br>
+*Considerations and Tips for Setting up a Useful Dashboard*{: .small_text}{: #image9}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image9.png)
 <br>
 
