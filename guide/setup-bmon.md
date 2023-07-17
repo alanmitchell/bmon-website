@@ -1,4 +1,4 @@
----
+g ---
 title: How to Set Up Your BMON System
 previous:
   title: "How to Choose/Set Up Sensors"
@@ -8,7 +8,7 @@ next:
   url: /guide/use-data.html
 ---
 
-*What you Need to Set Up a Basic BMON System*{: .small_text}{: #image1}
+*Getting Your BMON System Set Up*{: .small_text}{: #image1}
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
 <br>
 
