@@ -180,9 +180,9 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 <table border="1">
 <tbody style= "background-color: #99CCFF">
 <tr style="background-color: #A5D0E0, color: white">
-<th><strong>Sensor</strong></th>
-<th><strong>Configuration &amp; Wiring</strong></th>
-<th><strong>BMON Configuration</strong></th>
+<td style="background-color: #A5D0E0, color: white"><strong>Sensor</strong></td>
+<td><strong>Configuration &amp; Wiring</strong></td>
+<td><strong>BMON Configuration</strong></td>
 </tr>
 <tr class="odd">
 <td style="vertical-align:top"><strong>Dragino LSN50v2-D23<br />
