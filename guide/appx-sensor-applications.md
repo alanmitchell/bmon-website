@@ -26,8 +26,8 @@ for more details.
 {: #elsys-sensor-table}
 
 <table border="1">
-<thead>
-<tr style="background-color: #A5D0E0, color: white">
+<thead style="background-color: #A5D0E0, color: white">
+<tr>
 <th><strong>Sensor Type</strong></th>
 <th><strong>Elsys Configuration &amp; Wiring</strong></th>
 <th><strong>BMON Configuration</strong></th>
