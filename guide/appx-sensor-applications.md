@@ -33,8 +33,8 @@ for more details.
 <th><strong>BMON Configuration</strong></th>
 </tr>
 </thead>
-<tbody>
-<tr  style= "background-color: #003366">
+<tbody style= "background-color: #003366; color:white">
+<tr>
 <td style="vertical-align:top"><strong>Temperature Sensor<br />
 </strong>This must be a DS18B20-type temperature sensor such as the one sold by Elsys or <a href="https://www.amazon.com/HiLetgo-DS18B20-Temperature-Stainless-Waterproof/dp/B00M1PM55K/" target="_blank">these</a> on Amazon. It can also be a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983" target="_blank">bare DS18B20</a> mounted directly to the terminal block in the Elsys. Note that the ELT-2 has a built-in temperature and humidity sensor, in addition to allowing for an external sensor.</td>
 <td style="vertical-align:top"><p>“External sensor" setting on the Elsys should be “1-wire Temperature probe". Wiring of the external probe is:</p>
