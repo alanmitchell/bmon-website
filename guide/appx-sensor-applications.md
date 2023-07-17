@@ -178,12 +178,14 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 *Use and Configuration of Selected LoRaWAN Sensors*{: .small_text}
 {: #misc-sensor-table}
 <table border="1">
-<tbody style= "background-color: #99CCFF">
-<tr style="background-color: #A5D0E0, color: white">
-<td style="background-color: #A5D0E0, color: white"><strong>Sensor</strong></td>
-<td><strong>Configuration &amp; Wiring</strong></td>
-<td><strong>BMON Configuration</strong></td>
+<thead style="background-color: blue, color: white">
+<tr>
+<th><strong>Sensor</strong></th>
+<th><strong>Configuration &amp; Wiring</strong></th>
+<th><strong>BMON Configuration</strong></th>
 </tr>
+</thead>
+<tbody style= "background-color: #99CCFF">
 <tr class="odd">
 <td style="vertical-align:top"><strong>Dragino LSN50v2-D23<br />
 </strong>This sensor comes with three external temperature probes. An example use is to measure boiler supply, boiler return, and domestic hot water temperatures.</td>
