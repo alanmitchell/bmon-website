@@ -179,7 +179,7 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 {: #misc-sensor-table}
 <table border="1">
 <thead>
-<tr class="header"style="background-color: #A5D0E0, color: white">
+<tr class="header", style="background-color: #A5D0E0, color: white">
 <th><strong>Sensor</strong></th>
 <th><strong>Configuration &amp; Wiring</strong></th>
 <th><strong>BMON Configuration</strong></th>
