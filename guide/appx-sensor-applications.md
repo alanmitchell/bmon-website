@@ -26,11 +26,11 @@ for more details.
 {: #elsys-sensor-table}
 
 <table border="1">
-<thead style="background-color: #A5D0E0, color: white">
+<thead>
 <tr>
-<th><strong>Sensor Type</strong></th>
-<th><strong>Elsys Configuration &amp; Wiring</strong></th>
-<th><strong>BMON Configuration</strong></th>
+<th style="background-color: #A5D0E0, color: white"><strong>Sensor Type</strong></th>
+<th style="background-color: #A5D0E0, color: white"><strong>Elsys Configuration &amp; Wiring</strong></th>
+<td style="background-color: #A5D0E0, color: white"><strong>BMON Configuration</strong></td>
 </tr>
 </thead>
 <tbody style= "background-color: #99CCFF">
