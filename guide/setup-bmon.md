@@ -1,4 +1,4 @@
- ---
+---
 title: How to Set Up Your BMON System
 previous:
   title: "How to Choose/Set Up Sensors"
