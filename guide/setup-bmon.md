@@ -8,7 +8,7 @@ next:
   url: /guide/use-data.html
 ---
 
-*Getting Your BMON System Set Up*{: .small_text}{: #image1}
+*Getting Your BMON System Set Up*{: .small_text}{: #image1}<br>
 ![]({{ site.baseurl }}/assets/guide/setup-bmon/image1.png)
 <br>
 
