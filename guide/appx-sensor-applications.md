@@ -26,7 +26,7 @@ for more details.
 {: #elsys-sensor-table}
 
 <table border="1">
-<thead>
+<thead style="background-color: #003366; color:white">
 <tr>
 <th><strong>Sensor Type</strong></th>
 <th><strong>Elsys Configuration &amp; Wiring</strong></th>
