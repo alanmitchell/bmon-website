@@ -83,6 +83,7 @@ below.
 
 *LoRaWAN Sensor Comparison*{: .small_text}{: #image2}
 ![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
+
 <br>
 
 ### Sensor Types
@@ -159,7 +160,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 *Ecobee Thermostat*{: .small_text}{: #image6}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" width="400">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" style="width:80%">
 <br>
 
 BMON knows how to retrieve data from the Ecobee line of smart,
