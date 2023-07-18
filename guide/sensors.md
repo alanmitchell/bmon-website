@@ -1071,38 +1071,16 @@ they are within range of the sensors.**
 ![]({{ site.baseurl }}/assets/guide/sensors/image30.png)
 <br>
 
-Important considerations for LoRaWAN gateways are:
-
-  - Gateways usually require 120V wall power rather than a battery.
-
-  - Means of Connecting to the Internet: Ethernet, Wi-Fi, Cellular.
-
-      - An Ethernet connection tends to be the most reliable but limits
-        where you can place the gateway.
-
-      - A gateway can connect to the internet via an existing Wi-Fi
-        network (if available).
-
-      - A direct cellular connection can be built into a gateway, or
-        can be accomplished through a separate Cellular Router that
-        provides an Ethernet or Wi-Fi connection to the wireless sensor
-        gateway.
-
-      - A cellular connection will require a cellular data plan with a
-        suitable amount of data (a minimum of 100 MB / month).
-
-  - Gateways can be mounted indoors or outdoors (not Monnit, LoRaWAN
-    only). An indoor gateway is protected from the weather and is less
-    expensive than a gateway that can be mounted outdoors. However, an
-    outdoor gateway has its antenna mounted outside as well, which
-    significantly improves the coverage area of the gateway. **Extra
-    coverage can be helpful if you are trying to serve multiple
-    buildings with one gateway**. Another solution for good coverage is
-    to use an indoor gateway but connect that gateway to an outdoor
-    antenna through use of a coax cable from the antenna jack on the
-    gateway to the antenna outdoors (seen in the photo below). This
-    solution also keeps the gateway electronics protected from the
-    elements.
+Gateways usually require 120V wall power and may connect to the internet
+by an ethernet, Wi-Fi, or celluar connection. Ethernet tends to be the
+most reliable but will limit where you can place the gateway. A cellular
+connection will need a minimum of 100 MB month of data. Indoor gateways
+are protected from the weather and less expensive but an outdoor gateway
+with its outdoor antenna, will have better coverage. **Extra coverage can
+be helpful if you are trying to serve multiple buildings with one gateway**.
+Another solution is to connect an indoor gateway to an outdoor antenna with
+coax cable as seen in the photo below. This solution also keeps the gateway
+electronics protected from the elements.
 
 Here are some good choices for LoRaWAN gateways:
 
