@@ -200,7 +200,7 @@ last more than four years).
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="width:60%" /></div></p></td>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:60%" /></div></p></td>
 </tr>
 </tbody>
 </table>
@@ -272,6 +272,7 @@ sensors:
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:60%"/></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
+<br>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:60%"/></div></p></td>
@@ -561,6 +562,7 @@ temperature probe. Here are three possibilities:
 <img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:60%" /></div></p>
 <p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
+<br><br>
 <div style="text-align:center; background-color: #99CCFF">
 <p><img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:60%" /></p></div><br>
 <p>The standard configuration of the LHT65 wireless sensor includes an external temperature probe, as shown in the picture above.</p></td>
@@ -881,7 +883,7 @@ Contact) sensor is shown wired to the relay contacts.
 
 
 *Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact
-Sensor*{: .small_text}{: #image24}
+Sensor*{: .small_text}{: #image24}<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image24.png" style="width:45%">
 <br>
 
@@ -985,7 +987,7 @@ Then the ELT-Lite can be configured to use the 0 - 3 Volt Analog Voltage
 scale. The following formula will convert the voltage read by the
 ELT-Lite into the engineering value read by the sensor:
 
-<center>Engineering value = full\_scale\_reading \* (voltage - 0.588) / 2.352</center>
+<center>Engineering value = full\_scale\_reading \* (voltage - 0.588) / 2.352</center><br>
 
 (technical note: for those that know Ohm’s law, the above formula is
 derived from an effective resistance of 147 Ohms, since the ELT-Lite has
@@ -996,7 +998,7 @@ BMON can do this conversion by entering a formula into the Transform
 field when setting up a sensor. As an example, assume the sensor is a 10 PSI pressure sensor. The appropriate Transform formula to use in
 BMON would be:
 
-<center>10.0 \* (val - 0.588) / 2.352</center>
+<center>10.0 \* (val - 0.588) / 2.352</center><br>
 
 since the “val" variable holds the voltage read by the sensor.
 
@@ -1097,7 +1099,7 @@ Here are some good choices for LoRaWAN gateways:
 
 
 *Pros and Cons of Select LoRaWAN Gateways*{: .small_text}{: #image31}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image31.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image31.png" style="width:90%">
 <br>
 
 [Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/){:target="_blank"}
@@ -1128,7 +1130,7 @@ sensor or improve the antenna of the sensor. Another option is to
 improve the location or antenna of the gateway (or both).
 
 
-*Solutions for Potential Sensor Connection Issues*{: .small_text}{: #image32}
+*Solutions for Potential Sensor Connection Issues*{: .small_text}{: #image32}<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image32.png" style="width:60%">
 <br>
 
