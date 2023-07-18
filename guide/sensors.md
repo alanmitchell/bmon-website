@@ -113,7 +113,7 @@ staff of heating failures before damage occurs.
 <details markdown="1">
 
 <summary>Energy Savings with BMON-Guided Temperature Measurements</summary>
-<br>
+
 *Potential Energy Savings of Measuring Building Temperature*{: .small_text}{: #image4}
 ![]({{ site.baseurl }}/assets/guide/sensors/image4.png)
 <br>
@@ -311,7 +311,7 @@ largest electricity uses in commercial buildings.
 <details markdown="1">
 
 <summary>Energy Savings with BMON-Guided Light Level Measurements</summary>
-<br>
+
 *Potential Energy Savings of Measuring Light Levels*{: .small_text}{: #image12}
 ![]({{ site.baseurl }}/assets/guide/sensors/image12.png)
 <br>
@@ -408,7 +408,7 @@ the heating fuel usage of a facility if it is not measured.
 <details markdown="1">
 
 <summary>Energy Savings with BMON-Guided CO<sub>2</sub> Measurements</summary>
-<br>
+
 *Potential Energy Savings of Measuring Indoor CO<sub>2</sub>
 Levels*{: .small_text}{: #image15}
 ![]({{ site.baseurl }}/assets/guide/sensors/image15.png)
@@ -506,7 +506,7 @@ too small.
 
 <summary>Energy Savings with BMON-Guided Water
 Temperature Measurements</summary>
-<br>
+
 *Potential Energy Savings of Measuring Boiler and Domestic Hot Water
 Temperatures*{: .small_text}{: #image17}
 ![]({{ site.baseurl }}/assets/guide/sensors/image17.png)
@@ -595,7 +595,7 @@ different ways. For more detail, click below.
 <details markdown="1">
 
 <summary>Energy Savings with BMON-Guided Electricity Use Measurements</summary>
-<br>
+
 *Potential Energy Savings of Measuring Electricity*{: .small_text}{: #image20}
 ![]({{ site.baseurl }}/assets/guide/sensors/image20.png)
 <br>
@@ -715,7 +715,7 @@ fuel, click below.
 <details markdown="1">
 <br>
 <summary>Energy Savings with BMON-Guided Fuel Use Measurements</summary>
-<br>
+
 *Potential Energy Savings in Measuring Fuel Use*{: .small_text}{: #image21}
 ![]({{ site.baseurl }}/assets/guide/sensors/image21.png)
 <br>
@@ -1161,7 +1161,7 @@ building) and the placement of the antenna above the peak of the roof.**
 
 *A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}{: #image34}
 <br>
-![]({{ site.baseurl }}/assets/guide/sensors/image34.jpeg)
+![]({{ site.baseurl }}/assets/guide/sensors/image34.png)
 <br>
 
 <details markdown="1">
