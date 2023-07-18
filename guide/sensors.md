@@ -82,7 +82,7 @@ below.
 
 
 *LoRaWAN Sensor Comparison*{: .small_text}{: #image2}
-![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
+<img src="{{ site.baseurl }}/assets/guide/sensors/image2.png" style="width:80%">
 
 <br>
 
@@ -97,7 +97,7 @@ electrical outputs, detailed below.
 Sensors
 (&#42;additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms){:target="_blank"})*{: .small_text}{: #image3}
-![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
+<img src="{{ site.baseurl }}/assets/guide/sensors/image3.png" style="width:80%">
 <br>
 
 ## Temperature
@@ -195,7 +195,8 @@ last more than four years).
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: All of the Elsys ERS sensors provide a temperature reading, ranging from the full-featured ERS CO2 sensor down to the ERS Lite sensor<br />
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:3.02083in;height:2.91667in" /></p></td>
+<div style="text-align:center; background-color: #99CCFF">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:80%" /></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:3.58333in" /></p></td>
