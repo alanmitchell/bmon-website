@@ -160,7 +160,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 *Ecobee Thermostat*{: .small_text}{: #image6}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" style="width:40%">
 <br>
 
 BMON knows how to retrieve data from the Ecobee line of smart,
@@ -471,7 +471,7 @@ drift that others can experience.
 
 [*Elsys ERS CO<sub>2</sub> LoRaWAN Sensor*](https://www.elsys.se/en/ers/){:target="_blank"}{: .small_text}{: #image13}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image13.png" style="width:70%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image13.png" style="width:40%">
 
 Both the ERS CO<sub>2</sub> Lite and ERS CO<sub>2</sub> come with a
 CO<sub>2</sub> sensor.
@@ -491,7 +491,7 @@ the ppm of CO<sub>2</sub> recorded.
 
 
 *What to Consider When Installing CO<sub>2</sub> Sensors*{: .small_text}{: #image16}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image16.png" style="width:90%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image16.png" style="width:60%">
 <br>
 
 ## Boiler and Domestic Hot Water Temperature
@@ -766,7 +766,7 @@ wireless pulse counter can be used to read and transmit those pulse
 counts to BMON.
 
 
-*Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and transmits the reading to BMON)*{: .small_text}{: #image22}
+*Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and transmits the reading to BMON)*{: .small_text}{: #image22}<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image22.png" style="width:70%">
 <br>
 
@@ -777,7 +777,7 @@ perform this task:
 *Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
 Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*{: .small_text}{: #image9}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:60%">
 <br>
 
 This weatherproof unit can be configured as a Pulse Counter to read
@@ -811,7 +811,7 @@ Dragino LTH65.
 
 
 *An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}{: #image23}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image23.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image23.png" style="width:60%">
 <br>
 
 </details>
@@ -874,7 +874,7 @@ Contact) sensor is shown wired to the relay contacts.
 
 *Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact
 Sensor*{: .small_text}{: #image24}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image24.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image24.png" style="width:60%">
 <br>
 
 **Motor Sensor**
@@ -889,7 +889,7 @@ circulating pump:
 
 *A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}{: #image25}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image25.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image25.png" style="width:60%">
 <br>
 
 <details markdown="1">
@@ -958,7 +958,7 @@ negative to ⏚ ground.
 
 *Wiring a Voltage-Output Sensor or a Switch Closure Sensor to an Elsys
 ELT-Lite Sensor*{: .small_text}{: #image26}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image26.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image26.png" style="width:60%">
 <br>
 
 </details>
@@ -995,7 +995,7 @@ since the “val" variable holds the voltage read by the sensor.
 
 *Correct Wiring of a 4-20mA Output on an ELT-Lite Sensor With
 Resistor*{: .small_text}{: #image27}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image27.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image27.png" style="width:60%">
 <br>
 
 </details>
@@ -1016,7 +1016,7 @@ Similar wiring is used for any external sensor that needs to receive
 power from the ELT-Lite.
 
 *Correct Wiring of an External Sensor Powered From the ELT Sensor Battery*{: .small_text}{: #image28}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image28.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image28.png" style="width:60%">
 <br>
 
 For external sensors that need to receive power from the ELT-Lite,
@@ -1052,7 +1052,7 @@ should be facing up as shown in the photo below.
 
 
 *Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure*{: .small_text}{: #image29}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image29.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image29.png" style="width:60%">
 <br>
 
 </details>
@@ -1121,7 +1121,7 @@ improve the location or antenna of the gateway (or both).
 
 
 *Solutions for Potential Sensor Connection Issues*{: .small_text}{: #image32}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image32.png" style="width:90%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image32.png" style="width:70%">
 <br>
 
 This image shows a simple external antenna that can be used with a
@@ -1129,7 +1129,7 @@ sensor or gateway to improve signal strength between buildings.
 
 *Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia*{: .small_text}{: #image33}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image33.png" style="width:80%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image33.png" style="width:60%">
 <br>
 
 This photo shows a more capable antenna installation with the antenna
@@ -1140,7 +1140,7 @@ building) and the placement of the antenna above the peak of the roof.**
 
 *A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}{: #image34}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image34.png" style="width:70%">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image34.png" style="width:60%">
 <br>
 
 <details markdown="1">
