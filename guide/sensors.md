@@ -82,7 +82,7 @@ below.
 
 
 *LoRaWAN Sensor Comparison*{: .small_text}{: #image2}
-![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
+![]({{ site.baseurl }}/assets/guide/sensors/image2.png style="width:4in")
 <br>
 
 ### Sensor Types
