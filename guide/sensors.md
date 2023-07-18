@@ -159,8 +159,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 *Ecobee Thermostat*{: .small_text}{: #image6}
 <br>
-![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
-<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" width="200">
+<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" width="400">
 <br>
 
 BMON knows how to retrieve data from the Ecobee line of smart,
@@ -194,8 +193,10 @@ last more than four years).
 <tbody style= "background-color: #99CCFF">
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: All of the Elsys ERS sensors provide a temperature reading, ranging from the full-featured ERS CO2 sensor down to the ERS Lite sensor<br />
+<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:3.02083in;height:2.91667in" /></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
+<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:3.58333in" /></p></td>
 </tr>
 </tbody>
@@ -264,8 +265,10 @@ sensors:
 <tbody style= "background-color: #99CCFF">
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a>: This weatherproof unit can accept many types of sensors, including a temperature sensor. Elsys sells an external temperature probe that can be used to sense outdoor temperature, or a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983">bare DS18B20</a> temperature sensor can be attached inside the ELT-Lite unit.<br/>
+<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:2.94236in;height:2.53889in" /></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
+<br>
 <img src="{{ site.baseurl }}/assets/guide/sensors/image10.png" style="width:3.02083in;height:1.95833in" /></p></td>
 </tr>
 </tbody>
