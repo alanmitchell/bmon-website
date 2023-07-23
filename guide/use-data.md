@@ -214,8 +214,8 @@ Between Fuel Use and Outdoor Temperature*{: .small_text}{: #image7}
 
 The X vs Y Scatter Plot allows you to see how two different sensor
 values relate to one another. For example, plotting boiler gas use vs
-outdoor temperature can reveal days with excessive fuel use. This video
-shows how to use X vs Y Scatter Plots:
+outdoor temperature can reveal days with excessive fuel use. This below video
+shows how to use X vs Y Scatter Plots.
 
 ***Video:*** *Sensor X vs Y Scatter Plot*
 {: #video-sensor-x-vs}
@@ -241,7 +241,7 @@ showing the related “Heat Map Hourly Profile" chart.
 {: #additional-graphs-reports}
 
 A brief overview of all the other available Graphs/Reports is given in
-this video:
+the video below.
 
 - Histograms
 
