@@ -82,7 +82,7 @@ below.
 
 
 *LoRaWAN Sensor Comparison*{: .small_text}{: #image2}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image2.png" style="width:80%">
+![]({{ site.baseurl }}/assets/guide/sensors/image2.png)
 
 <br>
 
@@ -97,7 +97,7 @@ electrical outputs, detailed below.
 Sensors
 (&#42;additional information for configurations with pulse output transformation is
 [available](https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html#pulse-counter-transforms){:target="_blank"})*{: .small_text}{: #image3}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image3.png" style="width:80%">
+![]({{ site.baseurl }}/assets/guide/sensors/image3.png)
 <br>
 
 ## Temperature
@@ -160,7 +160,7 @@ Boyes](mailto:tboyes@ahfc.us) at AHFC.
 
 *Ecobee Thermostat*{: .small_text}{: #image6}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image6.png" style="width:40%">
+![]({{ site.baseurl }}/assets/guide/sensors/image6.png)
 <br>
 
 BMON knows how to retrieve data from the Ecobee line of smart,
@@ -200,7 +200,7 @@ last more than four years).
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:60%" /></div></p></td>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:40%" /></div></p></td>
 </tr>
 </tbody>
 </table>
@@ -270,7 +270,7 @@ sensors:
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a>: This weatherproof unit can accept many types of sensors, including a temperature sensor. Elsys sells an external temperature probe that can be used to sense outdoor temperature, or a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983">bare DS18B20</a> temperature sensor can be attached inside the ELT-Lite unit.<br/>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:60%"/></div></p></td>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:40%"/></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
 <br>
 <br>
@@ -307,7 +307,7 @@ thermostat:
 
 
 *Installation Guidelines for Temperature Sensors*{: .small_text}{: #image11}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image11.png" style="width:80%">
+![]({{ site.baseurl }}/assets/guide/sensors/image11.png)
 <br>
 
 ## Light Levels
@@ -372,7 +372,7 @@ Here are some recommended wireless light level sensors:
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: for the ERS Lite and the ERS CO2 Lite come with a light sensor.<br/>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:60%"/></div></p></td>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:40%"/></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65-E5 Temperature/Humidity/Light LoRaWAN Sensor</a>: One version of the LHT65 sensor comes with an external light level sensor, which plugs into the main sensor unit via a 20" cable (shown here).<br/>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image14.png" style="width:60%" /></div></p></td>
@@ -498,7 +498,7 @@ the ppm of CO<sub>2</sub> recorded.
 
 
 *What to Consider When Installing CO<sub>2</sub> Sensors*{: .small_text}{: #image16}<br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image16.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image16.png)
 <br>
 
 ## Boiler and Domestic Hot Water Temperature
@@ -559,7 +559,7 @@ temperature probe. Here are three possibilities:
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
 <br>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:60%" /></div></p>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:40%" /></div></p>
 <p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a></p>
 <br><br>
@@ -569,7 +569,7 @@ temperature probe. Here are three possibilities:
 </tr>
 <tr style="text-align:center; background-color: #99CCFF">
 <td colspan="2"><p><a href="https://www.tindie.com/products/edwin/lsn50v2-d23-lorawan-waterproof-outdoor-tempera/">Dragino LSN50v2-D23 Triple Temperature Sensor</a></p>
-<p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:4.4in;height:2.97in" /></p>
+<p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:80%" /></p>
 <p>This weatherproof unit includes three temperature probes, with about 3 feet of cable on each. Very economically priced (~$60).</p></td>
 </tr>
 </tbody>
@@ -588,7 +588,7 @@ temperature probe on a pipe:
 
 
 *A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*{: .small_text}{: #image19}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image19.png" style="width:70%">
+![]({{ site.baseurl }}/assets/guide/sensors/image19.png)
 <br>
 
 After attaching the probe as shown above, make sure to reinstall the
@@ -777,7 +777,7 @@ counts to BMON.
 
 
 *Natural Gas Meter With a Monnit Wireless Pulse Counter (also shown is a flexible conduit leading to a wireless pulse counter that records and transmits the reading to BMON)*{: .small_text}{: #image22}<br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image22.png" style="width:70%">
+![]({{ site.baseurl }}/assets/guide/sensors/image22.png)
 <br>
 
 A Monnit wireless pulse counter is shown above. Below is a typical
@@ -787,7 +787,7 @@ perform this task:
 *Typical LoRaWAN Pulse Counter, [Elsys ELT-Lite LoRaWAN
 Sensor](https://www.elsys.se/en/lora-elt-lite/){:target="_blank"}*{: .small_text}{: #image9}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image9.png" style="width:40%">
+![]({{ site.baseurl }}/assets/guide/sensors/image9.png)
 <br>
 
 This weatherproof unit can be configured as a Pulse Counter to read
@@ -821,7 +821,7 @@ Dragino LTH65.
 
 
 *An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}{: #image23}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image23.png" style="width:50%">
+![]({{ site.baseurl }}/assets/guide/sensors/image23.png)
 <br>
 
 </details>
@@ -884,7 +884,7 @@ Contact) sensor is shown wired to the relay contacts.
 
 *Boiler Burner Fuel Solenoid Showing Placement of a Dry Contact
 Sensor*{: .small_text}{: #image24}<br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image24.png" style="width:45%">
+![]({{ site.baseurl }}/assets/guide/sensors/image24.png)
 <br>
 
 **Motor Sensor**
@@ -899,7 +899,7 @@ circulating pump:
 
 *A Motor Sensor Used to Sense Whether a Motor is On or Off*{: .small_text}{: #image25}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image25.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image25.png)
 <br>
 
 <details markdown="1">
@@ -968,7 +968,7 @@ negative to ⏚ ground.
 
 *Wiring a Voltage-Output Sensor or a Switch Closure Sensor to an Elsys
 ELT-Lite Sensor*{: .small_text}{: #image26}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image26.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image26.png)
 <br>
 
 </details>
@@ -1005,7 +1005,7 @@ since the “val" variable holds the voltage read by the sensor.
 
 *Correct Wiring of a 4-20mA Output on an ELT-Lite Sensor With
 Resistor*{: .small_text}{: #image27}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image27.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image27.png)
 <br>
 
 </details>
@@ -1026,7 +1026,7 @@ Similar wiring is used for any external sensor that needs to receive
 power from the ELT-Lite.
 
 *Correct Wiring of an External Sensor Powered From the ELT Sensor Battery*{: .small_text}{: #image28}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image28.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image28.png)
 <br>
 
 For external sensors that need to receive power from the ELT-Lite,
@@ -1062,7 +1062,7 @@ should be facing up as shown in the photo below.
 
 
 *Internal Temperature Sensor Wired Inside the ELT-Lite Sensor Enclosure*{: .small_text}{: #image29}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image29.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image29.png)
 <br>
 
 </details>
@@ -1099,7 +1099,7 @@ Here are some good choices for LoRaWAN gateways:
 
 
 *Pros and Cons of Select LoRaWAN Gateways*{: .small_text}{: #image31}
-<img src="{{ site.baseurl }}/assets/guide/sensors/image31.png" style="width:90%">
+![]({{ site.baseurl }}/assets/guide/sensors/image31.png)
 <br>
 
 [Instructions](https://www.thethingsindustries.com/docs/gateways/thethingsindoorgateway/){:target="_blank"}
@@ -1131,7 +1131,7 @@ improve the location or antenna of the gateway (or both).
 
 
 *Solutions for Potential Sensor Connection Issues*{: .small_text}{: #image32}<br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image32.png" style="width:60%">
+![]({{ site.baseurl }}/assets/guide/sensors/image32.png)
 <br>
 
 This image shows a simple external antenna that can be used with a
@@ -1139,7 +1139,7 @@ sensor or gateway to improve signal strength between buildings.
 
 *Simple External Antenna That Can Be Mounted on a Wall Or Roof Fascia*{: .small_text}{: #image33}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image33.png" style="width:40%">
+![]({{ site.baseurl }}/assets/guide/sensors/image33.png)
 <br>
 
 This photo shows a more capable antenna installation with the antenna
@@ -1150,7 +1150,7 @@ building) and the placement of the antenna above the peak of the roof.**
 
 *A Properly Installed Exterior Antenna for a LoRaWAN Gateway*{: .small_text}{: #image34}
 <br>
-<img src="{{ site.baseurl }}/assets/guide/sensors/image34.png" style="width:50%">
+![]({{ site.baseurl }}/assets/guide/sensors/image34.png)
 <br>
 
 <details markdown="1">
