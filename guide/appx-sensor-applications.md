@@ -38,10 +38,11 @@ for more details.
 <td style="vertical-align:top"><strong>Temperature Sensor<br />
 </strong>This must be a DS18B20-type temperature sensor such as the one sold by Elsys or <a href="https://www.amazon.com/HiLetgo-DS18B20-Temperature-Stainless-Waterproof/dp/B00M1PM55K/" target="_blank">these</a> on Amazon. It can also be a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983" target="_blank">bare DS18B20</a> mounted directly to the terminal block in the Elsys. Note that the ELT-2 has a built-in temperature and humidity sensor, in addition to allowing for an external sensor.</td>
 <td style="vertical-align:top"><p>“External sensor" setting on the Elsys should be “1-wire Temperature probe". Wiring of the external probe is:</p>
+<div style="text-align:center; background-color: #99CCFF">
 <p><em>Sensor Wire : Elsys Terminal</em><br />
-Red : B+</p>
-<p>Yellow/White : IN<br />
-Black : Gnd ⏚<br />
+Red : B+<br />
+Yellow/White : IN<br />
+Black : Gnd ⏚<br /></p></div>
 <br />
 For the bare DS18B20:<br />
 <div style="text-align:center; background-color: #99CCFF">
@@ -63,10 +64,11 @@ This sensor attaches to a motor or other electric device emitting an AC electric
 <div style="text-align:center; background-color: #99CCFF"> 
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image7.png" style="width:1.78125in;height:1.18056in" /></div></td>
 <td style="vertical-align:top"><p>Wiring to the Elsys is:</p>
+<div style="text-align:center; background-color: #99CCFF">
 <p><em>Sensor Wire : Elsys Terminal</em><br />
-Red : B+</p>
-<p>White : IN<br />
-Black : Gnd ⏚</p>
+<p>Red : B+<br />
+White : IN<br />
+Black : Gnd ⏚</p></div>
 <p>The “External Sensor" setting should be “Switch, dual edge trig", which causes the Elsys to send a reading when the sensed motor turns On and when it turns Off.</p>
 <p>The other critical setting in the “Sample times" section of the configuration is the “External startup time", which should be set to 10 million (10000000, a 1 with seven zeroes and no commas). This setting ensures that battery power will be continuously delivered to the Motor Sensor from the Elsys ELT.</p></td>
 <td style="vertical-align:top">Readings appear in BMON with a Sensor ID of “xxx_digital". A good unit selection is “1=On 0=Off" since the reading value is a 1 when the motor is On and a 0 when it is Off.</td>
@@ -83,9 +85,10 @@ Black : Gnd ⏚</p>
 </strong>Pressure sensors and other types of sensors can be obtained with a 0 - 10 VDC output signal.</td>
 <td style="vertical-align:top"><p>Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br />
 <br />
+<div style="text-align:center; background-color: #99CCFF">
 <em>Sensor Terminal : Elsys Terminal<br />
 </em>Signal Output (0 - 10 VDC) : IN<br />
-Ground : Gnd ⏚</p>
+Ground : Gnd ⏚</p></div>
 <p>The “External Sensor" setting should be set to “Analog 0-10V".</p></td>
 <td style="vertical-align:top"><p>Readings in BMON arrive with a Sensor ID of “xxx_analog", measured in Volts. A <a href="https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html" target="_blank">BMON Transform</a> is required to convert this to engineering units. For example, if a pressure can read a maximum of 25 PSI, which corresponds to 10 V output, the Transform formula to produce readings in PSI would be:</p>
 <div style="text-align:center; background-color: #99CCFF">
@@ -121,11 +124,12 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <p>The “External Sensor" setting should be set to “Analog 0-3V".</p></td>
 <td style="vertical-align:top"><p>The Sensor ID will be “xxx_analog". A BMON Transform is needed to convert the voltage into engineering units. The Transform should be:<br />
 <br />
-&lt;full-scale value&gt; *<br />
-(val - 0.588) / 2.352</p>
-<p>So, for a pressure sensor with a max value of 25 PSI, the Transform would be:<br />
+<div style="text-align:center; background-color: #99CCFF">
+&lt;full-scale value&gt; *(val - 0.588) / 2.352</p></div>
+<p>So, for a pressure sensor with a max value of 25 PSI, the Transform would be:</p><br />
 <br />
-25.0 * (val - 0.588) / 2.352</p>
+<div style="text-align:center; background-color: #99CCFF">
+25.0 * (val - 0.588) / 2.352</div>
 <p>(this accounts for the 7,400 Ohm internal resistance of the Elsys ELT).</p></td>
 </tr>
 <tr class="even">
