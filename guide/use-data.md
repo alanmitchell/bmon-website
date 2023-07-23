@@ -316,7 +316,7 @@ Zooming in on December 2 of the graph below, it looks like the morning
 warm-up period was set to begin earlier than needed and the evening set
 back began later than needed. The space is up to occupied temperature at
 5 am and then is not set back again until 9 pm. There may be good
-reasons for this extended schedule, but it is worth in
+reasons for this extended schedule, but it is worth investigating.
 
 *A Closer View of the Indoor Temp Report*{: .small_text}{: #image10}
 ![]({{ site.baseurl }}/assets/guide/use-data/image10.png)
@@ -326,7 +326,7 @@ Temperatures during the gray, unoccupied periods are often *higher* than
 they are during occupied periods. There appears to be a controls or
 heating system problem in this building, and investigation is warranted.
 The figure below is an indoor temperature graph from the Energy Report
-of a space in a different building:
+of a space in a different building.
 
 *Indoor Temperature Report Displaying a Potential Problem in a
 Building’s Heating Pattern*{: .small_text}{: #image11}
