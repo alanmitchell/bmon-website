@@ -68,7 +68,7 @@ This sensor attaches to a motor or other electric device emitting an AC electric
 <em>Sensor Wire : Elsys Terminal</em><br>
 Red : B+<br>
 White : IN<br>
-Black : Gnd ⏚</div>
+Black : Gnd ⏚</div><br>
 <p>The “External Sensor" setting should be “Switch, dual edge trig", which causes the Elsys to send a reading when the sensed motor turns On and when it turns Off.</p>
 <p>The other critical setting in the “Sample times" section of the configuration is the “External startup time", which should be set to 10 million (10000000, a 1 with seven zeroes and no commas). This setting ensures that battery power will be continuously delivered to the Motor Sensor from the Elsys ELT.</p></td>
 <td style="vertical-align:top">Readings appear in BMON with a Sensor ID of “xxx_digital". A good unit selection is “1=On 0=Off" since the reading value is a 1 when the motor is On and a 0 when it is Off.</td>
@@ -83,7 +83,7 @@ Black : Gnd ⏚</div>
 <tr class="odd">
 <td style="vertical-align:top"><strong>Sensor with 0 - 10 VDC Output<br />
 </strong>Pressure sensors and other types of sensors can be obtained with a 0 - 10 VDC output signal.</td>
-<td style="vertical-align:top"><p>Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br>
+<td style="vertical-align:top">Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
 <em>Sensor Terminal : Elsys Terminal</em><br>
