@@ -190,7 +190,7 @@ LoRaWAN sensors, not addressed in the prior Elsys table.
 <td style="vertical-align:top"><strong>Dragino LSN50v2-D23<br />
 </strong>This sensor comes with three external temperature probes. An example use is to measure boiler supply, boiler return, and domestic hot water temperatures.</td>
 <td style="vertical-align:top"><p>Dragino sensors generally need to be configured by AHFC, as configuration is done with a serial-cable connection to a PC. For this particular sensor, no special wiring is required, as it comes pre-wired with the three sensors, color-coded with black, red, and white heat shrink tubing:</p>
-<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image4.png" style="width:2.6875in;height:2.69444in" /></p></td>
+<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image4.png" style="width:60%" /></p></td>
 <td style="vertical-align:top"><p>The temperature sensors show up as “xxx_extTemperature1", “xxx_extTemperature2", and “xxx_extTemperature3" (°F units) Sensor ID, where “xxx" is the Device ID (EUI). The color coding on the probes is as follows:</p>
 <p><strong>White:</strong> temperature 1</p>
 <p><strong>Red:</strong> temperature 2</p>
