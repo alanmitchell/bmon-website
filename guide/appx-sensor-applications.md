@@ -88,7 +88,8 @@ Black : Gnd ⏚</p>
 Ground : Gnd ⏚</p>
 <p>The “External Sensor" setting should be set to “Analog 0-10V".</p></td>
 <td style="vertical-align:top"><p>Readings in BMON arrive with a Sensor ID of “xxx_analog", measured in Volts. A <a href="https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html" target="_blank">BMON Transform</a> is required to convert this to engineering units. For example, if a pressure can read a maximum of 25 PSI, which corresponds to 10 V output, the Transform formula to produce readings in PSI would be:</p>
-<p>25.0 * val / 10.0</p></td>
+<div style="text-align:center; background-color: #99CCFF">
+<p>25.0 * val / 10.0</p></div></td>
 </tr>
 <tr class="even">
 <td style="vertical-align:top"><strong>Sensor with 0 - 10 VDC Output, powered by the Elsys<br />
@@ -99,11 +100,12 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image5.png" style="width:2.6875in;height:2.86111in" /></p></div>
 <p>The screw-adjustable potentiometer on the board must be set to provide the proper voltage to the external sensor, usually from 14 - 24 VDC.</p>
 <p>Wiring is as follows:</p>
-<p style="text-align:center>Sensor + Power Input → VOUT+ on Converter</p>
-<p style="text-align:center>Sensor Gnd → VOUT- on Converter</p>
-<p style="text-align:center>Sensor 0 - 10V Output → Elsys IN</p>
-<p style="text-align:center>VIN+ on Converter → Elsys B+</p>
-<p style="text-align:center>VIN- on Converter → Elsys Gnd ⏚</p>
+<div style="text-align:center; background-color: #99CCFF">
+<p>Sensor + Power Input → VOUT+ on Converter</p>
+<p>Sensor Gnd → VOUT- on Converter</p>
+<p>Sensor 0 - 10V Output → Elsys IN</p>
+<p>VIN+ on Converter → Elsys B+</p>
+<p>VIN- on Converter → Elsys Gnd ⏚</p></div>
 <p>For the Elsys configuration, “External Sensor" is set to “Analog 0-10V". The “External startup time" setting determines how early power is applied to the external sensor before it is read by the Elsys. Some sensors need as little as 20 milliseconds to stabilize. Others can require 750 milliseconds or more. Experimentation or an oscilloscope test can determine this value. Longer times are the safe approach but reduce battery life.</p></td>
 <td style="vertical-align:top">Same as the prior row, “xxx_analog" is Sensor ID, and a suitable BMON Transform must be entered to convert to engineering units.</td>
 </tr>
@@ -130,9 +132,10 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <td style="vertical-align:top"><strong>Maxbotix Distance Sensor</strong><br />
 Can be used to measure depth of fuel in a fuel or water tank.</td>
 <td style="vertical-align:top"><p>Can be used with an ELT-2.  Set the "External Sensor" setting to "Maxbotix".</p>
+<div style="text-align:center; background-color: #99CCFF">
 <p>Red wire Maxbotix → Elsys B+<br />
 Blue Maxbotix → Elsys IN<br />
-Black Maxbotix → Elsys Gnd ⏚</p>
+Black Maxbotix → Elsys Gnd ⏚</p></div>
 <p>Clip the shield and all other colored wires.</p></td>
 <td style="vertical-align:top"></td>
 </tr>
@@ -141,6 +144,7 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 <p><strong>Fuel Tank Level Sensor</strong><br />
 Allows sensing the level in a fuel tank using a float-based sensor such
 as <a href="https://www.amazon.com/dp/B08DLMSJQF/ref=twister_B0C5SXG464" target="_blank">this one.</a></p>
+<br><br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float.png" style="width:1.2in;height:1.86in" /></div>
 </td>
@@ -150,7 +154,7 @@ IN terminal.  The fuel sensor wires connect to the IN and Gnd ⏚ terminals as
 shown here with an ELT-Lite:
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float-wiring.png" style="width:2.2in;height:1.71in" /></div>
-
+<br>
 <p>Important settings for the ELT sensor are:<br />
 <strong>External sensor:</strong>  Analog 0-3V<br />
 <strong>External period:</strong>  1<br />
@@ -163,7 +167,8 @@ left column, have a varying resistance output from 33 Ohms (full) to
 240 Ohms (empty). With this sensor, the following BMON Transform will
 produce a value of 0 for Empty and 100 for Full:</p>
 
-<p>100 - 65.7 * (val - 0.631)</p>
+<div style="text-align:center; background-color: #99CCFF">
+<p>100 - 65.7 * (val - 0.631)</p></div>
 
 <p>This value will be affected by battery voltage and temperature. If
 higher accuracy is needed, A
