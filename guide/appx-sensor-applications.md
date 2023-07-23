@@ -65,9 +65,9 @@ This sensor attaches to a motor or other electric device emitting an AC electric
 <img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image7.png" style="width:1.78125in;height:1.18056in" /></div></td>
 <td style="vertical-align:top"><p>Wiring to the Elsys is:</p>
 <div style="text-align:center; background-color: #99CCFF">
-<em>Sensor Wire : Elsys Terminal</em><br />
-<p>Red : B+<br />
-White : IN<br />
+<em>Sensor Wire : Elsys Terminal</em><br>
+Red : B+<br>
+White : IN<br>
 Black : Gnd ⏚</div>
 <p>The “External Sensor" setting should be “Switch, dual edge trig", which causes the Elsys to send a reading when the sensed motor turns On and when it turns Off.</p>
 <p>The other critical setting in the “Sample times" section of the configuration is the “External startup time", which should be set to 10 million (10000000, a 1 with seven zeroes and no commas). This setting ensures that battery power will be continuously delivered to the Motor Sensor from the Elsys ELT.</p></td>
@@ -83,12 +83,12 @@ Black : Gnd ⏚</div>
 <tr class="odd">
 <td style="vertical-align:top"><strong>Sensor with 0 - 10 VDC Output<br />
 </strong>Pressure sensors and other types of sensors can be obtained with a 0 - 10 VDC output signal.</td>
-<td style="vertical-align:top"><p>Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br />
-<br />
+<td style="vertical-align:top"><p>Here we are assuming that the external sensor has its own power supply. To read the output with the Elsys, you need two wires from the sensor, wired as follows:<br>
+<br>
 <div style="text-align:center; background-color: #99CCFF">
-<em>Sensor Terminal : Elsys Terminal<br />
-</em>Signal Output (0 - 10 VDC) : IN<br />
-Ground : Gnd ⏚</div>
+<em>Sensor Terminal : Elsys Terminal</em><br>
+Signal Output (0 - 10 VDC) : IN<br>
+Ground : Gnd ⏚</div><br>
 <p>The “External Sensor" setting should be set to “Analog 0-10V".</p></td>
 <td style="vertical-align:top"><p>Readings in BMON arrive with a Sensor ID of “xxx_analog", measured in Volts. A <a href="https://bmon-documentation.readthedocs.io/en/latest/transform-expressions.html" target="_blank">BMON Transform</a> is required to convert this to engineering units. For example, if a pressure can read a maximum of 25 PSI, which corresponds to 10 V output, the Transform formula to produce readings in PSI would be:</p>
 <div style="text-align:center; background-color: #99CCFF">
@@ -122,12 +122,12 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <div style="text-align:center; background-color: #99CCFF">
 <p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image10.png" style="width:2.05729in;height:1.84997in" /></p></div>
 <p>The “External Sensor" setting should be set to “Analog 0-3V".</p></td>
-<td style="vertical-align:top"><p>The Sensor ID will be “xxx_analog". A BMON Transform is needed to convert the voltage into engineering units. The Transform should be:<br /><br />
+<td style="vertical-align:top">The Sensor ID will be “xxx_analog". A BMON Transform is needed to convert the voltage into engineering units. The Transform should be:<br><br>
 <div style="text-align:center; background-color: #99CCFF">
 &lt;full-scale value&gt; *(val - 0.588) / 2.352</div><br>
-<p>So, for a pressure sensor with a max value of 25 PSI, the Transform would be:</p><br />
+<p>So, for a pressure sensor with a max value of 25 PSI, the Transform would be:</p><br>
 <div style="text-align:center; background-color: #99CCFF">
-25.0 * (val - 0.588) / 2.352</div>
+25.0 * (val - 0.588) / 2.352</div><br>
 <p>(this accounts for the 7,400 Ohm internal resistance of the Elsys ELT).</p></td>
 </tr>
 <tr class="even">
