@@ -44,7 +44,8 @@ Red : B+</p>
 Black : Gnd ⏚<br />
 <br />
 For the bare DS18B20:<br />
-<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image6.png" style="width:0.95035in;height:1.46354in" /></p></td>
+<div style="text-align:center; background-color: #99CCFF">
+<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image6.png" style="width:0.95035in;height:1.46354in" /></div></p></td>
 <td style="vertical-align:top">The external temperature sensor shows up as a “xxx_extTemperature" (°F units) Sensor ID; the internal sensor in the ELT-2 is “xxx_temperature" and “xxx_humidity" (%RH units) for the relative humidity measurement.</td>
 </tr>
 <tr class="even">
@@ -58,7 +59,9 @@ The “External Sensor" setting on the Elsys should be “Absolute pulse Input, 
 <tr class="odd">
 <td style="vertical-align:top"><strong>Analysis North Motor Sensor</strong><br />
 This sensor attaches to a motor or other electric device emitting an AC electric field, and it senses when the device turns On and Off.<br />
-<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image7.png" style="width:1.78125in;height:1.18056in" /></td>
+<br>
+<div style="text-align:center; background-color: #99CCFF"> 
+<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image7.png" style="width:1.78125in;height:1.18056in" /></div></td>
 <td style="vertical-align:top"><p>Wiring to the Elsys is:</p>
 <p><em>Sensor Wire : Elsys Terminal</em><br />
 Red : B+</p>
@@ -92,14 +95,15 @@ Ground : Gnd ⏚</p>
 </strong><br />
 With the addition of a Voltage Converter board, it is possible to have the Elsys ELT supply power to an external sensor that needs a relatively high power supply voltage. Sensors with a 0 - 10 VDC output generally need a power supply voltage of 14 Volts or more. The Elsys battery itself can only supply about 3.6 Volts.</td>
 <td style="vertical-align:top"><p>Here is a <a href="https://www.amazon.com/Eiechip-Voltage-Regulator-Converter-Module/dp/B07RNBJK5F/" target="_blank">suitable voltage converter board</a>. The picture below shows it mounted in the Elsys ELT-Lite enclosure:</p>
-<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image5.png" style="width:2.6875in;height:2.86111in" /></p>
+<div style="text-align:center; background-color: #99CCFF">
+<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image5.png" style="width:2.6875in;height:2.86111in" /></p></div>
 <p>The screw-adjustable potentiometer on the board must be set to provide the proper voltage to the external sensor, usually from 14 - 24 VDC.</p>
 <p>Wiring is as follows:</p>
-<p>Sensor + Power Input → VOUT+ on Converter</p>
-<p>Sensor Gnd → VOUT- on Converter</p>
-<p>Sensor 0 - 10V Output → Elsys IN</p>
-<p>VIN+ on Converter → Elsys B+</p>
-<p>VIN- on Converter → Elsys Gnd ⏚</p>
+<p style="text-align:center>Sensor + Power Input → VOUT+ on Converter</p>
+<p style="text-align:center>Sensor Gnd → VOUT- on Converter</p>
+<p style="text-align:center>Sensor 0 - 10V Output → Elsys IN</p>
+<p style="text-align:center>VIN+ on Converter → Elsys B+</p>
+<p style="text-align:center>VIN- on Converter → Elsys Gnd ⏚</p>
 <p>For the Elsys configuration, “External Sensor" is set to “Analog 0-10V". The “External startup time" setting determines how early power is applied to the external sensor before it is read by the Elsys. Some sensors need as little as 20 milliseconds to stabilize. Others can require 750 milliseconds or more. Experimentation or an oscilloscope test can determine this value. Longer times are the safe approach but reduce battery life.</p></td>
 <td style="vertical-align:top">Same as the prior row, “xxx_analog" is Sensor ID, and a suitable BMON Transform must be entered to convert to engineering units.</td>
 </tr>
@@ -107,9 +111,11 @@ With the addition of a Voltage Converter board, it is possible to have the Elsys
 <td style="vertical-align:top"><strong>Sensor with 4 - 20 mA Current Output<br />
 </strong>Some sensors have a current output varying from 4 to 20 milliamperes (mA). The Elsys ELT cannot read current directly, but a resistor can be used to convert the current output into a voltage output, which can be read by the Elsys.</td>
 <td style="vertical-align:top"><p>The proper resistor value is <a href="https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-150R/12831" target="_blank">150 Ohms, 1% accuracy</a>. Here is a wiring picture:</p>
-<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image12.png" style="width:1.59896in;height:1.29528in" /></p>
+<div style="text-align:center; background-color: #99CCFF">
+<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image12.png" style="width:1.59896in;height:1.29528in" /></p></div>
 <p>The red and black wires go to the 4 - 20 mA sensor; the negative return wire from the sensor is cut and the red and black leads are wired as follows:</p>
-<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image10.png" style="width:2.05729in;height:1.84997in" /></p>
+<div style="text-align:center; background-color: #99CCFF">
+<p><img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/image10.png" style="width:2.05729in;height:1.84997in" /></p></div>
 <p>The “External Sensor" setting should be set to “Analog 0-3V".</p></td>
 <td style="vertical-align:top"><p>The Sensor ID will be “xxx_analog". A BMON Transform is needed to convert the voltage into engineering units. The Transform should be:<br />
 <br />
@@ -135,16 +141,15 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 <p><strong>Fuel Tank Level Sensor</strong><br />
 Allows sensing the level in a fuel tank using a float-based sensor such
 as <a href="https://www.amazon.com/dp/B08DLMSJQF/ref=twister_B0C5SXG464" target="_blank">this one.</a></p>
-
-<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float.png" style="width:1.2in;height:1.86in" />
-
+<div style="text-align:center; background-color: #99CCFF">
+<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float.png" style="width:1.2in;height:1.86in" /></div>
 </td>
 <td style="vertical-align:top">
 ELT wiring involves a 150 Ohm 1% accuracy resistor connected from the B+ terminal to the
 IN terminal.  The fuel sensor wires connect to the IN and Gnd ⏚ terminals as 
 shown here with an ELT-Lite:
-
-<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float-wiring.png" style="width:2.2in;height:1.71in" />
+<div style="text-align:center; background-color: #99CCFF">
+<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float-wiring.png" style="width:2.2in;height:1.71in" /></div>
 
 <p>Important settings for the ELT sensor are:<br />
 <strong>External sensor:</strong>  Analog 0-3V<br />
