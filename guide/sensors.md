@@ -200,7 +200,7 @@ last more than four years).
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
-<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="height:40%" /></div></p></td>
+<img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="width:50%" /></div></p></td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ sensors:
 <tbody style= "background-color: #99CCFF">
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a>: This weatherproof unit can accept many types of sensors, including a temperature sensor. Elsys sells an external temperature probe that can be used to sense outdoor temperature, or a <a href="https://www.digikey.com/en/products/detail/maxim-integrated/DS18B20/956983">bare DS18B20</a> temperature sensor can be attached inside the ELT-Lite unit.<br/>
-<br>
+<br><br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:40%"/></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a>: This sensor is reasonably weatherproof, although some overhead protection would be desirable.<br/>
@@ -370,7 +370,7 @@ Here are some recommended wireless light level sensors:
 <table border="1">
 <tbody style= "background-color: #99CCFF">
 <tr>
-<td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: for the ERS Lite and the ERS CO2 Lite come with a light sensor.<br/>
+<td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/ers/">Elsys ERS LoRaWAN Sensor</a>: for the ERS Lite and the ERS CO2 Lite come with a light sensor.<br/><br><br><br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:40%"/></div></p></td>
 <td style="width:50%; vertical-align:top;"><p><a href="http://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65-E5 Temperature/Humidity/Light LoRaWAN Sensor</a>: One version of the LHT65 sensor comes with an external light level sensor, which plugs into the main sensor unit via a 20" cable (shown here).<br/>
@@ -557,7 +557,7 @@ temperature probe. Here are three possibilities:
 <tbody style= "background-color: #99CCFF">
 <tr>
 <td style="width:50%; vertical-align:top;"><p><a href="https://www.elsys.se/en/lora-elt-lite/">Elsys ELT-Lite LoRaWAN Sensor</a><br />
-<br>
+<br><br><br><br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image35.png" style="width:40%" /></div></p>
 <p>This weatherproof unit can accept many types of sensors, including a temperature sensor probe.</p></td>
@@ -569,7 +569,7 @@ temperature probe. Here are three possibilities:
 </tr>
 <tr style="text-align:center; background-color: #99CCFF">
 <td colspan="2"><p><a href="https://www.tindie.com/products/edwin/lsn50v2-d23-lorawan-waterproof-outdoor-tempera/">Dragino LSN50v2-D23 Triple Temperature Sensor</a></p>
-<p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:80%" /></p>
+<p><img src="{{ site.baseurl }}/assets/guide/sensors/image18.png" style="width:50%" /></p>
 <p>This weatherproof unit includes three temperature probes, with about 3 feet of cable on each. Very economically priced (~$60).</p></td>
 </tr>
 </tbody>
