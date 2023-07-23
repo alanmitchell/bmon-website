@@ -136,7 +136,7 @@ Black Maxbotix → Elsys Gnd ⏚</p>
 Allows sensing the level in a fuel tank using a float-based sensor such
 as <a href="https://www.amazon.com/dp/B08DLMSJQF/ref=twister_B0C5SXG464" target="_blank">this one.</a></p>
 
-<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float.jpg" style="width:1.2in;height:1.86in" />
+<img src="{{ site.baseurl }}/assets/guide/appx-sensor-applications/fuel-float.png" style="width:1.2in;height:1.86in" />
 
 </td>
 <td style="vertical-align:top">
