@@ -197,7 +197,7 @@ last more than four years).
 <br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image7.png" style="width:40%" /></div></p></td>
-<td style="width:35%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
+<td style="width:50%; vertical-align:top;"><p><a href="https://www.dragino.com/products/lora-lorawan-end-node/item/151-lht65.html">Dragino LHT65 Temperature/Humidity LoRaWAN Sensor</a><br/>
 <br>
 <div style="text-align:center; background-color: #99CCFF">
 <img src="{{ site.baseurl }}/assets/guide/sensors/image8.png" style="width:30%" /></div></p></td>
