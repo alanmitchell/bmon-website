@@ -587,7 +587,7 @@ works well. The image below shows a well done installation of a
 temperature probe on a pipe:
 
 
-*A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*{: .small_text}{: #image19}
+*A Temperature Probe Correctly Installed on a Pipe (heat sink compound promotes good thermal contact and accurate temperature readings)*{: .small_text}{: #image19}<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image19.png)
 <br>
 
@@ -820,7 +820,7 @@ connected to a wireless pulse counter, such as the Elsys ELT-Lite or the
 Dragino LTH65.
 
 
-*An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}{: #image23}
+*An Elster 4p Fuel Flow Meter Installation (the flow meter is the translucent enclosure in the upper right hand corner of the picture)*{: .small_text}{: #image23}<br>
 ![]({{ site.baseurl }}/assets/guide/sensors/image23.png)
 <br>
 
