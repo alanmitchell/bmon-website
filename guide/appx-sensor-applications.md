@@ -170,10 +170,10 @@ left column, have a varying resistance output from 33 Ohms (full) to
 produce a value of 0 for Empty and 100 for Full:</p>
 
 <div style="text-align:center; background-color: #99CCFF">
-<p>100 - 65.7 * (val - 0.631)</p></div>
+<p>(1-(150*val/(3.5-val)-33)/207)*100</p></div>
 
-<p>This value will be affected by battery voltage and temperature. If
-higher accuracy is needed, A
+<p>This value will be affected by battery voltage (assumed to be 3.5 Volts in the above Transform)
+and temperature. If higher accuracy is needed, A
 more complicated BMON setup is possible. Contact the BMON development
 team for more information.</p>
 </td>
