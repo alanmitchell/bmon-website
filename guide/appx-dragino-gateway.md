@@ -14,8 +14,10 @@ consulted for detailed information.
 When you power up the gateway, it broadcasts a new Wi-Fi network that
 you can connect to with a PC (just like connecting to a Wi-Fi network at
 a coffee shop). The network name always starts with “dragino," for
-example “dragino-1eb408." The Wi-Fi password for connecting to this
-network is “dragino+dragino."
+example “dragino-1eb408." The last five characters of the network name are 
+the last five characters of the Gateway ID, which is found on the bottom of
+the gateway and on box the gateway was shipped in. The Wi-Fi password for 
+connecting to this network is “dragino+dragino."
 
 Next, you need to use a web browser to access the configuration web
 pages located on the gateway. You access those pages by typing in the
@@ -34,22 +36,40 @@ which generally displays which parts of the gateway are working. Access
 to different configuration pages can be done by clicking on parts of the
 diagram or by using the menus at the top of the page.
 
-It is often a good idea to upgrade the firmware of the gateway when you
-first receive it. Check the User Manual for details. First, you need to
-download the latest firmware from the Dragino website. Then, click the
-“Firmware Upgrade" option from the System menu at the top of the Home
-Dragino web page you accessed above. Finally, you “Upload Firmware File"
-from your PC to the Gateway and “Proceed with Flash". You will be forced
-to reconnect to the gateway Wi-Fi network and access the configuration
-page again.
-
 ## Configuring a Gateway for the Things Network
 {: #configure-gateway-things}
 
 Here are the key settings that need to be changed to configure the
 gateway for US operation on the Things Network:
 
-1.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
+1.  Determine how the gateway will be connected to the Internet.  If you
+    will be connecting with a wired Ethernet cable, you do not need to change
+    any configuration on the gateway, and you can move to the next step of configuration.
+    You also have the ability to connect
+    the gateway via WiFi to the Internet, but we do not recommend that approach.
+    If you do choose to use a WiFi connection, see the notes at the end of this
+    Appendix. If you have a gateway that supports a cellular connection to
+    the Internet (a SIM card slot will be on the side of the gateway), you need 
+    to access the "Network" menu and click the "Cellular" option.  Then, check 
+    the "Enable Cellular WAN"
+    checkbox and enter the cellular carrier's APN in the "APN" box.  The APN for
+    the GCI carrier is "web.gci".   Your configuration should look like the following:
+
+    *Screenshot of Cellular Settings*{: .small_text}{: #cellular-setup}
+    <br>
+    ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/cellular-setup.png)
+    <br>
+
+    Click the “Save&Apply" button at the bottom of the page.  If you now go back to
+    the Home screen by clicking the "Home" menu item, the diagram will look like this:
+
+    *Screenshot of Home Screen with Cellular*{: .small_text}{: #home-with-cellular}
+    <br>
+    ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/home-with-cellular.png)
+    <br>
+
+
+2.  From the “LoRa" menu, click the “LoRa" item. Change the Radio
     Settings section to look like the following:
 
     *Screenshot of LoRa Radio Settings*{: .small_text}{: #image1}
@@ -60,13 +80,14 @@ gateway for US operation on the Things Network:
     Click the “Save&Apply" button at the bottom of the page.
 
 3.  From the “LoRaWAN" menu, click the “LoRaWAN" item. Copy and save the
-    Gateway ID from the General Settings section, as you will need this
+    Gateway EUI from the General Settings section, as you will need this
     later when you register this gateway on the Things Network. Do not
-    change the ID.
+    change the EUI.  This string is also printed on the bottom of the 
+    Gateway and on the box that the gateway came in.
 
-    *Screenshot of Gateway ID*{: .small_text}{: #image5}
+    *Screenshot of Gateway EUI*{: .small_text}{: #gateway-eui}
     <br>
-    ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image5.png)
+    ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/gateway-eui.png)
 <br>
 
     Then set the “Primary LoRaWAN Server" as follows:
@@ -77,26 +98,6 @@ gateway for US operation on the Things Network:
 <br>
 
     Click the “Save&Apply" button at the bottom of the page.
-
-5.  If you are going to connect the gateway to the Internet via a wired
-    Ethernet connection, there is no more configuration required on the
-    gateway. If you want to use Wi-Fi to connect the gateway to the
-    Internet, then you need to access the “Network" menu and click
-    “WiFi." On the WiFi page, you must fill out the settings in the
-    “WiFi WAN Client Settings" section of the page, making sure to
-    “Enable WiFi WAN Client" and to properly fill out the name of the
-    Wi-Fi network (SSID) and the Passphrase. Also, keep the “Enable WiFi
-    Access Point" checkbox enabled so that you can access the gateway in
-    the future for configuration (i.e., make no changes in that
-    section).
-    Note one issue we have discovered with filling out and enabling the
-    “WiFi WAN Client Settings" section: if that Wi-Fi connection is
-    not available, an Ethernet connection will also not work. If you use
-    Wi-Fi for testing the gateway but ultimately intend to use an
-    Ethernet connection, make sure you disable the Wi-Fi WAN Client.
-    If your gateway is capable of a cellular connection to the Internet,
-    you can set that up on the "Network" page as well.  You need to
-    know the APN of the cellular network you are connecting to.
 
 6.  You then need to register the gateway on the Things Network through
     the [Things
@@ -121,3 +122,21 @@ gateway for US operation on the Things Network:
 <br>
 ![]({{ site.baseurl }}/assets/guide/appx-dragino-gateway/image2.png)
 <br>
+
+### Notes on Connecting the Gateway to the Internet with WiFi
+
+If you want to use Wi-Fi to connect the gateway to the
+Internet, then you need to access the “Network" menu and click
+“WiFi." On the WiFi page, you must fill out the settings in the
+“WiFi WAN Client Settings" section of the page, making sure to
+“Enable WiFi WAN Client" and to properly fill out the name of the
+Wi-Fi network (SSID) and the Passphrase. Also, keep the “Enable WiFi
+Access Point" checkbox enabled so that you can access the gateway in
+the future for configuration (i.e., make no changes in that
+section).
+
+Note one issue we have discovered with filling out and enabling the
+“WiFi WAN Client Settings" section: if that Wi-Fi connection is
+not available, an Ethernet connection will also not work. If you use
+Wi-Fi for testing the gateway but ultimately intend to use an
+Ethernet connection, make sure you disable the Wi-Fi WAN Client.
